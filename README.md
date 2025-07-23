@@ -33,12 +33,12 @@ You can add the following action types:
 Each mod should follow this structure:
 ```bash
 [Your Mod Folder]/
-├── mod.json              # Mod metadata
-├── preview.png           # Optional preview image shown in the UI
-├── jobs/                 # Or trainings/, spells/, etc.
+├── mod.json           # Mod metadata
+├── preview.png        # Optional preview image shown in the UI
+├── jobs/              # Or trainings/, spells/, etc.
 │   ├── data.json
-│   └── <action_type>/    # E.g., baron/, knight/
-│       ├── content.json
+│   └── <action_type>/ # E.g., for jobs it's common/, knight/, etc.
+│       ├── content.json # Contains the action information
 │       └── images/
 │           └── <content_id>.png
 ├── trainings/
