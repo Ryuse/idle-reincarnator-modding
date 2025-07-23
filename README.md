@@ -8,7 +8,7 @@ Welcome to the official **Modding Guide** for *Idle Reincarnator*. This guide wi
 
 1. Launch the game and go to the **Mods** section.
 2. Click **Create Mod**.
-3. Navigate to your mod folder: %APPDATA%/Roaming/my_mods/<Your Mod Name>
+3. Navigate to your mod folder: %APPDATA%/Roaming/my_mods//[Your Mod Name]
 4. Start editing the files in this folder to add your content.
 
 ---
@@ -31,7 +31,7 @@ You can add the following content types:
 ## 📁 Folder Structure
 
 Each mod should follow this structure:
-<Your Mod Folder>/
+[Your Mod Folder]/
 
 │
 
