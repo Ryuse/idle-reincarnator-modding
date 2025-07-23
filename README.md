@@ -32,21 +32,34 @@ You can add the following content types:
 
 Each mod should follow this structure:
 <Your Mod Folder>/
+
 │
+
 ├── mod.json # Mod metadata
+
 ├── preview.png # Optional preview image for mod UI
+
 │
+
 ├── <action_folder>/ # e.g., jobs/, trainings/, spells/, etc.
+
 │ ├── data.json
+
 │ └── <action_type>/ # Custom content by type
-│ ├── content.json
-│ └── images/
-│ └── <content_id>.png
+
+│     └── content.json
+
+│     └── images/
+
+│         └── <content_id>.png
+
 │
+
 ├── <another_action_folder>/
+
 │ ├── ...
 
-> 📌 **Tip:** See `game_assets/` or `example_mod/` for working examples.
+> 📌 **Tip:** See `example_mod/` for working examples.
 
 ---
 
