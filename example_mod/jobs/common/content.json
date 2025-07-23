@@ -1,0 +1,57 @@
+{
+  "content": {
+    "cleaner": {
+      "name": "Cleaner",
+      "description": "Clean the streets of Eldoria.",
+      "base_income": 1.9,
+      "is_passive_income": false,
+      "base_exp_req": 80,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "cleaner": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+		"skills": {
+          "content": {
+			"fundamentals": {
+              "content": {
+                "cleanliness": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.2
+                  }
+                }
+              }
+            },
+            "scavenging": {
+              "content": {
+                "awareness": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.2
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {}
+    }
+  }
+}

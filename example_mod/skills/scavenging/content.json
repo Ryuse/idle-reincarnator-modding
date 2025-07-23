@@ -1,0 +1,38 @@
+{
+  "content": {
+    "awareness": {
+      "name": "Awareness",
+      "description": "Know where things will be",
+      "base_exp_req": 100,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "cleaner": {
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1,
+                    "scaling": 100
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "scavenging": {
+              "awareness": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

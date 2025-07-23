@@ -1,0 +1,11 @@
+{
+	"author": "RyuseGames",
+	"description": "Clean the streets of Eldoria.",
+	"display_name": "Cleaner",
+	"name": "Cleaner",
+	"tags": [
+		"Jobs"
+	],
+	"version": "1.0.0",
+	"workshop_id": 0
+}

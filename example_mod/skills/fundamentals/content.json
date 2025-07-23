@@ -1,0 +1,34 @@
+{
+  "content": {
+    "cleanliness": {
+      "name": "Cleanliness",
+      "description": "Keep your home clean to make you happy.",
+      "base_exp_req": 100,
+      "hidden": true,
+      "effects": {
+        "lifestyles": {
+          "content": {
+            "home": {
+              "level_increase": {
+                "scaling_type": "linear",
+                "base": 0,
+                "scaling": 0.05
+              }
+            }
+          }
+        },
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "fundamentals": {
+              "cleanliness": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
