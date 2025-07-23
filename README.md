@@ -31,39 +31,25 @@ You can add the following action types:
 ## 📁 Folder Structure
 
 Each mod should follow this structure:
+```bash
 [Your Mod Folder]/
-
-│
-
-├── mod.json # Mod metadata
-
-├── preview.png # Optional preview image for mod UI
-
-│
-
-├── <action_folder>/ # e.g., jobs/, trainings/, spells/, etc.
-
-│ ├── data.json
-
-│ └── <action_type>/ # Custom content by type
-
-│     └── content.json
-
-│     └── images/
-
-│         └── <content_id>.png
-
-│
-
-├── <another_action_folder>/
-
-│ ├── ...
-
+├── mod.json              # Mod metadata
+├── preview.png           # Optional preview image shown in the UI
+├── jobs/                 # Or trainings/, spells/, etc.
+│   ├── data.json
+│   └── <action_type>/    # E.g., baron/, knight/
+│       ├── content.json
+│       └── images/
+│           └── <content_id>.png
+├── trainings/
+│   └── ...
+```
 > 📌 **Tip:** See `example_mod/` for working examples.
 
 ---
 
-## ⚙️ Effects Reference
+## ⚙️ Effects
+Aside from the usual action attributes like name, description, etc. There are more complicated attributes like effects. There are many kinds of effects and they are grouped into categories. Here are the categories:
 
 ### 🧠 Overall Effects
 These apply broadly to gameplay:
@@ -99,20 +85,29 @@ These apply broadly to gameplay:
 - `danger_decrease`
 - `spell_slots`
 
+Example
+```json
+"effects": {
+  "overall": {
+    "gamespeed_multiplier": {
+      "scaling_type": "linear",
+      "base": 1000,
+      "scaling": 0
+    }
+  }
+}
+```
+
 ### 🎯 Specific Effects
-Apply to individual actions:
+Apply to individual actions or action groups:
 - `exp_gain`
 - `exp_multiplier`
 - `level_increase`
+- `expenses_multiplier` 
+- `income_multiplier` (For Jobs only)
+- `passive_income_multiplier` (For Jobs only)
 
-### 💼 Job Effects
-- `income_multiplier`
-- `passive_income_multiplier`
-
-### 🧬 Lifestyle Effects
-- `expenses_multiplier`
-
-### 🔍 Example
+Example
 
 ```json
 "effects": {
@@ -167,6 +162,7 @@ Note: Example taken from the Civilization Starter job. You can check it out in g
 
 What this does is that it will apply the exp_gain to all skills of the social type.
 
+
 📘 Notes:
 
     scaling_type can be "linear", "logarithmic", or "exponential".
@@ -177,7 +173,7 @@ What this does is that it will apply the exp_gain to all skills of the social ty
 
 ---
 
-🧱 Requirements Structure
+## 🧱 Requirements Structure
 
 Requirements define the conditions for unlocking content. These are grouped by numeric keys ("0", "1", etc.), where each group represents an OR condition. Within each group, conditions are evaluated by an AND condition.
 
@@ -221,15 +217,20 @@ This means:
 
         Defeated boss in ancient_crypt with max_level 1
 
-Only 1 group must be fulfilled to unlock the item.
+Only 1 group must be fulfilled to unlock the item. 
+
+💡 Note: Unlike the effects structure, the requirements structure is not nested in a 'content' field.
 
 ---
-Unlike the effects structure, the requirements structure is not nested in a 'content' field.
 
-## 📚 Need Examples?
 
+### 📚 Need Examples?
 Check out the `game_assets/` folder in your game installation for real content examples used by the base game.
 
+
 ---
+# 🚀 Publishing Your Mod
+
+When you're ready, upload your mod to the Steam Workshop via the in-game mod menu. Just open your mod in the popup and press the Upload button.
 
 Happy modding! 🚀
