@@ -1,0 +1,90 @@
+{
+  "content": {
+    "chronic_insight_iii": {
+      "name": "Chronic Insight III",
+      "description": "Reduces the scaling of exp required by 1% (Additively) per each level. Stacks with other Chronic Insight skills.",
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "exp_required_percentage_reduction": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 1
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 20,
+      "max_level": 20
+    },
+    "living_grimoire": {
+      "name": "Living Grimoire",
+      "description": "A grimoire that has existed for eons in the stream of time, gaining sentience. Feed it essence to tame it so it can automate spells for you.",
+      "hidden": true,
+      "effects": {},
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 10,
+      "max_level": 1
+    },
+    "echoes_of_time_ii": {
+      "name": "Echoes of Time II",
+      "description": "Hear echoes from yourselves in different time. Bosses defeated will reduce their future danger by the number of times you have defeated the boss. The danger reduction will persist through rebirths and regressions.\n\nNew Boss Danger = Boss Danger - (boss lifetime defeat amount * (0.1 x total echoes of time levels))",
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "boss_danger_reduction_per_defeat": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 0.1
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 20,
+      "max_level": 5
+    },
+    "eternal_enhancement": {
+      "name": "Eternal Lifestyle",
+      "description": "Use the power of time to contain the enhancement of your life. \n\nEnhancement shall persists through rebirths and regressions.",
+      "hidden": true,
+      "effects": {},
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 50,
+      "max_level": 1
+    },
+    "temporal_fairy_queen": {
+      "name": "Eternal Fairy Empress",
+      "description": "The will of the fairies will follow Luminara which transcends through time. \n\nThe buffs of \"Making of a Fairy Queen\" is kept after regression.",
+      "hidden": true,
+      "effects": {},
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 100,
+      "max_level": 1
+    },
+    "time_skip": {
+      "name": "Time Skip",
+      "description": "Skip through time to rebirth earlier. Allows early rebirth at 30 years old.",
+      "hidden": true,
+      "effects": {},
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 100,
+      "max_level": 1
+    },
+    "loop_stride": {
+      "name": "Loop Stride",
+      "description": "Allows the completion of exploration multiple times at one time given overflow of progress.\n\nThe number of times completed at once is capped by total Eternal Learnings levels.",
+      "hidden": true,
+      "effects": {},
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 100,
+      "max_level": 1
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "content": {
+    "strength": {
+      "name": "Strength",
+      "description": "Being strong helps you rise up the ranks of the order of knights",
+      "base_exp_req": 100,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "content": {
+            "knight": {
+              "exp_multiplier": {
+                "scaling_type": "logarithmic",
+                "base": 1,
+                "scaling": 100
+              }
+            }
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "combat": {
+              "strength": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "combat_knowledge": {
+      "name": "Combat Knowledge",
+      "description": "Your knowledge in combat will help you in battle.",
+      "base_exp_req": 200,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "content": {
+            "knight": {
+              "exp_multiplier": {
+                "scaling_type": "logarithmic",
+                "base": 1,
+                "scaling": 90
+              }
+            }
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "combat": {
+              "combat_knowledge": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "weapon_mastery": {
+      "name": "Weapon Mastery",
+      "description": "Learn how to use weapons with grace and elegance",
+      "base_exp_req": 250,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "content": {
+            "knight": {
+              "exp_multiplier": {
+                "scaling_type": "logarithmic",
+                "base": 1,
+                "scaling": 80
+              }
+            }
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "combat": {
+              "weapon_mastery": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

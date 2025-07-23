@@ -1,0 +1,1055 @@
+{
+  "content": {
+    "story0": {
+      "name": "Invitation",
+      "action_type": "fundamentals",
+      "description": "You receive a letter with a royal stamp. You open it.",
+      "points_needed": 5000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 100
+      },
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {},
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story17": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story1": {
+      "name": "Round 1",
+      "action_type": "combat",
+      "description": "Round 1 of the Tournament. You’ll be fighting against a Great Knight.",
+      "points_needed": 100000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 1000
+      },
+      "expense": 0,
+      "danger": 750,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 150,
+                    "scaling": 0
+                  }
+                },
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 150,
+                    "scaling": 0
+                  }
+                },
+                "weapon_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 150,
+                    "scaling": 0
+                  }
+                }
+              }
+            },
+            "defense": {
+              "content": {
+                "agility": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 150,
+                    "scaling": 0
+                  }
+                },
+                "endurance": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 150,
+                    "scaling": 0
+                  }
+                },
+                "evasion_techniques": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 150,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "eldorian_tournament": {
+              "story0": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story2": {
+      "name": "Round 2",
+      "action_type": "combat",
+      "description": "Round 2 of the Tournament. You’ll be fighting against another Great Knight.",
+      "points_needed": 150000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 2000
+      },
+      "expense": 0,
+      "danger": 800,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "weapon_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                }
+              }
+            },
+            "defense": {
+              "content": {
+                "agility": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "endurance": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "evasion_techniques": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "eldorian_tournament": {
+              "story1": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story3": {
+      "name": "Round 3",
+      "action_type": "arcane",
+      "description": "Round 3! Against a Journeyman. They may look weak but you know you should not underestimate them.",
+      "points_needed": 1000000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 3000
+      },
+      "expense": 0,
+      "danger": 850,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "weapon_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                }
+              }
+            },
+            "arcane": {
+              "content": {
+                "mana_sense": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "mana_control": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "spell_craft": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "eldorian_tournament": {
+              "story2": {
+                "current_level": 1
+              },
+              "story3-2": {
+                "not_current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story3-2": {
+      "name": "Free Pass",
+      "action_type": "fundamentals",
+      "description": "You made it to the top 25 and you've got a free pass. You can choose to give it to someone else and fight.",
+      "points_needed": 250000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {},
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "skills": {
+            "fundamentals": {
+              "luck": {
+                "current_level": 100
+              }
+            }
+          },
+          "explorations": {
+            "eldorian_tournament": {
+              "story2": {
+                "current_level": 1
+              },
+              "story3": {
+                "not_current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story4": {
+      "name": "Round 4",
+      "action_type": "combat",
+      "description": "Round 4! Defeat the Red Lord Knight.",
+      "points_needed": 250000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 4000
+      },
+      "expense": 0,
+      "danger": 900,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "weapon_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                }
+              }
+            },
+            "defense": {
+              "content": {
+                "agility": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "endurance": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "evasion_techniques": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "eldorian_tournament": {
+              "story3": {
+                "current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "explorations": {
+            "eldorian_tournament": {
+              "story3-2": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story5": {
+      "name": "Round 5",
+      "action_type": "arcane",
+      "description": "You're in the top strongest in all of Eldoria now. The Black Magi is your opponent for the 5th round. This might be tricky.",
+      "points_needed": 3000000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 5000
+      },
+      "expense": 0,
+      "danger": 1000,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "weapon_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                }
+              }
+            },
+            "arcane": {
+              "content": {
+                "mana_sense": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "mana_control": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "spell_craft": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "eldorian_tournament": {
+              "story4": {
+                "current_level": 1
+              }
+            }
+          },
+          "stories": {
+            "lore": {
+              "farmer_save": {
+                "unlocked": false
+              }
+            }
+          }
+        }
+      }
+    },
+    "story5-2": {
+      "name": "Round 5",
+      "action_type": "combat",
+      "description": "It seems that for the 5th round you’re going against the Old Farmer. Since when was he that strong?",
+      "points_needed": 5000000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 5000
+      },
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "weapon_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            },
+            "defense": {
+              "content": {
+                "agility": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "endurance": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "evasion_techniques": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            },
+            "arcane": {
+              "content": {
+                "mana_sense": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "mana_control": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "spell_craft": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "eldorian_tournament": {
+              "story4": {
+                "current_level": 1
+              }
+            }
+          },
+          "stories": {
+            "lore": {
+              "farmer_save": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "story6": {
+      "name": "Round 6",
+      "action_type": "combat",
+      "description": "The Top 3. You’re going against the Mystic Knight of the Frost.",
+      "points_needed": 400000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 6000
+      },
+      "expense": 0,
+      "danger": 1050,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "weapon_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            },
+            "defense": {
+              "content": {
+                "agility": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "endurance": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "evasion_techniques": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            },
+            "arcane": {
+              "content": {
+                "mana_sense": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "mana_control": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "spell_craft": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "eldorian_tournament": {
+              "story5": {
+                "current_level": 1
+              },
+              "story6-2": {
+                "not_current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "explorations": {
+            "eldorian_tournament": {
+              "story5-2": {
+                "current_level": 1
+              },
+              "story6-2": {
+                "not_current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story6-2": {
+      "name": "Free Pass",
+      "action_type": "fundamentals",
+      "description": "You made it to the top 3 and you've got a free pass. You really are lucky. You can choose to give it to someone else and fight.",
+      "points_needed": 250000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {},
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "skills": {
+            "fundamentals": {
+              "luck": {
+                "current_level": 150
+              }
+            }
+          },
+          "explorations": {
+            "eldorian_tournament": {
+              "story5": {
+                "current_level": 1
+              },
+              "story6": {
+                "not_current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story7": {
+      "name": "Finals",
+      "action_type": "combat",
+      "description": "You’re in the finals. Defeat the head of the Royal Knights and be the champion of the tournament.",
+      "points_needed": 500000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 7000
+      },
+      "expense": 0,
+      "danger": 1100,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "weapon_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            },
+            "defense": {
+              "content": {
+                "agility": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "endurance": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "evasion_techniques": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            },
+            "arcane": {
+              "content": {
+                "mana_sense": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "mana_control": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "spell_craft": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "eldorian_tournament": {
+              "story6": {
+                "current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "explorations": {
+            "eldorian_tournament": {
+              "story6-2": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story8": {
+      "name": "Award Ceremony",
+      "action_type": "fundamentals",
+      "description": "Receive your award as the 'strongest'.",
+      "points_needed": 10000000,
+      "rewards": {
+        "gold": 500000,
+        "renown": 10000
+      },
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {},
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "eldorian_tournament": {
+              "story7": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story9": {
+      "name": "Walk with the King",
+      "action_type": "fundamentals",
+      "description": "The King invites you for a walk.",
+      "points_needed": 10000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {},
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "eldorian_tournament": {
+              "story8": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "boss": {
+      "name": "Fight the King",
+      "action_type": "combat",
+      "description": "Defeat the King and prove your worth.",
+      "points_needed": 600000000,
+      "is_boss": true,
+      "rewards": {
+        "gold": 0,
+        "renown": 10000,
+        "happiness": 0.02,
+				"temporal": 1
+      },
+      "expense": 0,
+      "danger": 1200,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "weapon_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            },
+            "defense": {
+              "content": {
+                "agility": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "endurance": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "evasion_techniques": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            },
+            "arcane": {
+              "content": {
+                "mana_sense": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "mana_control": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "spell_craft": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "eldorian_tournament": {
+              "story9": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

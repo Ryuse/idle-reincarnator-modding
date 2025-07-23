@@ -1,0 +1,22 @@
+{
+  "name": "Diary",
+  "tab_name": "Story",
+  "description": "[center]Choose your way of life that will improve your overall wellbeing, at a cost.[/center]",
+  "types": {
+    "lore": {
+      "name": "Lore",
+      "lockable": false,
+      "requirements": {}
+    },
+    "job": {
+      "name": "Job",
+      "lockable": false,
+      "requirements": {}
+    },
+    "life": {
+      "name": "Life",
+      "lockable": false,
+      "requirements": {}
+    }
+  }
+}

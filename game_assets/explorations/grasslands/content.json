@@ -1,0 +1,704 @@
+{
+  "content": {
+    "0": {
+      "name": "Gathering Common Herbs",
+      "action_type": "scavenging",
+      "description": "Gather some common herbs for the apothecary guild. Increases Scavenging skill.",
+      "points_needed": 1000,
+      "rewards": {
+        "gold": 5,
+        "renown": 1
+      },
+      "expense": 0,
+      "danger": 1,
+      "repeat_max": -1,
+      "repeatable": true,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "scavenging": {
+              "content": {
+                "herbal_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 5,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "knight": {
+              "footman": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "1": {
+      "name": "Vermin Infestation Cleanup",
+      "action_type": "combat",
+      "description": "Help the townsfolk by eliminating vermin infesting nearby areas. A simple task for aspiring adventurers.",
+      "points_needed": 2000,
+      "rewards": {
+        "gold": 10,
+        "renown": 5
+      },
+      "expense": 0,
+      "danger": 5,
+      "repeat_max": -1,
+      "repeatable": true,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 5,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "renown": 10,
+          "explorations": {
+            "grasslands": {
+              "0": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "2": {
+      "name": "Clearing Slimes",
+      "action_type": "combat",
+      "description": "Clear out slimes near the city.",
+      "points_needed": 5000,
+      "rewards": {
+        "gold": 20,
+        "renown": 10
+      },
+      "repeat_max": -1,
+      "repeatable": true,
+      "expense": 0,
+      "danger": 10,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 10,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "renown": 50,
+          "explorations": {
+            "grasslands": {
+              "1": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "3": {
+      "name": "Boar Hunt",
+      "action_type": "combat",
+      "description": "Hunt boars around town for food and leather",
+      "points_needed": 7500,
+      "rewards": {
+        "gold": 30,
+        "renown": 15
+      },
+      "repeat_max": -1,
+      "repeatable": true,
+      "expense": 0,
+      "danger": 25,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 15,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "renown": 100,
+          "explorations": {
+            "grasslands": {
+              "2": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "4": {
+      "name": "Fishing Expedition",
+      "action_type": "fishing",
+      "description": "Travel to nearby rivers or lakes for a fishing expedition. Catch rare and valuable fish.",
+      "points_needed": 10000,
+      "rewards": {
+        "gold": 100,
+        "renown": 50
+      },
+      "repeat_max": -1,
+      "repeatable": true,
+      "expense": 0,
+      "danger": 20,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "fishing": {
+              "content": {
+                "aquatic_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 20,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "renown": 200,
+          "explorations": {
+            "grasslands": {
+              "3": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "5": {
+      "name": "Wolf Hunting",
+      "action_type": "combat",
+      "description": "Hunt wolves nearby for their pelt.\n\nMaybe with some knowledge you'll be able to tame some of them.",
+      "points_needed": 12500,
+      "rewards": {
+        "gold": 50,
+        "renown": 25
+      },
+      "repeat_max": -1,
+      "repeatable": true,
+      "expense": 0,
+      "danger": 30,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 20,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "renown": 200,
+          "explorations": {
+            "grasslands": {
+              "3": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "6": {
+      "name": "Goblin Battle",
+      "action_type": "combat",
+      "description": "Kill the goblins wandering about to make the place around the city safer.\n Killing lots of them should increase your reputation.",
+      "points_needed": 15000,
+      "rewards": {
+        "gold": 80,
+        "renown": 40
+      },
+      "repeat_max": -1,
+      "repeatable": true,
+      "expense": 0,
+      "danger": 50,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 30,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "renown": 400,
+          "explorations": {
+            "grasslands": {
+              "5": {
+                "unlocked": true
+              }
+            }
+          }
+        },
+        "1": {
+          "jobs": {
+            "knight": {
+              "cavalier": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "8": {
+      "name": "Goblin Den Search",
+      "action_type": "exploring",
+      "description": "Goblins have been attacking our city and their den must be found to make plans to eradicate them.",
+      "points_needed": 10000,
+      "rewards": {
+        "gold": 0,
+        "renown": 50
+      },
+      "repeat_max": -1,
+      "repeatable": false,
+      "expense": 0,
+      "danger": 40,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 40,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "renown": 1000,
+          "explorations": {
+            "grasslands": {
+              "6": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "9": {
+      "name": "Elite Goblin Battle",
+      "action_type": "combat",
+      "description": "You have found their den at a nearby cave. The goblins here are noticeably stronger.",
+      "points_needed": 18000,
+      "rewards": {
+        "gold": 150,
+        "renown": 75
+      },
+      "repeat_max": -1,
+      "repeatable": false,
+      "expense": 0,
+      "danger": 50,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 75,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "grasslands": {
+              "8": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "10": {
+      "name": "Excavate Entrance",
+      "action_type": "excavating",
+      "description": "The goblins have blocked the entrance to their den with rocks. Remove them to start the eradication or find another way in.",
+      "points_needed": 15000,
+      "rewards": {
+        "gold": 0,
+        "renown": 25
+      },
+      "repeat_max": -1,
+      "repeatable": false,
+      "expense": 0,
+      "danger": 50,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "excavating": {
+              "content": {
+                "mining_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 25,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "grasslands": {
+              "9": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "10-2": {
+      "name": "Find another way in",
+      "action_type": "scavenging",
+      "description": "The goblins have blocked the entrance to their den with rocks. Find another way in to eradicate the goblins",
+      "points_needed": 20000,
+      "rewards": {
+        "gold": 0,
+        "renown": 25
+      },
+      "repeat_max": -1,
+      "repeatable": false,
+      "expense": 0,
+      "danger": 50,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "scavenging": {
+              "content": {
+                "beggar_instinct": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 25,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "grasslands": {
+              "9": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "boss": {
+      "name": "Goblin King",
+      "action_type": "combat",
+      "description": "Eradicate the Goblin King in their cave and rid the town of the goblin problem for a while.",
+      "points_needed": 30000,
+      "is_boss": true,
+      "rewards": {
+        "gold": 1000,
+        "renown": 150,
+        "happiness": 0.01
+      },
+      "repeat_max": -1,
+      "repeatable": false,
+      "expense": 0,
+      "danger": 150,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "grasslands": {
+              "10": {
+                "current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "explorations": {
+            "grasslands": {
+              "10-2": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "superboss": {
+      "name": "Infant Dragon",
+      "action_type": "combat",
+      "description": "A newborn dragon that wandered near the outskirts of Eldoria. You may not be ready for this.",
+      "points_needed": 300000,
+      "is_boss": true,
+      "rewards": {
+        "gold": 1000,
+        "renown": 1000,
+        "happiness": 0.01
+      },
+      "repeat_max": -1,
+      "repeatable": false,
+      "expense": 0,
+      "danger": 200,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "defense": {
+              "content": {
+                "endurance": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                }
+              }
+            },
+            "combat": {
+              "content": {
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 10,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "grasslands": {
+              "boss": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "11": {
+      "name": "Town Defense",
+      "action_type": "combat",
+      "description": "Monsters have started attack the town! Defend the town from the incoming monster.",
+      "points_needed": 30000,
+      "rewards": {
+        "gold": 200,
+        "renown": 75
+      },
+      "expense": 0,
+      "danger": 100,
+      "repeat_max": -1,
+      "repeatable": true,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 30,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "grasslands": {
+              "boss": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "12": {
+      "name": "Medicinal Herb Gathering",
+      "action_type": "scavenging",
+      "description": "The supply of herbs are running low due to the monster attacks. Gather some while defending yourself.",
+      "points_needed": 30000,
+      "rewards": {
+        "gold": 100,
+        "renown": 50
+      },
+      "expense": 0,
+      "danger": 125,
+      "repeat_max": -1,
+      "repeatable": true,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "scavenging": {
+              "content": {
+                "herbal_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 20,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "grasslands": {
+              "11": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

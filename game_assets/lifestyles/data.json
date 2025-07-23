@@ -1,0 +1,149 @@
+{
+  "name": "Lifestyles",
+  "tab_name": "Life",
+  "description": "[center]Choose your way of life that will improve your overall wellbeing, at a cost.[/center]",
+  "types": {
+    "home": {
+      "name": "Home",
+      "description": "Various places you may want to call home.",
+      "equip_settings": {
+        "max_equip": 1,
+        "min_equip": 1,
+        "default": ["homeless"]
+      },
+      "enhancement_cost": {
+        "gold": {
+          "scaling_type": "exponential",
+          "base": 1e5,
+          "scaling": 1.5
+        },
+        "renown": {
+          "scaling_type": "exponential",
+          "base": 1e4,
+          "scaling": 1.5
+        }
+      },
+      "lockable": false,
+      "requirements": {}
+    },
+    "food": {
+      "name": "Food",
+      "description": "Satisfy your hunger with various food options.",
+      "equip_settings": {
+        "max_equip": 1,
+        "min_equip": 1,
+        "default": ["scraps"]
+      },
+      "enhancement_cost": {
+        "gold": {
+          "scaling_type": "exponential",
+          "base": 1e5,
+          "scaling": 1.5
+        },
+        "renown": {
+          "scaling_type": "exponential",
+          "base": 1e4,
+          "scaling": 1.5
+        }
+      },
+      "lockable": false,
+      "requirements": {}
+    },
+    "transportation": {
+      "name": "Transportation",
+      "description": "Choose your mode of transportation for swift travel.",
+      "equip_settings": {
+        "max_equip": 1,
+        "min_equip": 1,
+        "default": ["foot"]
+      },
+      "enhancement_cost": {
+        "gold": {
+          "scaling_type": "exponential",
+          "base": 1e5,
+          "scaling": 1.5
+        },
+        "renown": {
+          "scaling_type": "exponential",
+          "base": 1e4,
+          "scaling": 1.5
+        }
+      },
+      "lockable": false,
+      "requirements": {}
+    },
+    "companion": {
+      "name": "Companions",
+      "description": "Companions to join you on your journey.",
+      "equip_settings": {
+        "max_equip": -1,
+        "min_equip": 0,
+        "default": []
+      },
+      "enhancement_cost": {
+        "gold": {
+          "scaling_type": "exponential",
+          "base": 1e6,
+          "scaling": 1.5
+        },
+        "renown": {
+          "scaling_type": "exponential",
+          "base": 1e5,
+          "scaling": 1.5
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "lifestyles": {
+            "companion": {
+              "any_unlocked": true
+            }
+          }
+        }
+      }
+    },
+    "item": {
+      "name": "Items",
+      "description": "Various items that can aid you in different ways. \nYou can equip multiple items at the same time.",
+      "equip_settings": {
+        "max_equip": -1,
+        "min_equip": 0,
+        "default": []
+      },
+      "enhancement_cost": {
+        "gold": {
+          "scaling_type": "exponential",
+          "base": 1e6,
+          "scaling": 1.5
+        },
+        "renown": {
+          "scaling_type": "exponential",
+          "base": 1e5,
+          "scaling": 1.5
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "lifestyles": {
+            "item": {
+              "any_unlocked": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": {
+    "0": {
+      "stories": {
+        "life": {
+          "lifestyle_unlock": {
+            "unlocked": true
+          }
+        }
+      }
+    }
+  }
+}

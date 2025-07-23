@@ -1,0 +1,403 @@
+{
+  "content": {
+    "bard_110": {
+      "title": "Magical Plays",
+      "body": "The integration of Illusion Magic into theatrical performances has given rise to a captivating form of entertainment known as Magical Plays. This technological advancement in the realm of the arts allows for mesmerizing and immersive storytelling through the seamless use of illusionary effects. \n\nAs actors and actresses employ illusion magic to create stunning visuals, dynamic scenes, and even magical creatures, audiences are transported into fantastical worlds where the boundaries of reality are blurred. Magical Plays enrich Eldoria's cultural landscape, offering a unique and enchanting experience that captivates the imagination and fosters a deep appreciation for the magical arts. This innovation not only entertains but also showcases the creative potential of magic in the realm of storytelling.",
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "bard": {
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.2,
+                    "scaling": 0
+                  },
+                  "income_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.2,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "bard": {
+                "current_level": 110
+              }
+            },
+            "noble": {
+              "count": {
+                "current_level": 40
+              }
+            }
+          },
+          "skills": {
+            "arcane": {
+              "illusion": {
+                "current_level": 50
+              }
+            }
+          }
+        }
+      }
+    },
+    "healer_100": {
+      "title": "Germ Theory",
+      "body": "In a breakthrough inspired by your fascination with lenses, you delved into the microscopic world and unraveled the secrets of germ theory. By employing lenses to observe tiny organisms, you made a groundbreaking connection between these microorganisms and diseases. \n\nRecognizing the transformative potential of this knowledge, you dedicated yourself to disseminating the principles of germ theory among the populace. This endeavor proved pivotal in empowering communities to adopt hygiene practices, ultimately leading to improved public health and better lives for all.",
+      "effects": {
+        "overall": {
+          "lifespan_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.1,
+            "scaling": 0
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "healer": {
+                "current_level": 100
+              }
+            },
+            "noble": {
+              "marquis": {
+                "current_level": 30
+              }
+            }
+          },
+          "technologies": {
+            "3": {
+              "artificer_90": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "artificer_100": {
+      "title": "Steel Alloy",
+      "body": "The discovery and mastery of steel alloys usher in a new era of metallurgy. Steel becomes a preferred material for its strength and versatility, leading to superior weapon and armor production.",
+      "effects": {
+        "jobs": {
+          "exp_multiplier": {
+            "scaling_type": "logarithmic",
+            "base": 1.05,
+            "scaling": 0
+          }
+        },
+        "lifestyles": {
+          "content": {
+            "item": {
+              "content": {
+                "armor": {
+                  "level_increase": {
+                    "scaling_type": "linear",
+                    "base": 5,
+                    "scaling": 0.0
+                  }
+                },
+                "shield": {
+                  "level_increase": {
+                    "scaling_type": "linear",
+                    "base": 5,
+                    "scaling": 0.0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "miner": {
+                "current_level": 100
+              },
+              "artificer": {
+                "current_level": 100
+              }
+            },
+            "noble": {
+              "marquis": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "merchant_100": {
+      "title": "Aquatic Trade",
+      "body": "Increased trade with Atlanta has opened up new opportunities for aquatic commerce. The exchange of goods between the two cities benefits Eldoria, leading to increased revenue from import taxes.",
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "merchant": {
+                  "income_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.2,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "merchant": {
+                "current_level": 100
+              }
+            },
+            "noble": {
+              "marquis": {
+                "current_level": 30
+              }
+            }
+          },
+          "explorations": {
+            "blue_sea": {
+              "story17": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "merchant_105": {
+      "title": "Investments",
+      "body": "Your introduction of invesment has boosted the economy of Eldoria by allowing businesses to build up their  stock of physical capital, which increases their capacity to produce goods and services. This lead to an increased income for businesses.",
+      "effects": {
+        "jobs": {
+          "passive_income_multiplier": {
+            "scaling_type": "logarithmic",
+            "base": 1.1,
+            "scaling": 100
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "merchant": {
+                "current_level": 105
+              }
+            },
+            "noble": {
+              "marquis": {
+                "current_level": 50
+              }
+            }
+          }
+        }
+      }
+    },
+    "culinarian_70": {
+      "title": "Salting",
+      "body": "Discovering ways to preserve food through salting has extended the shelf life of perishables. This innovation reduces food waste and ensures a more stable food supply.",
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "culinarian": {
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "overall": {
+          "exploration_speed_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.01,
+            "scaling": 0.01
+          }
+        },
+        "lifestyles": {
+          "content": {
+            "food": {
+              "expenses_multiplier": {
+                "scaling_type": "exponential",
+                "base": 0.99,
+                "scaling": 1
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "culinarian": {
+                "current_level": 70
+              }
+            },
+            "noble": {
+              "marquis": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "culinarian_80": {
+      "title": "Fermentation",
+      "body": "In the midst of culinary experimentation, a fortuitous mishap occurred in your kitchen. While working with crushed fruits and grains, an unintentional exposure to air initiated an intriguing transformation in the mixture. This unexpected process, filled with mystery, unfolded into the discovery of fermentation. \n\nEmbracing this newfound culinary technique, you ventured into fermenting various ingredients, introducing Eldoria to a diverse range of flavorful and nutritionally enriched dishes that captivated the taste buds of its inhabitants, or get tipsy.",
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "culinarian": {
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.2,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "lifestyles": {
+          "content": {
+            "food": {
+              "level_increase": {
+                "scaling_type": "linear",
+                "base": 2,
+                "scaling": 0
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "culinarian": {
+                "current_level": 80
+              }
+            },
+            "noble": {
+              "marquis": {
+                "current_level": 30
+              }
+            }
+          }
+        }
+      }
+    },
+    "critical_thinking_100": {
+      "title": "Public Schools",
+      "body": "Your vision for widespread education has materialized in the establishment of public schools. These institutions provide accessible and structured learning environments, fostering knowledge dissemination and societal development.",
+      "effects": {
+        "trainings": {
+          "exp_multiplier": {
+            "scaling_type": "logarithmic",
+            "base": 1.1,
+            "scaling": 0
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "marquis": {
+                "current_level": 20
+              }
+            }
+          },
+          "skills": {
+            "fundamentals": {
+              "critical_thought": {
+                "current_level": 100
+              }
+            }
+          }
+        }
+      }
+    },
+    "great_knight_100": {
+      "title": "Martial Arts",
+      "body": "The introduction and mastery of martial arts techniques offer a disciplined approach to physical training and self-defense. This innovation enhances combat skills and promotes personal growth.",
+      "effects": {
+        "trainings": {
+          "content": {
+            "physical": {
+              "exp_multiplier": {
+                "scaling_type": "logarithmic",
+                "base": 1.2,
+                "scaling": 0
+              }
+            }
+          }
+        },
+        "jobs": {
+          "content": {
+            "knight": {
+              "exp_multiplier": {
+                "scaling_type": "logarithmic",
+                "base": 1.1,
+                "scaling": 100
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "knight": {
+              "great_knight": {
+                "current_level": 100
+              }
+            },
+            "noble": {
+              "marquis": {
+                "current_level": 20
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

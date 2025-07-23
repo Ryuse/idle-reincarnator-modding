@@ -1,0 +1,826 @@
+{
+  "content": {
+    "story0": {
+      "name": "Scout the forest",
+      "action_type": "exploring",
+      "description": "Scout the forest to be more familiar with the surroundings while defending yourself",
+      "points_needed": 35000,
+      "rewards": {
+        "gold": 0,
+        "renown": 100
+      },
+      "expense": 0,
+      "danger": 150,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 40,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "grasslands": {
+              "12": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story1": {
+      "name": "Fairy Encounter",
+      "action_type": "social",
+      "description": "You met with a fairy while exploring the forest. Ask them about the situation.",
+      "points_needed": 30000,
+      "rewards": {
+        "gold": 0,
+        "renown": 150
+      },
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "charm": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 40,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "shaded_woods": {
+              "story0": {
+                "current_level": 1
+              },
+              "story9": {
+                "not_max_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story1-2": {
+      "name": "Fairy Encounter (Without Luminara)",
+      "action_type": "social",
+      "description": "You met with a fairy while exploring the forest. Ask them about the situation.\n\nCompleting this exploration locks Fairy Encounter (With Luminara). Choose wisely.",
+      "points_needed": 30000,
+      "rewards": {
+        "gold": 0,
+        "renown": 150
+      },
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "charm": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 40,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "shaded_woods": {
+              "story0": {
+                "current_level": 1
+              },
+              "story9": {
+                "max_level": 1
+              },
+              "skip": {
+                "not_current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "skip": {
+      "name": "Fairy Encounter (With Luminara)",
+      "action_type": "social",
+      "description": "You met with a fairy while exploring the forest. You ask them about the situation. This time with Luminara. \n\nCompleting this exploration locks Fairy Encounter (Without Luminara) and future explorations of Shaded Woods. Choose wisely.",
+      "points_needed": 25000,
+      "rewards": {
+        "gold": 0,
+        "renown": 150
+      },
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "charm": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 40,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "shaded_woods": {
+              "story0": {
+                "current_level": 1
+              },
+              "story1-2": {
+                "not_current_level": 1
+              },
+              "story9": {
+                "max_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "skip1": {
+      "name": "Head to the Crypt",
+      "action_type": "exploring",
+      "description": "You found out from the fairy that the beasts are running away from the forest due to a necromancer settling down nearby in a crypt. The fairy tells you a way to the crypt with less danger.",
+      "points_needed": 50000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 150,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 50,
+                    "scaling": 0
+                  }
+                },
+                "world_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 50,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "shaded_woods": {
+              "skip": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story2": {
+      "name": "Battle Monster Pack",
+      "action_type": "combat",
+      "description": "The fairy won't tell you anything until you beat some monsters that's annoying them",
+      "points_needed": 40000,
+      "rewards": {
+        "gold": 0,
+        "renown": 200
+      },
+      "expense": 0,
+      "danger": 200,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 40,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "shaded_woods": {
+              "story1": {
+                "current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "explorations": {
+            "shaded_woods": {
+              "story1-2": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "item0": {
+      "name": "Collect Light Berries",
+      "action_type": "scavenging",
+      "description": "After fighting with the monster pack, you found an area full of glowing berries. They could sell for quite a bit.\n\nMaybe with some knowledge and enough seeds you could cultivate them.",
+      "points_needed": 50000,
+      "rewards": {
+        "gold": 200,
+        "renown": 50
+      },
+      "expense": 0,
+      "danger": 200,
+      "repeat_max": -1,
+      "repeatable": true,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "scavenging": {
+              "content": {
+                "herbal_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 40,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "shaded_woods": {
+              "story2": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story3": {
+      "name": "Talk to the Fairy again",
+      "action_type": "social",
+      "description": "Tell the Fairy that you have slain the monster and ask her about what monsters are coming out of the forest.",
+      "points_needed": 30000,
+      "rewards": {
+        "gold": 0,
+        "renown": 150
+      },
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "negotiation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 40,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "shaded_woods": {
+              "story2": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story4": {
+      "name": "Construct a bridge",
+      "action_type": "creating",
+      "description": "The fairy still won't say anything. She wants a jewel inside a cave across a raging river. Build a bridge to get across the river.",
+      "points_needed": 50000,
+      "rewards": {
+        "gold": 0,
+        "renown": 150
+      },
+      "expense": 0,
+      "danger": 200,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "creating": {
+              "content": {
+                "engineering": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 40,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "shaded_woods": {
+              "story3": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "job0": {
+      "name": "Gather Glowing Herbs",
+      "action_type": "scavenging",
+      "description": "Gather some glowing herbs with mysterious properties.",
+      "points_needed": 100000,
+      "rewards": {
+        "gold": 250,
+        "renown": 100
+      },
+      "expense": 0,
+      "danger": 250,
+      "repeat_max": -1,
+      "repeatable": true,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "scavenging": {
+              "content": {
+                "beggar_instinct": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 50,
+                    "scaling": 1
+                  }
+                },
+                "herbal_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 50,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "shaded_woods": {
+              "story4": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story5": {
+      "name": "Jewel Hunt",
+      "action_type": "excavating",
+      "description": "Mine around to get the jewel that fairy wants",
+      "points_needed": 30000,
+      "rewards": {
+        "gold": 100,
+        "renown": 150
+      },
+      "expense": 0,
+      "danger": 200,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "excavating": {
+              "content": {
+                "mining_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 50,
+                    "scaling": 1
+                  }
+                },
+                "geology": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 50,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "shaded_woods": {
+              "story4": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "item1": {
+      "name": "Shadow Tarantula",
+      "action_type": "combat",
+      "description": "A giant tarantula blocks your way and won't let you out. It doesn't look very happy.",
+      "points_needed": 50000,
+      "rewards": {
+        "gold": 1000,
+        "renown": 300
+      },
+      "expense": 0,
+      "danger": 350,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 150,
+                    "scaling": 0
+                  }
+                },
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 150,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "shaded_woods": {
+              "story5": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story6": {
+      "name": "Sneak around the Tarantula",
+      "action_type": "exploring",
+      "description": "Avoid the giant arachnae creature like the plague and get out.",
+      "points_needed": 50000,
+      "rewards": {
+        "gold": 0,
+        "renown": 100
+      },
+      "expense": 0,
+      "danger": 200,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "riding": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 30,
+                    "scaling": 0
+                  }
+                },
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 30,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "shaded_woods": {
+              "story5": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story7": {
+      "name": "Give the jewel to the fairy",
+      "action_type": "social",
+      "description": "Give the jewel to that fairy",
+      "points_needed": 50000,
+      "rewards": {
+        "gold": 0,
+        "renown": 150
+      },
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "negotiation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 40,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "shaded_woods": {
+              "story6": {
+                "current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "explorations": {
+            "shaded_woods": {
+              "item1": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "boss": {
+      "name": "Battle the Fairy",
+      "action_type": "combat",
+      "description": "The fairy still won't tell you why the beasts are coming out of the forest. Beat them up to teach them a lesson",
+      "points_needed": 200000,
+      "is_boss": true,
+      "rewards": {
+        "gold": 0,
+        "renown": 500,
+        "happiness": 0.01
+      },
+      "expense": 0,
+      "danger": 300,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "shaded_woods": {
+              "story7": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story8": {
+      "name": "Speak to the Fairy",
+      "action_type": "social",
+      "description": "The fairy seems more willing to talk once you've defeated them",
+      "points_needed": 50000,
+      "rewards": {
+        "gold": 0,
+        "renown": 100
+      },
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "negotiation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 50,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "shaded_woods": {
+              "boss": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story9": {
+      "name": "Head to the Crypt",
+      "action_type": "exploring",
+      "description": "The beasts are running away from the forest due to a necromancer settling down nearby in a crypt. Head to the crypt.",
+      "points_needed": 50000,
+      "rewards": {
+        "gold": 0,
+        "renown": 50
+      },
+      "expense": 0,
+      "danger": 250,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 50,
+                    "scaling": 0
+                  }
+                },
+                "world_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 50,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "shaded_woods": {
+              "story8": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,806 @@
+{
+  "content": {
+    "story0": {
+      "name": "Proof of Recognition",
+      "action_type": "fundamentals",
+      "description": "Show the Elders proof that you are recognized by the heroes",
+      "points_needed": 5e10,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "story6": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story1": {
+      "name": "The Next Step",
+      "action_type": "social",
+      "description": "Discuss the plans for the future.",
+      "points_needed": 5e10,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "negotiation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "avanosh": {
+              "story0": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story2": {
+      "name": "Travel to the Avanosh",
+      "action_type": "exploring",
+      "description": "Travel to the home of the dragons.",
+      "points_needed": 1e11,
+      "rewards": {},
+      "expense": 0,
+      "danger": 2200,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "world_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "avanosh": {
+              "story1": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story3": {
+      "name": "Build a path",
+      "action_type": "creating",
+      "description": "Build a path over the magma.",
+      "points_needed": 1e11,
+      "rewards": {},
+      "expense": 0,
+      "danger": 2200,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "creating": {
+              "content": {
+                "woodworking_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "engineering": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "crafting": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "avanosh": {
+              "story2": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story3-2": {
+      "name": "Fly over the sea of magma",
+      "action_type": "exploring",
+      "description": "Fly over the magma.",
+      "points_needed": 5e10,
+      "rewards": {},
+      "expense": 0,
+      "danger": 2200,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "world_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "avanosh": {
+              "story2": {
+                "current_level": 1
+              }
+            }
+          },
+          "jobs": {
+            "heroic": {
+              "unfettered_explorer": {
+                "current_level": 50
+              }
+            }
+          }
+        }
+      }
+    },
+    "story4": {
+      "name": "Explore Avanosh",
+      "action_type": "exploring",
+      "description": "Explore the place and find a way up.",
+      "points_needed": 5e10,
+      "rewards": {},
+      "expense": 0,
+      "danger": 2300,
+      "repeat_max": -1,
+      "repeatable": true,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "world_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "avanosh": {
+              "story3": {
+                "current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "explorations": {
+            "avanosh": {
+              "story3-2": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story5": {
+      "name": "Battle Blemished Wyrms",
+      "action_type": "combat",
+      "description": "Defeat the defective descendants of the dragons. Mindless and ruthless. ",
+      "points_needed": 1e11,
+      "rewards": {
+        "gold": 5000,
+        "renown": 5000
+      },
+      "expense": 0,
+      "danger": 2400,
+      "repeat_max": -1,
+      "repeatable": true,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "weapon_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "avanosh": {
+              "story4": {
+                "current_level": 5
+              }
+            }
+          }
+        }
+      }
+    },
+    "item0": {
+      "name": "Collect Magma Berries",
+      "action_type": "scavenging",
+      "description": "Harvest the berries that gives strength.",
+      "points_needed": 2.5e11,
+      "rewards": {
+        "gold": 10000,
+        "renown": 2000
+      },
+      "expense": 0,
+      "danger": 2450,
+      "repeat_max": -1,
+      "repeatable": true,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "scavenging": {
+              "content": {
+                "beggar_instinct": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "herbal_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "avanosh": {
+              "story5": {
+                "current_level": 10
+              },
+              "story4": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "story6": {
+      "name": "Scale the Volcano",
+      "action_type": "exploring",
+      "description": "With the defeat of the blemished creatures, a path opens towards the top of the volcano. Climb to the top with the flowing magma.",
+      "points_needed": 1e11,
+      "rewards": {},
+      "expense": 0,
+      "danger": 2500,
+      "repeat_max": -1,
+      "repeatable": true,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "world_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "avanosh": {
+              "story5": {
+                "current_level": 5
+              }
+            }
+          }
+        }
+      }
+    },
+    "item1": {
+      "name": "Mine Magmatic Ores",
+      "action_type": "excavating",
+      "description": "Harvest the ores that contains the power of fire.",
+      "points_needed": 1e11,
+      "rewards": {
+        "gold": 20000,
+        "renown": 2500
+      },
+      "expense": 0,
+      "danger": 2550,
+      "repeat_max": -1,
+      "repeatable": true,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "excavating": {
+              "content": {
+                "mining_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "geology": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "avanosh": {
+              "story6": {
+                "current_level": 5
+              }
+            }
+          },
+          "jobs": {
+            "heroic": {
+              "world_excavator": {
+                "current_level": 50
+              }
+            }
+          }
+        }
+      }
+    },
+    "story7": {
+      "name": "Fight the Guardian Dragons",
+      "action_type": "combat",
+      "description": "Defeat the dragons in your way. ",
+      "points_needed": 5e11,
+      "rewards": {
+        "gold": 1e5,
+        "renown": 1e4
+      },
+      "expense": 0,
+      "danger": 2650,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "weapon_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "avanosh": {
+              "story6": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "story8": {
+      "name": "Talk to Noek Suul",
+      "action_type": "social",
+      "description": "Declare your demands to the dragon. ",
+      "points_needed": 5e11,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "charm": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "negotiation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "grace": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "avanosh": {
+              "story7": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "boss": {
+      "name": "True Noek Suul",
+      "action_type": "combat",
+      "description": "Defeat the Dragon that ended your life many times",
+      "points_needed": 2.5e12,
+      "is_boss": true,
+      "rewards": {
+        "gold": 1e7,
+        "renown": 1e6,
+        "happiness": 0.10,
+				"lifespan_day": 300,
+				"temporal": 2,	
+				"eternal_lifespan_day": 10
+      },
+      "expense": 0,
+      "danger": 3100,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "weapon_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "avanosh": {
+              "story8": {
+                "current_level": 1
+              },
+              "superboss": {
+                "not_current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "superboss": {
+      "name": "Dominate Noek Suul",
+      "action_type": "fundamentals",
+      "description": "Assert dominance on the dragon that ended your life many times.",
+      "points_needed": 1e14,
+      "is_boss": true,
+      "rewards": {
+        "gold": 1e8,
+        "renown": 1e7,
+        "happiness": 0.25,
+				"lifespan_day": 1000,
+				"temporal": 3,
+				"eternal_lifespan_day": 50
+      },
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "fundamentals": {
+              "content": {
+                "concentration": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "critical_thought": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "heroic_potential": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "avanosh": {
+              "story8": {
+                "current_level": 1
+              },
+              "boss": {
+                "not_current_level": 1,
+                "mortality": 0
+              }
+            }
+          },
+          "jobs": {
+            "heroic": {
+              "timeless_hero": {
+                "current_level": 50
+              }
+            }
+          }
+        }
+      }
+    },
+    "story9": {
+      "name": "Return to Exah",
+      "action_type": "fundamentals",
+      "description": "Return triumphantly",
+      "points_needed": 5e11,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {},
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "avanosh": {
+              "boss": {
+                "current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "explorations": {
+            "avanosh": {
+              "superboss": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

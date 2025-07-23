@@ -1,0 +1,1078 @@
+{
+  "content": {
+    "story0": {
+      "name": "Mandated Break",
+      "action_type": "social",
+      "description": "The King, recognizing your service, has bestowed upon you a piece of coastal land and a seaside house. \n\nMight as well take a break near the sea.",
+      "points_needed": 5000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 100
+      },
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {},
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "ancient_crypt": {
+              "boss": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story1": {
+      "name": "Washed up “Person”",
+      "action_type": "fundamentals",
+      "description": "During a leisurely stroll along the beach, your attention is drawn to an unusual sight – a person with fins as ears and some scales, washed ashore unconscious with injuries.",
+      "points_needed": 5000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "fundamentals": {
+              "content": {
+                "luck": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story0": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story2": {
+      "name": "Heal the Unconcious Person",
+      "action_type": "defense",
+      "description": "Concoct a Medicine to heal the washed up person.",
+      "points_needed": 10000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 100
+      },
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "defense": {
+              "content": {
+                "healing_arts": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story1": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story3": {
+      "name": "Inform the King",
+      "action_type": "social",
+      "description": "Request an audience with the king to tell him about the Mermaid Princess and the proposed alliance of Atlanta.",
+      "points_needed": 10000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 500
+      },
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "grace": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story2": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story4": {
+      "name": "Go on a mission",
+      "action_type": "social",
+      "description": "To reciprocate the intent of alliance from the Atlantan Kingdom, the king entrusts you with a crucial mission and act as an ambassador representing Eldoria.",
+      "points_needed": 10000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 1000
+      },
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "grace": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                },
+                "leadership": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story3": {
+                "current_level": 1
+              }
+            }
+          },
+          "jobs": {
+            "knight": {
+              "great_knight": {
+                "current_level": 30
+              }
+            }
+          }
+        }
+      }
+    },
+    "story5": {
+      "name": "Construct a Stormboat",
+      "action_type": "creating",
+      "description": "The mermaid princess told you that the way to Atlantia is full of dangers and tells you how to make one. \n\nConstruct a seaworthy boat that will carry you through dangers to the city of the mermaids.",
+      "points_needed": 20000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 1000
+      },
+      "expense": 500,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "creating": {
+              "content": {
+                "woodworking_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                },
+                "engineering": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                },
+                "crafting": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story4": {
+                "current_level": 1
+              }
+            }
+          },
+          "technologies": {
+            "0": {
+              "angler_stormboat": {
+                "unlocked": false
+              }
+            }
+          }
+        }
+      }
+    },
+    "story6": {
+      "name": "Sail to the city of mermaids",
+      "action_type": "exploring",
+      "description": "Navigate through the vast ocean to reach the city of mermaids",
+      "points_needed": 20000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 1000
+      },
+      "expense": 0,
+      "danger": 400,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                },
+                "world_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story4": {
+                "current_level": 1
+              },
+              "story5": {
+                "current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "explorations": {
+            "blue_sea": {
+              "story4": {
+                "current_level": 1
+              }
+            }
+          },
+          "technologies": {
+            "0": {
+              "angler_stormboat": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "story7": {
+      "name": "Battle aquatic creatures",
+      "action_type": "combat",
+      "description": "En route to the mermaid city, you encounter various aquatic creatures trying to attack your boat. Battle them!",
+      "points_needed": 30000000,
+      "rewards": {
+        "gold": 100,
+        "renown": 1000
+      },
+      "expense": 0,
+      "danger": 600,
+      "repeat_max": -1,
+      "repeatable": true,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "defense": {
+              "content": {
+                "evasion_techniques": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            },
+            "combat": {
+              "content": {
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story6": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story8": {
+      "name": "Continue your journey",
+      "action_type": "exploring",
+      "description": "After overcoming the monsters of the ocean, you can finally continue your journey to Atlanta.",
+      "points_needed": 20000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 400,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                },
+                "world_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story7": {
+                "current_level": 5
+              }
+            }
+          }
+        }
+      }
+    },
+    "item0": {
+      "name": "Catch Rare Fishes",
+      "action_type": "fishing",
+      "description": "You've gone to areas of the sea that contains some rare fishes. Catch them!",
+      "points_needed": 5000000,
+      "rewards": {
+        "gold": 1000,
+        "renown": 100
+      },
+      "expense": 0,
+      "danger": 500,
+      "repeat_max": -1,
+      "repeatable": true,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "fishing": {
+              "content": {
+                "aquatic_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                },
+                "fishing_rod_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story8": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story9": {
+      "name": "Swim into the depths",
+      "action_type": "exploring",
+      "description": "Jump into the sea and follow the princess",
+      "points_needed": 20000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 500,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                },
+                "world_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story8": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story10": {
+      "name": "Atlantan Archduke",
+      "action_type": "social",
+      "description": "Seeing the princess in panic, you follow her into a building and saw a man in royal clothing.",
+      "points_needed": 20000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 500
+      },
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "world_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            },
+            "social": {
+              "content": {
+                "grace": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story9": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story11": {
+      "name": "Join the council",
+      "action_type": "social",
+      "description": "Participate in the council meeting where mermaid leaders deliberate on the fate of their relationship with humans.",
+      "points_needed": 30000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 2000
+      },
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "world_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            },
+            "social": {
+              "content": {
+                "grace": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story10": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story12": {
+      "name": "Battle the Noble",
+      "action_type": "combat",
+      "description": "The young noble gets ready to charge at you. \n\nDefeat them in battle and show that humans are not weak.",
+      "points_needed": 50000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 2000
+      },
+      "expense": 0,
+      "danger": 650,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "defense": {
+              "content": {
+                "evasion_techniques": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            },
+            "combat": {
+              "content": {
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story11": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story13": {
+      "name": "Take a break",
+      "action_type": "fundamentals",
+      "description": "With your show of strength the nobles intending to conquer Eldoria reconsiders fighting against humans. The council is adjourned and will be continued for another time so you go back to your lodgings.",
+      "points_needed": 10000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "fundamentals": {
+              "content": {
+                "concentration": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "critical_thought": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story12": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story14": {
+      "name": "Defend yourself!",
+      "action_type": "defense",
+      "description": "While taking a break, an attempt to your life happens. Protect yourself!",
+      "points_needed": 40000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 2000
+      },
+      "expense": 0,
+      "danger": 650,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "defense": {
+              "content": {
+                "agility": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                },
+                "endurance": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                },
+                "evasion_techniques": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            },
+            "2": {
+              "content": {
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story13": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story15": {
+      "name": "Council Continued",
+      "action_type": "social",
+      "description": "Present the captured assassin as a witness in the court of Atlanta, shedding light on the mysterious forces at play.",
+      "points_needed": 30000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 2000
+      },
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "world_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            },
+            "social": {
+              "content": {
+                "grace": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story14": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "boss": {
+      "name": "Demonic Kraken",
+      "action_type": "combat",
+      "description": "Fight with the Demonic Kraken Archduke.",
+      "points_needed": 70000000,
+      "is_boss": true,
+      "rewards": {
+        "gold": 50000,
+        "renown": 5000,
+        "happiness": 0.01,
+				"lifespan_day": 100
+      },
+      "expense": 0,
+      "danger": 700,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                },
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                },
+                "weapon_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            },
+            "defense": {
+              "content": {
+                "agility": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                },
+                "endurance": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                },
+                "evasion_techniques": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story15": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story16": {
+      "name": "Help with the reconstruction",
+      "action_type": "social",
+      "description": "After the battle, the city of Atlanta was severely damaged. Help with the reconstruction efforts.",
+      "points_needed": 20000000,
+      "rewards": {},
+      "expense": 500,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "creating": {
+              "content": {
+                "woodworking_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "engineering": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "crafting": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "boss": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story17": {
+      "name": "Eldoria-Atlanta Alliance",
+      "action_type": "social",
+      "description": "With Atlanta being fixed, broker an alliance between mermaids and humans to jointly fend off external threats and preserve harmony between humans and mermaids.",
+      "points_needed": 20000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 10000
+      },
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "grace": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story16": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

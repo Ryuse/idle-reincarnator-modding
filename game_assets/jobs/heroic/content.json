@@ -1,0 +1,611 @@
+{
+  "content": {
+    "sage": {
+      "name": "Sage",
+      "description": "You shall bring wisdom wherever you are.",
+      "base_income": 15,
+      "is_passive_income": true,
+      "base_exp_req": 10000,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "content": {
+            "heroic": {
+              "content": {
+                "sage": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "fundamentals": {
+              "content": {
+                "concentration": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 10
+                  }
+                },
+                "critical_thought": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 10
+                  }
+                },
+                "resourcefulness": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 10
+                  }
+                },
+                "luck": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 10
+                  }
+                },
+                "literacy": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 10
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "story4-0": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "realm_guardian": {
+      "name": "Realm Guardian",
+      "description": "No one will get hurt when you are there.",
+      "base_income": 50,
+      "is_passive_income": false,
+      "base_exp_req": 10000,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "content": {
+            "heroic": {
+              "content": {
+                "realm_guardian": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "defense": {
+              "content": {
+                "agility": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 3
+                  }
+                },
+                "endurance": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 3
+                  }
+                },
+                "evasion_techniques": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 3
+                  }
+                },
+                "healing_arts": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 3
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "story4-1": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "deathbringer": {
+      "name": "Deathbringer",
+      "description": "Death follows you.",
+      "base_income": 30,
+      "is_passive_income": false,
+      "base_exp_req": 10000,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "content": {
+            "heroic": {
+              "content": {
+                "deathbringer": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "combat": {
+              "exp_gain": {
+                "scaling_type": "linear",
+                "base": 0,
+                "scaling": 3
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "story4-2": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "seeker": {
+      "name": "Seeker",
+      "description": "There's nothing you can't find.",
+      "base_income": 1000,
+      "is_passive_income": false,
+      "base_exp_req": 10000,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "content": {
+            "heroic": {
+              "content": {
+                "seeker": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "scavenging": {
+              "exp_gain": {
+                "scaling_type": "linear",
+                "base": 0,
+                "scaling": 3
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "story4-3": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "tidecaller": {
+      "name": "Tidecaller",
+      "description": "The sea is yours.",
+      "base_income": 30,
+      "is_passive_income": false,
+      "base_exp_req": 10000,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "content": {
+            "heroic": {
+              "content": {
+                "tidecaller": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "fishing": {
+              "exp_gain": {
+                "scaling_type": "linear",
+                "base": 0,
+                "scaling": 3
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "story4-4": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "grand_creator": {
+      "name": "Grand Creator",
+      "description": "Create anything that your imagination wills.",
+      "base_income": 70,
+      "is_passive_income": false,
+      "base_exp_req": 10000,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "content": {
+            "heroic": {
+              "content": {
+                "grand_creator": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "creating": {
+              "exp_gain": {
+                "scaling_type": "linear",
+                "base": 0,
+                "scaling": 3
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "story4-5": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "world_excavator": {
+      "name": "World Excavator",
+      "description": "Mine the world.",
+      "base_income": 50,
+      "is_passive_income": false,
+      "base_exp_req": 10000,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "content": {
+            "heroic": {
+              "content": {
+                "world_excavator": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "excavating": {
+              "exp_gain": {
+                "scaling_type": "linear",
+                "base": 0,
+                "scaling": 3
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "story4-6": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "unfettered_explorer": {
+      "name": "Unfettered Explorer",
+      "description": "There are no places you won't be able to go.",
+      "base_income": 40,
+      "is_passive_income": false,
+      "base_exp_req": 10000,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "content": {
+            "heroic": {
+              "content": {
+                "unfettered_explorer": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "exploring": {
+              "exp_gain": {
+                "scaling_type": "linear",
+                "base": 0,
+                "scaling": 3
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "story4-7": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "civilization_starter": {
+      "name": "Civilization Starter",
+      "description": "Kingdoms will rise because of you.",
+      "base_income": 20,
+      "is_passive_income": true,
+      "base_exp_req": 10000,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "content": {
+            "heroic": {
+              "content": {
+                "civilization_starter": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "social": {
+              "exp_gain": {
+                "scaling_type": "linear",
+                "base": 8,
+                "scaling": 4
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "story4-8": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "forbidden_invoker": {
+      "name": "Forbidden Invoker",
+      "description": "You command magic available only to the Gods.",
+      "base_income": 60,
+      "is_passive_income": false,
+      "base_exp_req": 10000,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "content": {
+            "heroic": {
+              "content": {
+                "forbidden_invoker": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "arcane": {
+              "content": {
+                "mana_sense": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 3
+                  }
+                },
+                "mana_control": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 3
+                  }
+                },
+                "spell_craft": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 3
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "story4-9": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "timeless_hero": {
+      "name": "Timeless Hero",
+      "description": "The one destined to battle the Demon King",
+      "base_income": 0,
+      "is_passive_income": false,
+      "base_exp_req": 100000,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "content": {
+            "heroic": {
+              "content": {
+                "timeless_hero": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "fundamentals": {
+              "content": {
+                "heroic_potential": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 1
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "superboss": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

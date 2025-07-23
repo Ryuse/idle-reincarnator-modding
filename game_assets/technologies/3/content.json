@@ -1,0 +1,713 @@
+{
+  "content": {
+    "farmer_100": {
+      "title": "Selective crop breeding",
+      "body": "By carefully selecting and breeding crops with desirable traits, you've significantly improved their quality and yield. This selective crop breeding has not only led to better agricultural outcomes but also paved the way for more resilient and productive crop varieties.",
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "farmer": {
+                  "income_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.10,
+                    "scaling": 0
+                  },
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.20,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "farmer": {
+                "current_level": 100
+              }
+            },
+            "noble": {
+              "count": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "farmer_110": {
+      "title": "Weather Forecast",
+      "body": "Leveraging your extensive farming expertise, you've keenly observed distinct atmospheric patterns heralding imminent weather changes, be it rain, sunshine, or other meteorological phenomena. \n\nRecognizing the invaluable impact on crop planning, you've dedicated yourself to disseminating this celestial insight among farming communities, empowering them to make more informed decisions for their agricultural pursuits.",
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "farmer": {
+                  "income_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.20,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "farmer": {
+                "current_level": 110
+              }
+            },
+            "noble": {
+              "count": {
+                "current_level": 20
+              }
+            }
+          }
+        }
+      }
+    },
+    "farmer_120": {
+      "title": "Taming Techniques",
+      "body": "Through careful training and domestication, you've developed effective methods of taming and managing animals for various purposes. This enhances the utility of animals in farming, transportation, and other activities.",
+      "effects": {
+        "lifestyles": {
+          "content": {
+            "transportation": {
+              "expenses_multiplier": {
+                "scaling_type": "exponential",
+                "base": 0.95,
+                "scaling": 0
+              }
+            }
+          }
+        },
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "farmer": {
+                  "income_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.20,
+                    "scaling": 0
+                  },
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.20,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "riding": {
+                  "exp_multiplier": {
+                    "scaling_type": "linear",
+                    "base": 1.5,
+                    "scaling": 0.0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "farmer": {
+                "current_level": 120
+              }
+            },
+            "noble": {
+              "count": {
+                "current_level": 30
+              }
+            }
+          }
+        }
+      }
+    },
+    "angler_100": {
+      "title": "Aquatic Bestiary",
+      "body": "Knowledge about aquatic creatures from Atlanta improves fishing techniques and aquaculture practices. Anglers gain insights into the behavior and habits of underwater species, leading to more efficient and sustainable fishing.",
+      "effects": {
+        "lifestyles": {
+          "content": {
+            "food": {
+              "content": {
+                "fish": {
+                  "expenses_multiplier": {
+                    "scaling_type": "exponential",
+                    "base": 0.98,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "angler": {
+                  "income_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.25,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "angler": {
+                "current_level": 100
+              }
+            },
+            "noble": {
+              "count": {
+                "current_level": 10
+              }
+            }
+          },
+          "explorations": {
+            "blue_sea": {
+              "story17": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "carpenter_90": {
+      "title": "Concrete",
+      "body": "The development of concrete as a construction material provides superior strength and durability. This allows for the creation of more resilient structures, improving overall building quality.",
+      "effects": {
+        "lifestyles": {
+          "content": {
+            "home": {
+              "expenses_multiplier": {
+                "scaling_type": "exponential",
+                "base": 0.98,
+                "scaling": 0
+              },
+              "level_increase": {
+                "scaling_type": "linear",
+                "base": 5,
+                "scaling": 0.00
+              }
+            }
+          }
+        },
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "carpenter": {
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.2,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "carpenter": {
+                "current_level": 90
+              }
+            },
+            "noble": {
+              "count": {
+                "current_level": 10
+              }
+            }
+          },
+          "skills": {
+            "creating": {
+              "crafting": {
+                "current_level": 120
+              }
+            }
+          }
+        }
+      }
+    },
+    "miner_100": {
+      "title": "Magic Mining Helmet",
+      "body": "Using creation magic, you’ve managed to imbue magic conducting rocks to give off light for a very long time which will help miners to mine more ores.",
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "miner": {
+                  "income_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.2,
+                    "scaling": 0
+                  },
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.2,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "miner": {
+                "current_level": 100
+              }
+            },
+            "noble": {
+              "count": {
+                "current_level": 20
+              }
+            }
+          },
+          "skills": {
+            "creating": {
+              "crafting": {
+                "current_level": 50
+              }
+            },
+            "arcane": {
+              "conjuration": {
+                "current_level": 20
+              }
+            }
+          }
+        }
+      }
+    },
+    "bard_100": {
+      "title": "Amphitheater",
+      "body": "The construction of grand amphitheaters has revolutionized entertainment and cultural gatherings in Eldoria. These colossal structures provide a venue for various performances, including theatrical plays, musical concerts, and public speeches. With tiered seating arrangements and acoustically optimized designs, amphitheaters offer a captivating experience for audiences of all sizes. The advent of amphitheaters has not only elevated the arts and cultural expression but has also become a focal point for communal unity and celebration.",
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "bard": {
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.2,
+                    "scaling": 0
+                  }
+                }
+              }
+            },
+            "noble": {
+              "exp_multiplier": {
+                "scaling_type": "logarithmic",
+                "base": 1.2,
+                "scaling": 0
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "bard": {
+                "current_level": 100
+              }
+            },
+            "noble": {
+              "count": {
+                "current_level": 20
+              }
+            }
+          }
+        }
+      }
+    },
+    "artificer_90": {
+      "title": "Lens",
+      "body": "Your development of high-quality lenses has revolutionized optics and enhanced visual technologies. This innovation finds applications in various fields, from astronomy to artistic pursuits.",
+      "effects": {
+        "text": "Spyglass Unlocked",
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "artificer": {
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.1,
+                    "scaling": 0
+                  },
+                  "income_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "artificer": {
+                "current_level": 90
+              }
+            },
+            "noble": {
+              "count": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "artificer_95": {
+      "title": "Advanced Forging Techniques",
+      "body": "Your mastery of metallurgy has led to the development of advanced forging techniques. Tools, weapons, and armor are now stronger, more durable, and lighter.",
+      "effects": {
+        "lifestyles": {
+          "content": {
+            "item": {
+              "level_increase": {
+                "scaling_type": "linear",
+                "base": 1,
+                "scaling": 0.0
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "artificer": {
+                "current_level": 95
+              }
+            },
+            "noble": {
+              "count": {
+                "current_level": 60
+              }
+            }
+          }
+        }
+      }
+    },
+    "merchant_90": {
+      "title": "Bank",
+      "body": "The establishment of banks has centralized financial transactions and provided a secure space for the storage of valuables. Banks play a crucial role in facilitating trade, offering loans, and ensuring the stability of the economy.",
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "merchant": {
+                  "income_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.2,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "merchant": {
+                "current_level": 90
+              }
+            },
+            "noble": {
+              "count": {
+                "current_level": 30
+              }
+            }
+          }
+        }
+      }
+    },
+    "culinarian_60": {
+      "title": "Drying",
+      "body": "You have that utilizing the power of the sun to dehydrate food enhances preservation methods. Travelers can now carry lightweight, preserved food for extended journeys.",
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "culinarian": {
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "overall": {
+          "exploration_speed_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.01,
+            "scaling": 0.01
+          }
+        },
+        "lifestyles": {
+          "content": {
+            "food": {
+              "expenses_multiplier": {
+                "scaling_type": "exponential",
+                "base": 0.99,
+                "scaling": 1
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "culinarian": {
+                "current_level": 60
+              }
+            },
+            "noble": {
+              "count": {
+                "current_level": 30
+              }
+            }
+          }
+        }
+      }
+    },
+    "cathedral_50": {
+      "title": "Plant Paper",
+      "body": "You discovered a better way to make paper for writing that is cheaper and easier to write on and that it comes from plants.",
+      "effects": {
+        "trainings": {
+          "content": {
+            "worldly": {
+              "exp_multiplier": {
+                "scaling_type": "logarithmic",
+                "base": 1.1,
+                "scaling": 0
+              }
+            },
+            "arcane": {
+              "exp_multiplier": {
+                "scaling_type": "logarithmic",
+                "base": 1.1,
+                "scaling": 0
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "farmer": {
+                "current_level": 80
+              }
+            },
+            "noble": {
+              "count": {
+                "current_level": 30
+              }
+            }
+          },
+          "trainings": {
+            "worldly": {
+              "mental_school": {
+                "current_level": 50
+              }
+            }
+          }
+        }
+      }
+    },
+    "cathedral_90": {
+      "title": "Printing Press",
+      "body": "The introduction of the printing press allows for mass production of written materials. This innovation accelerates the spread of knowledge.",
+      "effects": {
+        "trainings": {
+          "content": {
+            "worldly": {
+              "exp_multiplier": {
+                "scaling_type": "logarithmic",
+                "base": 1.1,
+                "scaling": 0
+              }
+            },
+            "arcane": {
+              "exp_multiplier": {
+                "scaling_type": "logarithmic",
+                "base": 1.1,
+                "scaling": 0
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "count": {
+                "current_level": 40
+              }
+            }
+          },
+          "trainings": {
+            "worldly": {
+              "mental_school": {
+                "current_level": 90
+              }
+            }
+          },
+          "skills": {
+            "creating": {
+              "crafting": {
+                "current_level": 100
+              }
+            }
+          }
+        }
+      }
+    },
+    "knight_50": {
+      "title": "Gymnasium",
+      "body": "The introduction of gymnasiums has promoted physical fitness and well-being. These facilities offer a space for exercise, training, and social interaction, contributing to healthier and more active communities.",
+      "effects": {
+        "trainings": {
+          "content": {
+            "physical": {
+              "exp_multiplier": {
+                "scaling_type": "logarithmic",
+                "base": 1.2,
+                "scaling": 0
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "knight": {
+              "knight": {
+                "current_level": 50
+              }
+            },
+            "noble": {
+              "count": {
+                "current_level": 20
+              }
+            }
+          }
+        }
+      }
+    },
+    "great_knight_60": {
+      "title": "Breathing Techniques",
+      "body": "The incorporation of specialized breathing techniques into exercise routines improves respiratory health and overall well-being. This innovation contributes to enhanced endurance and vitality.",
+      "effects": {
+        "trainings": {
+          "content": {
+            "physical": {
+              "exp_multiplier": {
+                "scaling_type": "logarithmic",
+                "base": 1.2,
+                "scaling": 0
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "knight": {
+              "great_knight": {
+                "current_level": 60
+              }
+            },
+            "noble": {
+              "count": {
+                "current_level": 50
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

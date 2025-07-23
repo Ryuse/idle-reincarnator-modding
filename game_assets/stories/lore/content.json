@@ -1,0 +1,2652 @@
+{
+  "content": {
+    "start": {
+      "title": "Awakening",
+      "body": "You wake up in an unknown place and don't remember anything about yourself.\n\nYou're a bit confused about where or who you are but for now, you must try to survive.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "age": {
+            "years": 12,
+            "days": 0
+          }
+        }
+      }
+    },
+    "rebirth_1": {
+      "title": "Deja Vu",
+      "body": "Even while remembering little, you seem to learn things faster than normal people. \n\nStrange. Also, you found a book in your pocket. It seems to be a journal of some sort.",
+      "rewards": {},
+      "effects": {
+        "text": "Statistics Unlocked"
+      },
+      "steam_achievement_id": "STARTING_OVER",
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "rebirths": 1,
+          "stories": {
+            "lore": {
+              "start": {
+                "unlocked": true
+              }
+            }
+          }
+        },
+        "1": {
+          "regressions": 1,
+          "stories": {
+            "lore": {
+              "start": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "rebirth_5": {
+      "title": "Strange Knowledge",
+      "body": "Information fills your head when you try to work. \n\nIt's as if you've done this kind of work for years.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "rebirths": 5,
+          "jobs": {
+            "common": {
+              "beggar": {
+                "current_level": 1
+              }
+            }
+          },
+          "stories": {
+            "lore": {
+              "rebirth_1": {
+                "unlocked": true
+              }
+            }
+          }
+        },
+        "1": {
+          "regressions": 1,
+          "jobs": {
+            "common": {
+              "farmer": {
+                "current_level": 1
+              }
+            }
+          },
+          "stories": {
+            "lore": {
+              "rebirth_1": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "rebirth_10": {
+      "title": "Way of Life",
+      "body": "You have lived multiple lives but you can't remember any of them. \n\nYou view different lifestyles or actions as tools for you to be better. You do not hesistate to abandon a life of riches for a life of rags in the streets or commit to a habit.",
+      "rewards": {},
+      "effects": {
+        "text": "Loadouts Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "rebirths": 10,
+          "stories": {
+            "lore": {
+              "rebirth_5": {
+                "unlocked": true
+              }
+            }
+          }
+        },
+        "1": {
+          "regressions": 1,
+          "stories": {
+            "lore": {
+              "rebirth_5": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "rebirth_15": {
+      "title": "Guiding Subconscience",
+      "body": "Living many lives has developed the depths of your mind. You know what Jobs and Trainings do reflexively without thinking about it.",
+      "rewards": {},
+      "effects": {
+        "text": "Training and Job Automations Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "rebirths": 15,
+          "stories": {
+            "lore": {
+              "rebirth_10": {
+                "unlocked": true
+              }
+            }
+          }
+        },
+        "1": {
+          "regressions": 1,
+          "stories": {
+            "lore": {
+              "rebirth_10": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "rebirth_20": {
+      "title": "Passing Time",
+      "body": "Your soul has adapted to the many lives you have lived. You can let your instinct take over and let time flow faster, helping dull the needless repetitions.",
+      "rewards": {},
+      "effects": {
+        "text": "4x to 16x Game speed up option unlocked."
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "rebirths": 20,
+          "stories": {
+            "lore": {
+              "rebirth_15": {
+                "unlocked": true
+              }
+            }
+          }
+        },
+        "1": {
+          "regressions": 1,
+          "stories": {
+            "lore": {
+              "rebirth_15": {
+                "unlocked": true
+              }
+            }
+          }
+        },
+        "2": {
+          "stories": {
+            "lore": {
+              "exploration_5_boss": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "age_1000": {
+      "title": "Timeless",
+      "body": "You have lived long enough that days are just seconds to you. You close your eyes and decades have passed without you thinking.. Maybe living for a long time is not worth it.",
+      "rewards": {},
+      "effects": {
+        "text": "All game speed up option unlocked."
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "lifetime_age": {
+            "years": 1000
+          },
+          "regressions": 1,
+          "stories": {
+            "lore": {
+              "rebirth_20": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "rebirth_noble": {
+      "title": "Unknown Badge",
+      "body": "You check your pocket and there is a badge with a seemingly complex insignia.\n\nIt looks pretty expensive so you keep it on you for now.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "rebirths": 1,
+          "explorations": {
+            "grasslands": {
+              "boss": {
+                "max_level": 1
+              }
+            }
+          },
+          "stories": {
+            "lore": {
+              "start": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "rebirth_noble_2": {
+      "title": "Unknown Badge 2",
+      "body": "On a closer look, the insignia seems to contain some gold in it. You'll definitely keep it on you.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "rebirths": 1,
+          "explorations": {
+            "ancient_crypt": {
+              "boss": {
+                "max_level": 1
+              }
+            }
+          },
+          "stories": {
+            "lore": {
+              "rebirth_noble": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "rebirth_fairy": {
+      "title": "Homeless Fairy",
+      "body": "While going about your way, a blue fairy approached you. It seemed to hesitate for a moment, as if recognizing you from somewhere.\n\nAs the fairy was about to ask you something, their stomach emitted a loud growl.\n\nPerhaps giving them a simple meal could be the key to forging a new companionship.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "rebirths": 1,
+          "explorations": {
+            "shaded_woods": {
+              "story9": {
+                "max_level": 1
+              }
+            }
+          },
+          "stories": {
+            "lore": {
+              "start": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "lore_1": {
+      "title": "Last City of Humanity",
+      "body": "After talking to people, you hear that this is the last city of humanity.\n\nThe city is usually closed in for the safety of everyone.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "stories": {
+            "lore": {
+              "start": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "beggar_50": {
+      "title": "A Gift from the Princess",
+      "body": "While doing your honest work as a beggar, a luxurious carriage passed by your usual begging area. \n\nThe carriage stopped and a woman with flaming red hair donned in a gilded gown stepped out of the carriage and gave you a pouch of gold.",
+      "rewards": {
+        "gold": 10000
+      },
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "beggar": {
+                "current_level": 50
+              }
+            }
+          }
+        }
+      }
+    },
+    "physical_training_unlock": {
+      "title": "Reflection",
+      "body": "While toiling away in the fields, you started to wonder about your identity and became distracted. The Old Farmer noticed and asked what was wrong. \n\nYou tell the Old Farmer that you don't remember much about yourself and was wondering about who you were. \n\nHearing this, The Old Farmer suggested that you should explore the city more and try out new things that might help jog your memory. And if that isn't enough, then go out of the city and keep looking for clues about yourself. \n\nHowever, to get out of the city, one must join the Order of the Knights and pass their tests.",
+      "rewards": {},
+      "effects": {
+        "text": "Physical Training Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "farmer": {
+                "current_level": 5
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_unlock": {
+      "title": "Exploration",
+      "body": "Finally, the day arrives when you complete your training. The Order of the Knights acknowledges your achievements, granting you permission to venture beyond the city walls. \n\nYour quest for self-discovery begins as you step out into the world, armed with your skills and the lessons learned from within the city.",
+      "rewards": {},
+      "effects": {
+        "text": "Exploration Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "knight": {
+              "footman": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "renown_5000": {
+      "title": "Getting well known",
+      "body": "You have done quite a lot of tasks and helped a lot of people. This may help you get more opportunities.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "renown": 5000
+        }
+      }
+    },
+    "goblin_100": {
+      "title": "Goblin Slayer",
+      "body": "You have killed so many goblins that you have earned the title of Goblin Slayer. Goblins would fear you if they heard your name.\n\nIt's too bad they can't understand human language",
+      "rewards": {
+        "renown": 500
+      },
+      "effects": {
+        "overall": {
+          "renown_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.2,
+            "scaling": 0
+          }
+        }
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "grasslands": {
+              "6": {
+                "current_level": 100
+              }
+            }
+          }
+        }
+      }
+    },
+    "lore_2": {
+      "title": "Beast attacks from Shaded Woods",
+      "body": "While on your expedition to eradicate the goblins, you hear news about beasts from Shaded Woods heading towards Eldora.\n\nThis will threaten the safety of Eldora and disrupt the citizens' daily lives if not handled.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "grasslands": {
+              "boss": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "tech_unlocked": {
+      "title": "Technologies",
+      "body": "With your knowledge, you have advanced Eldoria as a civilization by introducing new technologies for the people! \n\nThis will affect everyone and make the people of Eldoria happier, including yourself.\n\n[b]It might be worth looking into discovering new technologies to further advance Eldoria.[/b]",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "civilization_capability": 1
+        }
+      }
+    },
+    "civilization_level_1": {
+      "title": "Township",
+      "body": "With the development of Eldoria's technology, Eldoria has advanced as a civilization into a Township. This expansion has benefited the people of Eldoria, making its citizens happier.",
+      "rewards": {},
+      "effects": {
+        "text": "Ekistical Level upgraded to Township."
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "civilization_capability": 10
+        }
+      }
+    },
+    "worldly_training_unlock": {
+      "title": "Wordly Training",
+      "body": "With your increased noble standing, you have earned the right to study in schools of the noble. The schools of the nobles contains the brighest minds of Eldoria, the accumulation of Eldoria's wisdom are within the schools. \n\nStudying here will increase your skills, but at a cost.",
+      "rewards": {},
+      "effects": {
+        "text": "Wordly Training Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "baron": {
+                "current_level": 10
+              }
+            }
+          }
+        },
+        "1": {
+          "technologies": {
+            "4": {
+              "critical_thinking_100": {
+                "unlocked": true
+              }
+            }
+          },
+          "not_age": {
+            "years": 13
+          }
+        }
+      }
+    },
+    "healer_hint": {
+      "title": "Rumours of a Healer",
+      "body": "A pervasive rumor circulates about a mysterious healer who, without seeking any recompense, mended an individual struggling against the beasts near the Shaded Woods. \n\nWhispers suggest an otherworldly quality to this healer, leaving the locals intrigued and mystified.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "shaded_woods": {
+              "story0": {
+                "current_level": 1
+              }
+            }
+          },
+          "age": {
+            "years": 30,
+            "days": 0
+          }
+        }
+      }
+    },
+    "exploration_1_skip": {
+      "title": "Faeric Blessing",
+      "body": "As you tread deeper into the heart of the mystical woods, you encounter a fairy amidst the verdant foliage. Initially met with a look of annoyance, the fairy's demeanor swiftly shifts to one of delight upon noticing Luminara at your side. With genuine concern etched upon your face, you inquire about the unsettling phenomenon unfolding within the forest — why the creatures flee in haste towards Eldoria.\n\nIn a voice tinged with sorrow, the fairy unveils the situation: a sinister necromancer has taken residence in a nearby crypt, unleashing a foreboding aura that drives the beasts from the forest. Determined to confront this threat, you seek guidance on the path to the crypt, wary of the perilous journey ahead.\n\nThe fairy tells you the way and bestows upon you a protective enchantment, imbuing your spirit with newfound vigor and resolve. As expressions of gratitude flow from your lips, a sense of serenity washes over you, granting strength for the trials that lie ahead.",
+      "rewards": {},
+      "effects": {
+        "overall": {
+          "happiness_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.2,
+            "scaling": 0
+          },
+          "danger_multiplier": {
+            "scaling_type": "linear",
+            "base": 0.9,
+            "scaling": 0
+          }
+        }
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "shaded_woods": {
+              "skip": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_1_item0": {
+      "title": "Glowing Berries",
+      "body": "After defeating the monster pack, you find a place in the forest filled with glowing berries. Curious, you try one of them and immediately spit it out after tasting it. It is very bitter. \n\nHowever, you somehow feel more energetic after trying it albeit spitting out most of it. You wonder if you are able to cultivate them if you have enough of them and farming knowledge..",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "shaded_woods": {
+              "item0": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "healer_buff": {
+      "title": "Long-eared Enigma",
+      "body": "While foraging for medicinal herbs amidst the tranquil embrace of the Shaded Woods, your journey takes an unexpected turn as you chance upon a mysterious figure cloaked in the dappled light. A palpable aura of sanctity surrounds them, their ethereal presence drawing you closer. \n\nAs you approach, he smiles and you hear another voice in your head stating that  they cannot reveal who they are and that he is glad that you have come to spread his ways to the world. \n\nYou are confused by what he said as you have never met this person before. Seeing your confusion, they let out a laugh and offer to teach you the art of healing in detail,",
+      "rewards": {},
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "healer": {
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 2,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "stories": {
+            "job": {
+              "healer_unlocked": {
+                "unlocked": false
+              }
+            }
+          },
+          "explorations": {
+            "shaded_woods": {
+              "job0": {
+                "current_level": 25
+              }
+            }
+          },
+          "technologies": {
+            "6": {
+              "healer_120": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "civilization_level_2": {
+      "title": "Duchy",
+      "body": "With Eldoria's technology advancing and its region expanding, Eldoria has advanced as a civilization. It has become a Duchy! Eldoria's land was incomparable compared to when it was decades or even centuries ago. History has told that people of Eldoria in the past was not as happy and they are now with their quality of life improving.",
+      "rewards": {},
+      "effects": {
+        "text": "Ekistical Level upgraded to Duchy."
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "civilization_capability": 30
+        }
+      }
+    },
+    "farmer_death": {
+      "title": "Disappearance of the Old Farmer",
+      "body": "You decided to pay a visit to the Old Farmer after quite a while. You went to his farm and found that he wasn't there.\n\n You asked the people nearby but they said he just disappeared one day.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "age": {
+            "years": 35,
+            "days": 0
+          },
+          "jobs": {
+            "common": {
+              "farmer": {
+                "unlocked": true
+              }
+            }
+          },
+          "explorations": {
+            "ancient_crypt": {
+              "ally0": {
+                "not_current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_2_unlock": {
+      "title": "Ancient Crypt",
+      "body": "Within your sight you see a crypt from a distance and you feel uncomfortable just by looking at it. The surrounding vegetation is grey and very brittle, the trees dried up and devoid of life and leaves.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "ancient_crypt": {
+              "story0": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "farmer_save": {
+      "title": "Parting Ways",
+      "body": "Upon vanquishing the Necromancer, the Old Farmer takes his leave, explaining that he must attend to matters elsewhere. As he departs, you wish him success in his future endeavors. In the aftermath, a surge of strength courses through your body, accompanied by a newfound clarity of mind.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "ancient_crypt": {
+              "ally0": {
+                "current_level": 1
+              },
+              "boss": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "civilization_level_3": {
+      "title": "Regiopolis",
+      "body": "Eldoria's continuous progress has elevated its status to a Regiopolis, a thriving center of culture and trade. Its expanding borders and booming economy have led to unparalleled prosperity for its people.",
+      "rewards": {},
+      "effects": {
+        "text": "Ekistical Level upgraded to Regiopolis."
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "civilization_capability": 60
+        }
+      }
+    },
+    "exploration_3_story0": {
+      "title": "Unopenable Book",
+      "body": "As you wrestle with the mysterious book, trying everything from pulling to prying it open, Luminara bursts into laughter, calling you foolish for using brute force on such an intricate artifact. \n\nAnnoyed, you scold her, threatening to take away her snacks for an entire week. The panic on her face is instant. In a flurry, she explains the proper way to unlock the book, leaving you both relieved and a little smug.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "magic_research": {
+              "story0": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_3_story1": {
+      "title": "Arcane Ritual",
+      "body": "Luminara's instructions were clear but required rare and expensive materials to complete the ritual. With everything collected, you carefully assemble the items as she described, forming a complex arrangement. \n\nThe process feels nerve-wracking, and as you light the final candle, you wonder if trusting Luminara will pay off. All you can do now is wait for the ritual to work.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "magic_research": {
+              "story1": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_3_story2": {
+      "title": "Scribbles",
+      "body": "When the book finally opens, your excitement quickly turns to confusion. The pages are filled with odd lines and scribbles, seemingly random and incomprehensible. \n\nFrustration wells up, but the memory of how much time and money you spent drives you forward. Surely, there’s a meaning to this chaos, if only you can decipher it.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "magic_research": {
+              "story2": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_3_story3": {
+      "title": "Mind Runes",
+      "body": "Determined to uncover the book’s secrets, you focus on the scribbles, committing fragments to memory. \n\nSlowly, an image forms in your mind—a glowing rune, faint at first but growing sharper with every passing moment. \n\nEncouraged by this progress, you immerse yourself in the text, eager to unravel more.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "magic_research": {
+              "story3": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_3_story4": {
+      "title": "New Contents",
+      "body": "After successfully imagining a complete rune, strange glowing particles begin to appear around you. They float gently in various colors, some more vivid than others. \n\nIntrigued, you glance back at the book, only to find that the once-empty pages now display runes you’ve never seen before. \n\nIt feels as if the book itself is responding to your growing understanding.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "magic_research": {
+              "story4": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_3_story5": {
+      "title": "Orb of Light",
+      "body": "With the new runes etched into your memory, unfamiliar words pour from your lips in a rhythmic chant. \n\nThe glowing particles around you react instantly, converging into a single, radiant orb of light. Luminara, sleeping throughout the whole ordeal wakes up and eyes you in surprise. You look at her smugly for insulting your intelligence before. \n\n THe orb of light's brilliance fills the room, illuminating not just your surroundings but also the potential of the magic within the book.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "magic_research": {
+              "story5": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_3_story6": {
+      "title": "Translation",
+      "body": "Realizing the complexity of memorizing runes, you take a practical approach. Using simple phonetic scripts, you jot down the chants in a way anyone could read and recite. \n\nThis methodical translation feels like the first step in making the book’s magic accessible to others.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "magic_research": {
+              "story6": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_3_story7": {
+      "title": "Knowledge Organization",
+      "body": "The more you study, the clearer it becomes that you’ll never unlock all the book’s secrets alone. The sheer depth of its knowledge demands a team. \n\nYou begin cataloging and organizing your findings, creating a framework for others to build upon. Collaboration is the key to unlocking its full potential. Therefore you coerced Luminara to help you, threatening her snacks.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "magic_research": {
+              "story7": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_3_story8": {
+      "title": "Creating an Arcane Organization",
+      "body": "With your newfound understanding, you realize that establishing a center for magical learning could benefit all of Eldoria. \n\nUsing your influence, you lay the groundwork for a school of magic, gathering scholars to study the book together. \n\nThis organization marks a turning point in Eldoria’s magical development, ensuring that knowledge is shared and expanded upon.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "magic_research": {
+              "story8": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_3_story9": {
+      "title": "Sanctum of the Arcanists",
+      "body": "Your vision of a magic academy becomes reality, and its impact is immediate. The Sanctum of the Arcanists flourishes, attracting curious minds from across Eldoria. \n\nMagic, once a mysterious and solitary art, is now a cornerstone of progress. \n\nThe people embrace this new era, and Eldoria ascends as a beacon of magical innovation and unity.",
+      "rewards": {},
+      "effects": {
+        "text": "Sanctum of the Arcanists unlocked"
+      },
+      "steam_achievement_id": "MAGIC_RESEARCH",
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "magic_research": {
+              "story9": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_4_story0": {
+      "title": "Refreshed",
+      "body": "You enjoyed your time at the beach and feel refreshed.",
+      "rewards": {},
+      "effects": {
+        "overall": {
+          "exp_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.5,
+            "scaling": 0
+          }
+        }
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story0": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_4_story2": {
+      "title": "Tale of the Mysterious Girl",
+      "body": "While making more medicine, you hear a shriek coming from the room where the girl lay. You rush in and see her hugging Luminara tightly while Luminara begs you for help. \n\nSeeing you come in, the girl releases Luminara and thanks you for healing her while apologizing for suddenly hugging Luminara. \n\nYou ask about her origins while Luminara hides behind you, seemingly scared of her.\n\nThe girl reveals that she is the princess of Atlanta, the city of mermaids, and that she was on the way to Eldoria to propose an alliance but her party was ambushed. \n\nTo prove her identity, she shows you a badge with an intricate insignia that seems to be filled with mana.\n\nSeemingly convinced by her story, you decided to report this to the king.\n\n[b]However, you may need to become a really good knight first, great even.[/b]",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story2": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_4_story8": {
+      "title": "End of the sail",
+      "body": "After sailing for a while, the princess commands the boatswain to furl the sails and anchor the boat.\n\nWith serene confidence, she declares that you have reached Atlanta. You glance around, confused, finding only the expansive ocean with no visible land.\n\nAmused by your bewilderment, she enlightens you that Atlanta lies beneath the waves. Calmly instructing the crew to take a break and to wait for your return, she then casts a spell upon you, ensuring you can breathe underwater. With a graceful leap, she dives into the depths, gesturing for you to follow.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story8": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_4_story9": {
+      "title": "Visit to Atlanta",
+      "body": "You jump off the ship and swim to follow her. While swimming, you notice that her legs turned into that of a fish. Seeing this, you felt your stomach growl.\n\nAs you continue swimming you see a city deep below. You see mermaids gathering together in what seems to be a square while in great sorrow. They seem to be attending a grand funeral of some sort.\n\nThe princess, seeing this, picked up her pace and you followed her.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story9": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_4_story10": {
+      "title": "Atlanta’s Situation",
+      "body": "With sorrow in her eyes, the princess asks about the funeral procession for the late Atlantan King. The man before her solemnly reveals that, during her absence, the King passed away in his sleep.\n\nAs you swim beside her, the man introduces himself as one of the Archdukes of Atlanta. He then shares disquieting news: opportunistic noble factions are seizing the chance to consolidate power. A significant number of them oppose the late King's vision of forming an alliance with humans, advocating instead for dominance over them.\n\nIn light of these brewing tensions, a pivotal council is scheduled for the next day to delve deeper into the prospect of a human-mermaid alliance.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story10": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_4_story11": {
+      "title": "Mermaid’s Council",
+      "body": "At the council meeting, curious glances are directed your way. The Archduke formally presents you as Eldoria's envoy, here to solidify the alliance between mermaids and humans. \n\nA younger mermaid noble scoffs, claiming humans are too weak to be Atlanta’s allies, and suggests that you return to Eldoria to prepare to be conquered.\n\nTo dispel doubts about human strength, you boldly challenge the mermaid noble to a duel, ready to demonstrate the resilience and capabilities of your kind. \n\nThe younger mermaid noble readily agreed.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story11": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_4_story14": {
+      "title": "Conspiracy",
+      "body": "Following the successful defense against the assassin, you swiftly apprehend them. The princess and her uncle rush to your room, witnessing the aftermath.\n\nYou secure the assassin, initiating an interrogation. The Archduke aids by casting an illusion spell to extract truth.\n\nThe assassin confesses that the other Archduke of Atlanta orchestrated the plot to eliminate you to thwart the alliance, and later target the princess and her uncle.\n\nThe Archduke speculates that the rival Archduke aims to consolidate power and control over Atlanta.\n\nDetermined to expose these treacherous deeds, he suggests presenting the captured assassin as a witness during the council meeting.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story14": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_4_story15": {
+      "title": "Demonic Ties",
+      "body": "The assassin's revelation points fingers at one of the Archdukes, suggesting involvement in treasonous activities, causing a surprising twist in events.\n\nThe accused Archduke vehemently denies the allegations, which prompted the princess' uncle to propose a truth spell to extract an honest testimony.\n\nFeeling trapped, the Archduke's demeanor shifts, and dark energy surrounds him. He confesses that he had plans to seize control of Atlanta and offer it to demons in exchange for immortality, but your interference thwarted those plans.\n\nIn a last attempt to salvage his agenda, the Archduke transforms into a massive Kraken, saying that he would just rule Atlanta by force and eliminate his opponents.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story15": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_4_boss": {
+      "title": "End of the Kraken",
+      "body": "Following a fierce battle, you emerge victorious over the Kraken. As the colossal creature succumbs, a surge of dark energy emanates from its lifeless form, enveloping you in its powerful essence. \n\nThe newfound energy imparts a profound strength and hints at an extended lifespan, a testament to your triumph over the formidable adversary.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "boss": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_4_story16": {
+      "title": "Rebuilding",
+      "body": "As your efforts in aiding the reconstruction of Atlanta unfold, the Atlantans develop a favorable opinion of humans, recognizing their kindness. The mermaid princess, now the newly appointed Queen as the sole surviving royalty of Atlanta, oversees the ongoing restoration, raising hopes for an even more magnificent city than before.\n\nAs the concerns surrounding Atlanta's recovery subside for the Queen, the opportune moment arrives to broach the topic of the alliance.\n\nMaybe it’s time to ask her about the alliance and complete your mission.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story16": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_4_story17": {
+      "title": "Establishment of Alliance",
+      "body": "Having successfully forged the Alliance between Eldoria and Atlanta, you fulfilled your mission. After a brief stay in Atlanta, soaking in the atmosphere of the newfound camaraderie, you returned to Eldoria to report your triumph. \n\nThe established alliance now permits citizens from both cities to freely explore each other's cultures and lifestyles. Delighted with your accomplishments, the King of Eldoria bestowed upon you another noble title. Content with your achievements and the bestowed honor, you express hope for the enduring longevity of this alliance.",
+      "rewards": {},
+      "effects": {},
+      "steam_achievement_id": "ALLIANCE",
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story17": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_5_story0": {
+      "title": "Eldorian Tournament",
+      "body": "As you break the seal and unfold the parchment, a regal script unfolds before your eyes. The missive bears the royal insignia and extends a formal invitation from the king himself, beckoning you to partake in the prestigious Eldorian tournament. \n\nAcknowledging your significant role in vanquishing the necromancer and solidifying the alliance with Atlanta, the king recognizes your formidable prowess. Your name now stands among the chosen few, the top 100 strongest individuals in Eldoria, destined to clash in a contest that will determine the mightiest in the kingdom.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "eldorian_tournament": {
+              "story0": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_5_story5-2": {
+      "title": "Battle with Old Farmer",
+      "body": "In the heart of Eldoria's tournament, you find yourself face-to-face with the unassuming Old Farmer, a seasoned contender whose reputation belies his true prowess. As the duel unfolds, a revelation dawns upon you – each exchange, each move from the Old Farmer is a subtle lesson, a gift of experience aimed at honing your skills. \n\nHis every action feels like a deliberate contribution to your growth, a harvest of wisdom passed through a dance of combat. Astonishingly, the Old Farmer gracefully lowers his guard, allowing you to claim victory. Though, beads of sweat never grace his brow.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "eldorian_tournament": {
+              "story5-2": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_5_story7": {
+      "title": "Champion",
+      "body": "After triumphing over the Royal Knight, he graciously extends his congratulations, truly enjoying the intensity of the battle. The jubilant crowd echoes their cheers for your victory. \n\nIn a private conversation, he reveals that his former title as the kingdom's strongest was but a public facade, disclosing the presence of two individuals whose strength surpasses his, and notably, excluding yourself.\n\nWith a camaraderie-filled pat on the back, he encourages you to seize your well-earned prize.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "eldorian_tournament": {
+              "story7": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_5_story8": {
+      "title": "Ceremony",
+      "body": "As the trophy is placed in your hands, a wave of cheers erupts from the crowd, and whispers of awe fill the air as people marvel at your unparalleled strength. In their eyes, you have solidified your status as the strongest human in the kingdom. Your impressive display in the tournament not only showcased your physical prowess, but also instilled a sense of security in the hearts of the onlookers about the days ahead.\n\nWith the award ceremony concluding, the sun dipping below the horizon, the King of Eldoria extends a personal invitation for a stroll. The twilight serves as a backdrop to an evening that promises intriguing conversations and perhaps revelations in the company of the kingdom's ruler.",
+      "rewards": {},
+      "effects": {
+        "overall": {
+          "renown_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.5,
+            "scaling": 0
+          }
+        }
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "eldorian_tournament": {
+              "story8": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_5_story9": {
+      "title": "Suspicion",
+      "body": "During your leisurely stroll, the King openly expresses suspicion regarding your exceptional strength and intellect, deeming it beyond the natural capabilities of a human. Your extraordinary feats and accomplishments have raised doubts in his mind. It should not be possible, unless you’re a demon. \n\nAs both of you come to a halt, the King, with a flourish of his weapon, conjures magical armor onto his body, issuing a direct challenge for a battle. The tension in the air intensifies as the regal figure prepares to challenge you to a battle.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "eldorian_tournament": {
+              "story9": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_5_boss": {
+      "title": "Explanation",
+      "body": "Having emerged victorious over the King, he collapses, his strength depleted. You explain your story, where you awakened in an alley with no memories, the struggles of begging on the streets, and the rapid ascent through the ranks, all while grappling with the mystery of your identity.\n\nDetailing your encounters with formidable adversaries like the necromancer and the kraken, you reveal that each triumph seems to enhance your strength. It's as if you are meant to battle them. \n\nThe King, absorbing your story, enlightens you about the origins of these dark entities, attributing them to the machinations of demons. In a moment of revelation, he suggests that you might be their natural enemy.\n\nAs the King, unusually invigorated, slowly limps away, urging you to await for his call.",
+      "rewards": {},
+      "effects": {},
+      "steam_achievement_id": "ROYAL_BEATER",
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "eldorian_tournament": {
+              "boss": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "civilization_level_4": {
+      "title": "Fiefdom",
+      "body": "Through strategic advancements and territorial expansion, Eldoria has become a Fiefdom. With stronger governance and increased resource management, its influence is felt far and wide.",
+      "rewards": {},
+      "effects": {
+        "text": "Ekistical Level upgraded to Fiefdom."
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "civilization_capability": 100
+        }
+      }
+    },
+    "exploration_6_story0": {
+      "title": "Dark Light in the Sky",
+      "body": "The ominous sphere of dark light looming overhead casts a shadow of unease upon the land, reflected in the wary expressions of those around you.\n\nYet, amidst the apprehension, a flicker of excitement ignites within you. With each passing moment beneath its foreboding glow, you sense a surge of newfound strength coursing through your veins, a strange feeling of fear and anticipation intertwining within you.",
+      "rewards": {},
+      "effects": {
+        "overall": {
+          "exp_multiplier": {
+            "scaling_type": "linear",
+            "base": 2,
+            "scaling": 0
+          }
+        }
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_light": {
+              "story0": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_6_story1": {
+      "title": "Eldoria’s History I",
+      "body": "In a solemn audience with the King, you are briefed on the ominous phenomenon of the Dark Light looming in the sky. \n\nWith a reverent gesture, the King unveils a mysterious tome, its pages shrouded in an ethereal haze—an artifact immune to the ravages of time itself. \n\nHe reveals its origins, tracing back to the annals of Eldoria's founding monarch, bearing dire prophecies of the Dark Light's significance.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_light": {
+              "story1": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_6_story1_2": {
+      "title": "Eldoria’s History II",
+      "body": "The ancient text speaks of an arcane time spell, woven by demonic forces, poised to unravel the very fabric of humanity's progress. \n\nIt is a malevolent force, triggered only when human civilization reaches a certain stage of advancement—a harbinger of regression, threatening to undo millennia of achievement and learning. \n\nHumanity's evolution is stymied by this diabolical intervention, its potential stifled by the malevolent machinations of the underworld. This is not that first time that this has happened to Eldoria.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_light": {
+              "story1": {
+                "current_level": 2
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_6_story1_3": {
+      "title": "Eldoria’s History III",
+      "body": "Faced with this existential threat, the King beseeches your aid in leading Eldoria's valiant forces against the encroaching darkness. \n\nAs he readies the kingdom for the impending struggle, you pledge your unwavering support, resolved to stand as the vanguard against the demonic tide. \n\nWith steely determination, the King prepares to rally the populace, inspiring hope amidst the encroaching shadows..",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_light": {
+              "story1": {
+                "current_level": 3
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_6_story2": {
+      "title": "The King’s Speech I",
+      "body": "As the King addresses the assembled masses of Eldoria, a hush falls over the crowd, anticipation hanging thick in the air like a tangible presence. \n\nWith solemn gravitas, he unveils the truth behind the foreboding Dark Light that looms ominously overhead. The crowd's face darkens upon the revelation of the truth, while some remain resolute.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_light": {
+              "story2": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_6_story2_2": {
+      "title": "The King’s Speech II",
+      "body": "After a brief pause and with resolute conviction, he proclaims you, Eldoria's champion, as the beacon of hope to lead them in the impending conflict against this otherworldly menace.\n\nThe revelation sparks a surge of fervor among the populace, their faith in you as their stalwart defender unwavering in the face of adversity. Inspired by the indomitable spirit you displayed in the tournament, they rally behind you with unwavering resolve, their cheers echoing throughout the kingdom.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_light": {
+              "story2": {
+                "current_level": 2
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_6_story2_3": {
+      "title": "The King’s Speech III",
+      "body": "Amidst the swell of support and adulation, the King bestows upon you the highest honor the kingdom can offer—the title of the Grand Cross, a symbol of valor and righteousness that will pierce through the darkness shrouding Eldoria.\n\nWith this prestigious mantle, you stand as the vanguard of Eldoria's defense, ready to confront the encroaching shadows with unwavering courage and determination.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_light": {
+              "story2": {
+                "current_level": 3
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_6_story4": {
+      "title": "Moving towards the Dark Light",
+      "body": "With the army of Eldoria on your side, you shall lead them towards the dark light to the farther north.\n\n Moving an army through the shaded woods may be difficult, \n\nbut it is a must to get to the ritual in time and stop the dark light from enveloping Eldoria, turning back its time.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "stories": {
+            "life": {
+              "eldorian_army_companion": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_6_story5": {
+      "title": "A familiar War",
+      "body": "Approaching the ominous source of the dark light, you behold a vast legion of demons arranged in a formidable formation, encircling the ritualists conducting their sinister ceremony. \n\nThe palpable surge of mana in the air sends shivers down your spine, distorting the very fabric of time itself. \n\nAmidst the looming chaos, a sense of déjà vu washes over you, hinting at a familiarity with this harrowing battleground, perhaps from a distant, forgotten past.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_light": {
+              "story5": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_6_story6": {
+      "title": "Dwindling Enemies",
+      "body": "As the battle rages on, the ranks of demons thin with each strike, victory within your grasp. Yet, just as triumph seems imminent, the ritualists, sensing their impending defeat, unleash a devastating surge of magic, a final desperate bid to turn the tide. \n\nWith steadfast resolve, you and your army brace yourselves against the onslaught, knowing that enduring this cataclysmic assault will bring you one step closer to ultimate victory.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_light": {
+              "story6": {
+                "current_level": 20
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_6_story8": {
+      "title": "Dragon's Descent",
+      "body": "With the demon's army mostly wiped out, you hear a great roar from the sky. Fire rains down and a jet black dragon with red wings descends from above, looking down on everything with great pride. You have never seen this dragon before, but you know its name, \"Noek Suul\". The dragon is intrigued upon seeing you. It seems to know you and is protecting the ritualists from you.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_light": {
+              "story8": {
+                "current_level": 20
+              }
+            }
+          }
+        }
+      }
+    },
+    "near_death": {
+      "title": "Close to death",
+      "body": "You feel your body getting weaker..",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "age": {
+            "years": 45,
+            "days": 0
+          }
+        }
+      }
+    },
+    "manual_rebirth": {
+      "title": "Death?",
+      "body": "You feel that you should have died a while ago but it seems that you have somehow avoided the fate of death through old age. \n\nHowever, if you ever chose to, you can let death claim you.",
+      "rewards": {},
+      "effects": {
+        "text": "Manual Rebirth Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "rebirths": 10,
+          "age": {
+            "years": 51,
+            "days": 0
+          }
+        },
+        "1": {
+          "regressions": 1,
+          "age": {
+            "years": 51,
+            "days": 0
+          }
+        },
+        "2": {
+          "regressions": 1,
+          "temporals": {
+            "2": {
+              "time_skip": {
+                "current_level": 1
+              }
+            }
+          },
+          "age": {
+            "years": 30,
+            "days": 0
+          }
+        }
+      }
+    },
+    "limit_break": {
+      "title": "Limit Break",
+      "body": "Through the wisdom accumulated over your years, you've discovered a method to surpass your existing limits through rigorous training and discipline. \n\nThis demanding regimen promises to unlock unprecedented levels of power, yet it comes at a steep cost - the sacrifice of precious years from your life. \n\nDespite the toll it exacts, the unparalleled strength and abilities you stand to gain make this endeavor undeniably worthwhile.",
+      "rewards": {},
+      "effects": {
+        "text": "Limit Breaking Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "trainings": {
+            "physical": {
+              "limit_breaking": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "regression_1": {
+      "title": "Regression",
+      "body": "You seem to have an inkling that this place is not as great as you feel as it was before.\n\n You feel like it used to be a great kingdom..\n\nBut now it feels it is a shadow of its former self..",
+      "rewards": {},
+      "effects": {},
+      "steam_achievement_id": "TURN_BACK_TIME",
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "regressions": 1,
+          "stories": {
+            "lore": {
+              "rebirth_20": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "temporal_youth": {
+      "title": "Starting Young",
+      "body": "You have rebirthed into a younger version of yourself.\n\nThis situation may be beneficial.",
+      "rewards": {},
+      "effects": {
+        "text": "Schools training are unlocked much earlier."
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "regressions": 1,
+          "not_age": {
+            "years": 13
+          },
+          "stories": {
+            "lore": {
+              "start": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "temporal_training": {
+      "title": "Temporal Understanding",
+      "body": "After obtaining many temporal essences, you still feel that you have not fully understood the concept of time. \n\nYou feel that you should train more to understand time better.",
+      "rewards": {},
+      "effects": {
+        "text": "Temporal Training Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "regressions": 1,
+          "total_temporals": 25
+        }
+      }
+    },
+    "exploration_6_boss": {
+      "title": "Extinguishing the Dark Light",
+      "body": "In the seemingly unwinnable clash against Noek Suul, you harness every ounce of knowledge and willpower to survive. \n\nDespite the odds stacked against you, you refuse to yield. \n\nWitnessing your fierce determination and strength, Noek Suul flashes a rare smile before uttering, \"Perhaps you're worthy after all.\" \n\nWith those cryptic words, the dragon takes flight, leaving the ritualists vulnerable and exposed, allowing you to swiftly dispatch them and stop the dark ritual.",
+      "rewards": {},
+      "effects": {
+        "text": "Manual Regression and Tier II Temporal Skills Unlocked"
+      },
+      "steam_achievement_id": "DARK_LIGHT_ENDER",
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_light": {
+              "boss": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "enhancement_unlock": {
+      "title": "Enhancements",
+      "body": "As the Imperial Preceptor, you have gained grand riches and great fame. However, you are not sure how to use it.\n\nWhile still accumulating fame and riches, a thought came to your mind. What if you use them to your advantage to make your life better by enhancing them? \n\nAnd so that is what you did.",
+      "rewards": {},
+      "effects": {
+        "text": "Lifestyle Enhancements Unlocked."
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "imperial_preceptor": {
+                "current_level": 100
+              }
+            }
+          }
+        }
+      }
+    },
+    "civilization_level_5": {
+      "title": "Kingdom",
+      "body": "Eldoria's prominence has earned it the title of a Kingdom. Its people are united under a common banner, and its lands stretch further than ever before, promising a golden era.",
+      "rewards": {},
+      "effects": {
+        "text": "Ekistical Level upgraded to Kingdom."
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "civilization_capability": 150
+        }
+      }
+    },
+    "exploration_7_story0": {
+      "title": "A Chat",
+      "body": "Curious about the crowd, you decide to approach it. You spot a hooded person with long-ears poking out healing people of their ailments and injuries. Thinking back, you recognize them as the mysterious figure in the Shaded Woods. \n\nYou move closer to them and upon seeing you, they stop what they are doing. It seems they have something to discuss with you. ",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "story0": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_7_story1": {
+      "title": "Healer’s story",
+      "body": "The healer is from a land called Exah, where many races live together. They had been watching over this land as a scout to find people to help fight against the demons. \n\n Seeing Noek Suul retreat after your battle made them think you're the one that can help with the resistance against the demons. The healer wants you to follow them to the coalition of races to form an alliance. \n\nHearing this, you suggest that both of you go to the King. ",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "story1": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_7_story2": {
+      "title": "King’s Decision",
+      "body": "The King smiled upon seeing the healer, as if expecting them. He knew how the elves and humans fought together in the past to resist the demons before humanity regressed.\n\nWith humans getting stronger, he expected the elves to reconnect with them. As if they reconnected too early, the demons may fully end humanity as a civilization. \n\nThe healer stated his intentions of bringing you to the coalition of races as humanity's representative due to your strength and form an alliance.\n\nHearing this, the king went silent and drifted into deep thought. \n\n.\n\n.\n\n.\n\n\nAfter a while, the king agreed. The captain of the royal knights would take over as the Grand Cross of Eldoria while you are on your journey.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "story2": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_7_story3": {
+      "title": "Travel Plan",
+      "body": "The healer states that you will have to travel by sea. The coalition of races is situated on an island that is difficult to invade, as the path to it is filled with fog elementals. \n\nHe knows a relatively safe route there. However, the journey is not without risks.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "story3": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_7_story5": {
+      "title": "Island in the Horizon",
+      "body": "With the fog elementals defeated, the fog clears and you see an island in the horizon. Above that island is a smaller floating island that is filled with greenery. \n\nThe healer tells you that the island below is Exah. It is where the coalition of races is living together to resist the threat of the demons.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "story5": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_7_story6": {
+      "title": "Welcome",
+      "body": "Docking your boat at a port, you find guards standing with their weapons ready. The healer stepped out of the boat, showing them their badge. Upon recognizing the badge, the guards kneeled and apologized profusely. They nervously welcomed both you and the healer. \n\nThe healer advised that your next destination is to meet with the Elders to discuss matters regarding the alliance to battle the demons.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "story6": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_7_story7": {
+      "title": "Meeting",
+      "body": "You enter a grand hall filled with elders from various races. Their initial expressions surprise turning to shock upon seeing the Healer by your side.\n\n The Healer introduces you to them as someone that fended off Noek Suul during the attacks of the demons.\n\n Hearing this, a tense atmosphere lingered in the air for a while. Then suddenly, as if to dispel this air of awkwardness, one of the Elders put their hands together and suggested that you should rest after taking a long journey here. \n\nThey mentioned they would meet with you again soon and encouraged you to explore Exah, hinting that you might discover something of interest.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "story7": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_7_item0_0": {
+      "title": "World’s History I",
+      "body": "In ancient times, the races lived harmoniously in their respective kingdoms. However, everything changed when the demons, led by the Demon King, appeared, regressing their civilizations.",
+      "rewards": {},
+      "effects": {
+        "overall": {
+          "exp_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.05,
+            "scaling": 0
+          }
+        }
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "item0": {
+                "current_level": 5
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_7_item0_1": {
+      "title": "World’s History II",
+      "body": "Some races managed to resist, including humanity, despite their nascent kingdom. The First King of Humanity, along with the 10 Heroes, united the races to fight against the demons and halt the regression of their civilizations. \n\nTogether, they formed a coalition and resisted for a time. However, the sudden disappearance of the first king led to significant losses, and many civilizations, including humanity, regressed.",
+      "rewards": {},
+      "effects": {
+        "overall": {
+          "exp_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.05,
+            "scaling": 0
+          }
+        }
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "item0": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_7_item0_2": {
+      "title": "World’s History III",
+      "body": "The reason behind disappearance of the First King of Humanity is unknown, however, his will has been carried on by the coalition and they continued their resistance.\n\nNow, the coalition has retreated to Exah, a place beyond the demons' reach, where they bide their time, preparing to end the demons' reign.",
+      "rewards": {},
+      "effects": {
+        "overall": {
+          "exp_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.05,
+            "scaling": 0
+          }
+        }
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "item0": {
+                "current_level": 15
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_7_story9": {
+      "title": "Heroes’ Tests",
+      "body": "The Elders are pleased to welcome humanity into the alliance, acknowledging your resistance against the demons and your defense against Noek Suul. \n\nThey encourage you to undertake the tests of the 10 Heroes at the Hall of Heroes, believing it will benefit you. The Healer, who took the tests previously, passed only one and learned healing magic from a hero’s legacy.\n\n The Elders hope these trials will enhance your strength and help with the resistance against the demons.\n\nLocated at the Floating Groves above Exah, you head to the Hall of Heroes to challenge the tests.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "story9": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_7_story11": {
+      "title": "Hall’s Entrance",
+      "body": "After exploring the Floating Grove, you discover the entrance to the Hall of Heroes. The Hall appears ancient and strangely familiar. However, it is guarded by a formidable Roc, a challenging obstacle to overcome.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "story11": {
+                "current_level": 5
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_7_boss": {
+      "title": "Strange Behaviour",
+      "body": "During your battle with the Roc, it unexpectedly stops attacking and becomes affectionate. The sudden change in demeanor surprises you, but you welcome it.\n\n It seems to recognize you somehow. With the Roc no longer blocking your path, you can now enter the Hall of Heroes.",
+      "rewards": {},
+      "effects": {},
+      "steam_achievement_id": "ROC_CHASER",
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "boss": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_8_story3": {
+      "title": "The Tests",
+      "body": "As you approach the orb of light, your vision fades, and you awaken in a world of white. Before you stand ten figures who explain their tests. \n\nCompleting each test grants you the knowledge of a hero's legacy, with the difficulty increasing after each one. \n\nTo be recognized as a hero, you must complete three tests and a final challenge.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "story3": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_8_boss_unlock": {
+      "title": "The Final Test",
+      "body": "After completing 3 of the tests, the figures have told you that you can take the final test to be acknowledged as a hero. However, if you so wish, you can continue taking the other tests. You have the feeling that completing all the test is very beneficial to you but it is quite a challenge.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "boss": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_8_boss": {
+      "title": "Acknowledged",
+      "body": "After defeating the heroes in battle, they recognize you as the hero of this generation—the first to pass their tests in over a thousand years. As a reward for completing the final challenge, you receive a blessing to aid you in your journeys. With that, you return to Exah.",
+      "rewards": {},
+      "effects": {},
+      "steam_achievement_id": "RECOGNITION",
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "boss": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_8_superboss": {
+      "title": "You",
+      "body": "As you battle the Masked Person, their mask shatters, revealing your own face. \n\nThey cease their attack and lower their weapon. \n\nThey reveal that they are you from the future. Once a hero destined to fight the demon king, they failed and returned to share their knowledge, granting you a better chance at victory. \n\nWith that, they begin your training, increasing your potential which will transcend time.",
+      "rewards": {},
+      "effects": {
+        "text": "Tier III Temporal Skills Unlocked"
+      },
+      "steam_achievement_id": "UNVEILED",
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "superboss": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "civilization_level_6": {
+      "title": "Empiric Megapolis",
+      "body": "Eldoria has become an Empiric Megapolis, a powerful metropolis centralizing authority and culture. Its technological and societal achievements mark it as a beacon of progress.",
+      "rewards": {},
+      "effects": {
+        "text": "Ekistical Level upgraded to Empiric Megapolis."
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "civilization_capability": 200
+        }
+      }
+    },
+    "exploration_9_story0": {
+      "title": "A Hero",
+      "body": "With your return to Exah, you return to the Elders.\n\nOn your way, The Healer notices your change in strength and was delighted upon your return.\n\nAs you enter the building where the Elders reside, you show proof that you have gained the recognition of the heroes.\n\nThe Elders are overjoyed that you have passed the test and become a great ally to the resistance, stating that maybe, it is time to fight back.",
+      "rewards": {},
+      "effects": {
+        "overall": {
+          "exp_multiplier": {
+            "scaling_type": "linear",
+            "base": 2,
+            "scaling": 0
+          }
+        }
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "avanosh": {
+              "story0": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_9_story1": {
+      "title": "The Dragons",
+      "body": "In a discussion with the Elders, the topic turns to Dragons, the strongest creatures in this realm. Fighting back will be difficult due to them. Their physical, mental, and magical prowess surpass all of the races, with their weakness being their infertility. A dragon’s birth is greatly celebrated by their race.\n\nDuring the war with the demons, the dragons sided with the demons when the coalition was losing so that they wouldn't get regressed. \n\nDragons respect the strong. If you defeat them, then they'll listen to you. The one called Noek Suul is their ruler and the dragons live on a volcano called Avanosh. \n\nWith the dragon’s pride, only you have the right to speak to them and not perish. You are to go to Avanosh and discuss with the dragons.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "avanosh": {
+              "story1": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_9_story2": {
+      "title": "Avanosh",
+      "body": "As you step into Avanosh, the burning air pricks at your skin. Ahead, you see a volcano as tall as the skies, magma flowing down its sides. Near the top of the volcano are dragons flying around, gazing down on the world.\n\nAround the volcano, is a sea of lava surrounding its perimeter. To get to the volcano, you must find a way to get there.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "avanosh": {
+              "story2": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_9_story5": {
+      "title": "Deformed Dragons",
+      "body": "After much exploration, you find a path that will lead you up the Volcano. That path is home to creatures that are of great danger. The creatures resemble snakes with the scales of dragons. The path forward is blocked by them.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "avanosh": {
+              "story5": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_9_story7": {
+      "title": "Draconic Guardians",
+      "body": "As you get closer to the peak of the Volcano, dragons block your way and question the purpose of your visit. You tell them you want an audience with Noek Suul. The dragons laugh at your words and your intentions, telling you that only the strong can speak to their leader. \n\nIt seems that you must beat them in battle to get to Noek Suul.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "avanosh": {
+              "story7": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_9_story8": {
+      "title": "Meeting Noek Suul Again",
+      "body": "With the defeat of the dragons, you see a familiar silhouette dive down from the sky towards you. A silhouette that has ended your life for many of your regressions.\n\nIt asks why you have come when it has chosen to spare you.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "avanosh": {
+              "story8": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_9_boss_unlock": {
+      "title": "Demands",
+      "body": "You tell Noek Suul that you will fight with the demons and you want the dragons to stay out of the fight. \n\nThe Noek Suul laughs and tells you that you lack the strength to bestow orders unto him. You take this as a challenge and ask him for a fight.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "avanosh": {
+              "boss": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_9_boss_complete": {
+      "title": "Dragonic Promise",
+      "body": "With the defeat of Noek Suul, the dragons who witnessed the battle are left in stunned silence. But no one was more shocked than Noek Suul himself. He never imagined that the small being he once spared would one day be the one to bring him down.\n\nBut a loss is a loss. True to his word, Noek Suul decrees that the dragons will no longer support the demons and will withdraw from the conflict altogether.",
+      "rewards": {},
+      "effects": {},
+      "steam_achievement_id": "TRUE_DRAGON_SLAYER",
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "avanosh": {
+              "boss": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_9_superboss_complete": {
+      "title": "Dragonic Ally",
+      "body": "With your overwhelming strength, you have subdued Noek Suul, leaving the dragons in awe and fear. You defeated their leader with such ease that it seemed like a mere game. You demanded that the dragons stay out of the battle between you and the demons. However, Noek Suul, makes a different request. He reveals that while the dragons did not regress, the demons had cursed them, causing their offspring to be born deformed—a method of control.\n\nNoek Suul, determined to break free from this curse, asks to join your fight against the demons. He believes that if the dragons fight alongside you and succeed, there will come a time when their offspring will be born normal and healthy once more.",
+      "rewards": {},
+      "effects": {},
+      "steam_achievement_id": "DOMINATOR",
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "avanosh": {
+              "superboss": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_9_story9_complete": {
+      "title": "Triumphant Return",
+      "body": "As you return to Exah on a dragon, many eyes are upon you, looking at you in awe and astonishment. \n\n You meet with the Elders alongside creatures from other races you have never seen before. Among them you spot the King of Eldoria and the Mermaid Princess. Seeing Luminara, they also invited her. They seem to be discussing over war.",
+      "rewards": {},
+      "effects": {
+        "overall": {
+          "exp_multiplier": {
+            "scaling_type": "linear",
+            "base": 2,
+            "scaling": 0
+          }
+        }
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "avanosh": {
+              "story9": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_10_story0_complete": {
+      "title": "Offensive Plan",
+      "body": "All the races will lead their armies to siege the castle. With the armies as a distraction, you will defeat the Demon King, as you the realm's champion with overwhelming. \n\n The demon castle is surrounded by a barrier, powered by energy from 2 towers. The barrier is harmless to demons, but deadly to any other creatures. The two towers are on two separate islands far away from the castle itself. One is inhabited by Ancient Cataclysmic Watchers and the other by Titans. \n\nThe siege can only happen once the towers are down.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_sea": {
+              "story0": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_10_story1-2_complete": {
+      "title": "Power of the Dragons",
+      "body": "The dragons have destroyed the two towers with ease under the leadership of Noek Suul. The ancient Cataclysmic Watchers and Titans could not even stop nor let alone touch them. You are glad that the dragons are not supporting the demons anymore and are on your side.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_sea": {
+              "story1-2": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_10_beholder_tower_complete": {
+      "title": "Cataclysmic Watchers' Tower Destruction",
+      "body": "As you watch the tower crumble to the ground, you feel the air get lighter, making it easier to breathe. The miasma surrounding the Dark Sea seems to have lessened, making it better for life to thrive.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_sea": {
+              "story4": {
+                "current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "explorations": {
+            "dark_sea": {
+              "story4-2": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_10_titan_tower_complete": {
+      "title": "Titans' Tower Destruction",
+      "body": "As you watch the Titans' tower fall and crumble to the ground, the miasma lessens significantly . Light can now be seen on the Dark Sea. \n\n With the destruction of the two towers, the barrier around the Demon Castle is down. It's time to head there.",
+      "rewards": {},
+      "effects": {},
+      "steam_achievement_id": "TOWER_SMASHER",
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_sea": {
+              "story7": {
+                "current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "explorations": {
+            "dark_sea": {
+              "story7-2": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_11_story0_complete": {
+      "title": "Final Destination",
+      "body": "As you enter the castle, you hear the sounds of fighting and explosions from behind you. The demons and the rest of the races are at war, pinning their hopes on you to defeat the Demon King.",
+      "rewards": {},
+      "effects": {
+        "overall": {
+          "exp_multiplier": {
+            "scaling_type": "linear",
+            "base": 2,
+            "scaling": 0
+          }
+        }
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "yuksul": {
+              "story0": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_11_boss_unlock": {
+      "title": "Demon King",
+      "body": "The Demon King recognizes you and says that you have come again. He states that no matter how many times you try nothing will change. However, it does not matter to you. You carry on to battle.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "yuksul": {
+              "boss": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_11_boss_complete": {
+      "title": "Final Battle",
+      "body": "The Demon Lord is defeated, gasping for breath and down on one knee.\n\nUnable to accept his loss, he gathers mana from all of the races' regressions and his own life, using it all to summon a lifeform that could end the world. With great desperation, you push yourself to your limits in preparation of what is to come.\n\n This is your last battle.",
+      "rewards": {},
+      "effects": {
+        "text": "Tier IV Temporal Skills Unlocked"
+      },
+      "steam_achievement_id": "DEMON_SLAYER",
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "yuksul": {
+              "boss": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exploration_11_yuksul_end_complete": {
+      "title": "End of Battle",
+      "body": "As Altaraxia, a creature of planetary size, crumbles, the sky clears up. You gasp for breath as if you could not believe your own victory.\n\nThe reign of the demons over the realm is over. \n\nIt's time to move on to a better tomorrow.",
+      "rewards": {},
+      "effects": {},
+      "steam_achievement_id": "SAVIOUR",
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "yuksul": {
+              "yuksul_end": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "civilization_level_7": {
+      "title": "Unified Realm",
+      "body": "Eldoria now stands as a Unified Realm, where all its territories are consolidated into a harmonious and powerful state. Its legacy is destined to shape history for generations.",
+      "rewards": {},
+      "effects": {
+        "text": "Ekistical Level upgraded to Unified Realm."
+      },
+      "steam_achievement_id": "UNIFIED_REALM",
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "civilization_capability": 250
+        }
+      }
+    },
+    "millenium_of_peace": {
+      "title": "A Millenium of Peace",
+      "body": "It has been centuries since your last battle against Altaraxia, a victory that etched your name into history as the savior of the realm. Under your wise and steadfast rule, the realm has flourished. Wars are but distant memories, and the citizens live in peace and prosperity, their lives untroubled and content. Yet, amidst the joy of your people, you feel an unsettling emptiness within.\n\nThe thrill of the battles, the weight of the struggle, and the camaraderie forged in the fires of hardship—these experiences now feel like distant echoes. You yearn for the chaos and triumph that once defined your purpose. \n\nDespite the perfection of the present, you can’t shake the longing to relive it all, to once again stand on the precipice of destiny.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "age": {
+            "years": 1000
+          },
+          "jobs": {
+            "noble": {
+              "ruler_of_the_realm": {
+                "current_level": 400
+              }
+            }
+          }
+        }
+      }
+    },
+    "epilogue": {
+      "title": "Final Message",
+      "body": "Hello, this is Ryuse. \n\nThank you very much for playing this game! It must have taken you a while to get here. It has been quite a journey in making this game. This is my very first game and as inexperienced as I may have been, I really hope you have enjoyed Idle Reincarnator!\n\nIf you have any suggestions of feedback about the game, feel free to leave a message on the game's Discord server. \n\nAnyways, I wish you all the best for whatever endeavours you're gonna do! Thanks :D",
+      "rewards": {},
+      "effects": {},
+      "steam_achievement_id": "EPILOGUE",
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "stories": {
+            "lore": {
+              "millenium_of_peace": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "epilogue_2": {
+      "title": "Seriously?",
+      "body": "Hello, this is Ryuse, the maker of the game. \n\nIt seems that you have managed to make Altaraxia have 0% danger. Congratulations! \n\nBut why? Is everything alright? \n\nIt's an impressive achievement though! I'm actually very impressed. Good job!",
+      "rewards": {},
+      "effects": {},
+      "steam_achievement_id": "SERIOUSLY",
+      "popup": true,
+      "uncounted": true,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "yuksul": {
+              "superboss": {
+                "danger": 0
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

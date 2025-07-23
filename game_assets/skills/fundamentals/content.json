@@ -1,0 +1,205 @@
+{
+  "content": {
+    "heroic_potential": {
+      "name": "Heroic Potential",
+      "description": "Your potential for your growth. Greatly multiplies EXP Gain before you reach max level",
+      "base_exp_req": 10000,
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "before_max_level_exp_multiplier": {
+            "scaling_type": "linear",
+            "base": 1,
+            "scaling": 0.05
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "fundamentals": {
+              "heroic_potential": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "concentration": {
+      "name": "Concentration",
+      "description": "Enhance your ability to concentrate for extended periods",
+      "base_exp_req": 100,
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "exp_multiplier": {
+            "scaling_type": "logarithmic",
+            "base": 1,
+            "scaling": 20
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "fundamentals": {
+              "concentration": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "critical_thought": {
+      "name": "Critical Thought",
+      "description": "See things as they are with litle bias",
+      "base_exp_req": 100,
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "exp_multiplier": {
+            "scaling_type": "logarithmic",
+            "base": 1,
+            "scaling": 10
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "fundamentals": {
+              "critical_thought": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "resourcefulness": {
+      "name": "Resourcefulness",
+      "description": "Develop a keen eye for finding and utilizing resources",
+      "base_exp_req": 100,
+      "hidden": true,
+      "effects": {
+        "lifestyles": {
+          "content": {
+            "food": {
+              "expenses_multiplier": {
+                "scaling_type": "exponential",
+                "base": 1,
+                "scaling": 0.995
+              }
+            }
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "fundamentals": {
+              "resourcefulness": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "luck": {
+      "name": "Luck",
+      "description": "An invisible thing that affects your life in various ways",
+      "base_exp_req": 100,
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "danger_decrease": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 0.2
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "fundamentals": {
+              "luck": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "literacy": {
+      "name": "Literacy",
+      "description": "Learn how to read and write, allowing you to read books and scrolls.",
+      "base_exp_req": 200,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "exp_multiplier": {
+            "scaling_type": "logarithmic",
+            "base": 1,
+            "scaling": 30
+          }
+        },
+        "lifestyles": {
+          "content": {
+            "item": {
+              "content": {
+                "book": {
+                  "level_increase": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.1
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "fundamentals": {
+              "literacy": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "temporal_knowledge": {
+      "name": "Temporal Knowledge",
+      "description": "Your knowledge with the temporal powers.",
+      "base_exp_req": 100000000,
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "temporal_essence_rebirth_gain_multiplier": {
+            "scaling_type": "logarithmic",
+            "base": 1,
+            "scaling": 20
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "fundamentals": {
+              "temporal_knowledge": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

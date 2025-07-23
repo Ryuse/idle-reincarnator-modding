@@ -1,0 +1,728 @@
+{
+  "content": {
+    "story0": {
+      "name": "A large crowd",
+      "action_type": "fundamentals",
+      "description": "A crowd has formed in the middle of the town square. You seem quite curious about it.",
+      "points_needed": 500000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "fundamentals": {
+              "content": {
+                "luck": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_light": {
+              "story9": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story1": {
+      "name": "Long Eared Healer",
+      "action_type": "social",
+      "description": "The healer seems to want to discuss something with you. ",
+      "points_needed": 500000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "grace": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "story0": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story2": {
+      "name": "Talk to the King",
+      "action_type": "social",
+      "description": "You decided to discuss the matter with the king.",
+      "points_needed": 500000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "grace": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "story1": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story3": {
+      "name": "Plans of Travel",
+      "action_type": "exploring",
+      "description": "Develop a plan of travel to Exah with the Healer.",
+      "points_needed": 1000000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 500,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "story2": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story4": {
+      "name": "Sail to Exah",
+      "action_type": "exploring",
+      "description": "Sail to Exah with the Storm Boat. This will be a long journey",
+      "points_needed": 5000000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 1000
+      },
+      "expense": 0,
+      "danger": 1600,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 500,
+                    "scaling": 0
+                  }
+                },
+                "world_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 500,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "story3": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story5": {
+      "name": "Battle Fog Elementals",
+      "action_type": "combat",
+      "description": "Fog covered your surroundings obscuring your view. It must be the Fog Elementals. Fight them! ",
+      "points_needed": 1000000000,
+      "rewards": {
+        "gold": 1500,
+        "renown": 800
+      },
+      "expense": 0,
+      "danger": 1700,
+      "repeat_max": -1,
+      "repeatable": true,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "defense": {
+              "content": {
+                "evasion_techniques": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            },
+            "combat": {
+              "content": {
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "story4": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story6": {
+      "name": "Arrive at Exah",
+      "action_type": "exploring",
+      "description": "Dock your Stormboat at Exah.",
+      "points_needed": 1000000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 1000
+      },
+      "expense": 0,
+      "danger": 1600,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 500,
+                    "scaling": 0
+                  }
+                },
+                "world_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 500,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "story5": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "story7": {
+      "name": "Meeting with the Elder of Races",
+      "action_type": "social",
+      "description": "The Healer has brought you to meet the Elders of the races.",
+      "points_needed": 1000000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 2000
+      },
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "grace": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "story6": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story8": {
+      "name": "Explore Exah",
+      "action_type": "exploring",
+      "description": "Exah has a lot of interesting things, maybe you can explore it while waiting.",
+      "points_needed": 5000000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": true,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "story7": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "item0": {
+      "name": "Exian Library",
+      "action_type": "fundamentals",
+      "description": "Read the books in the Exian Library",
+      "points_needed": 2000000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": true,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "fundamentals": {
+              "content": {
+                "literacy": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "story8": {
+                "current_level": 5
+              }
+            }
+          }
+        }
+      }
+    },
+    "item1": {
+      "name": "Explore the Market",
+      "action_type": "social",
+      "description": "Explore the Exian Market, maybe you'll find something good.",
+      "points_needed": 1000000000,
+      "rewards": {},
+      "expense": 5000,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": true,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "grace": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "story8": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "story9": {
+      "name": "Meet with the Elders Again",
+      "action_type": "social",
+      "description": "The elders want to meet you again.",
+      "points_needed": 1000000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 5000
+      },
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "grace": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "story8": {
+                "current_level": 5
+              }
+            }
+          }
+        }
+      }
+    },
+    "story10": {
+      "name": "Head to the Floating Groves",
+      "action_type": "arcane",
+      "description": "The Hall of Heroes is within the levitating island. Take a portal to get there.",
+      "points_needed": 1000000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 1800,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                },
+                "world_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "story9": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story11": {
+      "name": "Explore the Floating Groves",
+      "action_type": "exploring",
+      "description": "Explore the Floating Groves and find the Hall of Heroes",
+      "points_needed": 100000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 1850,
+      "repeat_max": -1,
+      "repeatable": true,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "story10": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "item2": {
+      "name": "Collect Mana Berries",
+      "action_type": "scavenging",
+      "description": "There are berries in the Floating Groves that increases your mana.",
+      "points_needed": 1000000000,
+      "rewards": {
+        "gold": 2000,
+        "renown": 1000
+      },
+      "expense": 0,
+      "danger": 1900,
+      "repeat_max": -1,
+      "repeatable": true,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "scavenging": {
+              "content": {
+                "herbal_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "story11": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "boss": {
+      "name": "Hall Guardian",
+      "action_type": "combat",
+      "description": "Fight the Guard protecting the entrance to the hall of heroes.",
+      "is_boss": true,
+      "points_needed": 10000000000,
+      "rewards": {
+        "gold": 1000000,
+        "renown": 100000,
+        "happiness": 0.05,
+				"temporal": 1,
+				"eternal_lifespan_day": 10
+      },
+      "expense": 0,
+      "danger": 2100,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "defense": {
+              "content": {
+                "endurance": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            },
+            "combat": {
+              "content": {
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "story11": {
+                "current_level": 5
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

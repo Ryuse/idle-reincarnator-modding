@@ -1,0 +1,748 @@
+{
+  "content": {
+    "page": {
+      "name": "Page",
+      "description": "Initiate your journey into the prestigious Order of the Knights, gaining experience as a dedicated recruit.",
+      "base_income": 1.9,
+      "is_passive_income": false,
+      "base_exp_req": 80,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "knight": {
+              "content": {
+                "page": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.02
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "skills": {
+            "combat": {
+              "strength": {
+                "current_level": 5
+              }
+            }
+          }
+        }
+      }
+    },
+    "squire": {
+      "name": "Squire",
+      "description": "Progress within the order, honing your skills and serving as a reliable squire.",
+      "base_income": 2.5,
+      "is_passive_income": false,
+      "base_exp_req": 100,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "knight": {
+              "content": {
+                "squire": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.05
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "knight": {
+              "page": {
+                "current_level": 10
+              }
+            }
+          },
+          "skills": {
+            "combat": {
+              "strength": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "footman": {
+      "name": "Footman",
+      "description": "Transform into a trained recruit, standing ready for battle as a disciplined footman.",
+      "base_income": 3,
+      "is_passive_income": false,
+      "base_exp_req": 200,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "knight": {
+              "content": {
+                "footman": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.08
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "skills": {
+            "defense": {
+              "agility": {
+                "current_level": 10
+              }
+            },
+            "combat": {
+              "strength": {
+                "current_level": 20
+              }
+            }
+          },
+          "jobs": {
+            "knight": {
+              "squire": {
+                "current_level": 20
+              }
+            }
+          }
+        }
+      }
+    },
+    "cavalier": {
+      "name": "Cavalier",
+      "description": "A skilled cavalry member, mastering the art of combat on horseback.",
+      "base_income": 4,
+      "is_passive_income": false,
+      "base_exp_req": 300,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "knight": {
+              "content": {
+                "cavalier": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.1
+                  }
+                },
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.1
+                  }
+                }
+              }
+            },
+            "exploring": {
+              "content": {
+                "riding": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.1
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "skills": {
+            "combat": {
+              "strength": {
+                "current_level": 50
+              },
+              "combat_knowledge": {
+                "current_level": 10
+              }
+            }
+          },
+          "jobs": {
+            "knight": {
+              "footman": {
+                "current_level": 20
+              }
+            }
+          },
+          "renown": 100
+        }
+      }
+    },
+    "knight": {
+      "name": "Knight",
+      "description": "Attain the esteemed rank of a knight, surpassing the capabilities of a standard soldier.",
+      "base_income": 7,
+      "is_passive_income": false,
+      "base_exp_req": 500,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "knight": {
+              "content": {
+                "knight": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.15
+                  }
+                },
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.15
+                  }
+                }
+              }
+            },
+            "exploring": {
+              "content": {
+                "riding": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.15
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "skills": {
+            "combat": {
+              "combat_knowledge": {
+                "current_level": 75
+              }
+            }
+          },
+          "jobs": {
+            "knight": {
+              "cavalier": {
+                "current_level": 20
+              }
+            },
+            "noble": {
+              "baron": {
+                "current_level": 20
+              }
+            }
+          }
+        }
+      }
+    },
+    "great_knight": {
+      "name": "Great Knight",
+      "description": "Rise to the pinnacle as a formidable knight, outclassing most individuals in strength and skill and reaching the human physical limits.",
+      "base_income": 10,
+      "is_passive_income": false,
+      "base_exp_req": 750,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "knight": {
+              "content": {
+                "great_knight": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.2
+                  }
+                },
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.2
+                  }
+                }
+              }
+            },
+            "exploring": {
+              "content": {
+                "riding": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.2
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "skills": {
+            "combat": {
+              "combat_knowledge": {
+                "current_level": 100
+              }
+            }
+          },
+          "jobs": {
+            "knight": {
+              "knight": {
+                "current_level": 20
+              }
+            }
+          },
+          "renown": 5000
+        }
+      }
+    },
+    "lord_knight": {
+      "name": "Lord Knight",
+      "description": "A Lord Knight encompasses the pinnacle of martial prowess and noble leadership. Clad in resplendent armor and wielding a formidable blade, a Lord Knight is a seasoned and chivalrous warrior sworn to protect their people and land.",
+      "base_income": 14,
+      "is_passive_income": false,
+      "base_exp_req": 750,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "knight": {
+              "content": {
+                "lord_knight": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.5
+                  }
+                },
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.5
+                  }
+                }
+              }
+            },
+            "exploring": {
+              "content": {
+                "riding": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.3
+                  }
+                }
+              }
+            },
+            "social": {
+              "content": {
+                "leadership": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.3
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "skills": {
+            "combat": {
+              "combat_knowledge": {
+                "current_level": 150
+              },
+              "weapon_mastery": {
+                "current_level": 150
+              }
+            }
+          },
+          "jobs": {
+            "knight": {
+              "great_knight": {
+                "current_level": 50
+              }
+            },
+            "noble": {
+              "marquis": {
+                "current_level": 50
+              }
+            }
+          }
+        }
+      }
+    },
+    "mystic_knight": {
+      "name": "Mystic Knight",
+      "description": "A knight with mystical knowledge",
+      "base_income": 20,
+      "is_passive_income": false,
+      "base_exp_req": 1000,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "knight": {
+              "content": {
+                "mystic_knight": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 1
+                  }
+                },
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 1
+                  }
+                }
+              }
+            },
+            "exploring": {
+              "content": {
+                "riding": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.5
+                  }
+                }
+              }
+            },
+            "social": {
+              "content": {
+                "leadership": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.5
+                  }
+                }
+              }
+            },
+            "arcane": {
+              "content": {
+                "mana_sense": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.2
+                  }
+                },
+                "mana_control": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.2
+                  }
+                },
+                "spell_craft": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.1
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "skills": {
+            "combat": {
+              "combat_knowledge": {
+                "current_level": 200
+              },
+              "weapon_mastery": {
+                "current_level": 200
+              }
+            }
+          },
+          "jobs": {
+            "knight": {
+              "lord_knight": {
+                "current_level": 100
+              }
+            },
+            "noble": {
+              "archduke": {
+                "current_level": 100
+              }
+            },
+            "arcanic": {
+              "magi": {
+                "current_level": 100
+              }
+            }
+          }
+        }
+      }
+    },
+    "grand_cross": {
+      "name": "The Grand Cross",
+      "description": "The leader of the order of the knights",
+      "base_income": 25,
+      "is_passive_income": false,
+      "base_exp_req": 2000,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "knight": {
+              "content": {
+                "grand_cross": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 1.5
+                  }
+                },
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 1.5
+                  }
+                }
+              }
+            },
+            "exploring": {
+              "content": {
+                "riding": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 1
+                  }
+                }
+              }
+            },
+            "social": {
+              "content": {
+                "leadership": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 1
+                  }
+                }
+              }
+            },
+            "arcane": {
+              "content": {
+                "mana_sense": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.5
+                  }
+                },
+                "mana_control": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.5
+                  }
+                },
+                "spell_craft": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.2
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "knight": {
+              "mystic_knight": {
+                "current_level": 50
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1004 @@
+{
+  "content": {
+    "story0": {
+      "name": "Plan the Offensive",
+      "action_type": "social",
+      "description": "With the dragons not helping the demons, it’s time to strike back.",
+      "points_needed": 1e12,
+      "rewards": {
+        "gold": 0,
+        "renown": 1e5
+      },
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "charm": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "negotiation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "leadership": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "teaching": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "avanosh": {
+              "story9": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story1": {
+      "name": "Proceed with the plan",
+      "action_type": "social",
+      "description": "Prepare to heal to destroy the towers.",
+      "points_needed": 1e12,
+      "rewards": {
+        "gold": 0,
+        "renown": 1e5
+      },
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "charm": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "negotiation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "leadership": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_sea": {
+              "story0": {
+                "current_level": 1
+              },
+              "story1-2": {
+                "not_current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story1-2": {
+      "name": "Change of plans",
+      "action_type": "social",
+      "description": "Let Noek Suul and his kins destroy the towers.",
+      "points_needed": 1e12,
+      "rewards": {
+        "gold": 0,
+        "renown": 1e6
+      },
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "charm": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "negotiation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "leadership": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "avanosh": {
+              "superboss": {
+                "current_level": 1
+              }
+            },
+            "dark_sea": {
+              "story0": {
+                "current_level": 1
+              },
+              "story1": {
+                "not_current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "skip0": {
+      "name": "Build a Mystic Explosive",
+      "action_type": "creating",
+      "description": "Maybe creating a weapon that can blow up the towers would make the mission easier.",
+      "points_needed": 1e12,
+      "rewards": {
+        "gold": 0,
+        "renown": 1e5
+      },
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "creating": {
+              "content": {
+                "woodworking_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "1": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "2": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "3": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_sea": {
+              "story1": {
+                "current_level": 1
+              }
+            }
+          },
+          "technologies": {
+            "6": {
+              "volcanic_forge": {
+                "unlocked": true
+              }
+            }
+          },
+          "jobs": {
+            "heroic": {
+              "grand_creator": {
+                "current_level": 150
+              }
+            }
+          }
+        }
+      }
+    },
+    "story2": {
+      "name": "Sail to the Cataclysmic Watchers' Island",
+      "action_type": "exploring",
+      "description": "Sail to the island using the Stormboat",
+      "points_needed": 5e12,
+      "rewards": {
+        "gold": 0,
+        "renown": 1e5
+      },
+      "expense": 0,
+      "danger": 2900,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "world_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_sea": {
+              "story1": {
+                "current_level": 1
+              },
+              "story2-2": {
+                "not_current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story2-2": {
+      "name": "Stream to the Cataclysmic Watchers' Island",
+      "action_type": "fishing",
+      "description": "Let the aquatic creatures guide you.",
+      "points_needed": 5e11,
+      "rewards": {
+        "gold": 0,
+        "renown": 1e5
+      },
+      "expense": 0,
+      "danger": 2400,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "world_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                }
+              }
+            },
+            "fishing": {
+              "content": {
+                "aquatic_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_sea": {
+              "story1": {
+                "current_level": 1
+              },
+              "story2": {
+                "not_current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "boss": {
+      "name": "Cataclysmic Watchers",
+      "action_type": "combat",
+      "description": "Defeat the Cataclysmic Watchers flying in the sky protecting the barrier source",
+      "points_needed": 5e13,
+      "is_boss": true,
+      "rewards": {
+        "gold": 1e7,
+        "renown": 1e7,
+        "happiness": 0.2,
+				"lifespan_day": 600,
+				"temporal": 3,
+				"eternal_lifespan_day": 10
+      },
+      "expense": 0,
+      "danger": 3300,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "2": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_sea": {
+              "story2": {
+                "current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "explorations": {
+            "dark_sea": {
+              "story2-2": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story4": {
+      "name": "Destroy the Cataclysmic Watchers' tower",
+      "action_type": "creating",
+      "description": "Destroy the Cataclysmic Watchers' Tower with your strength. Safe but might take a while.",
+      "points_needed": 1e14,
+      "rewards": {
+        "gold": 0,
+        "renown": 1e7
+      },
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "creating": {
+              "content": {
+                "woodworking_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "engineering": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "crafting": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_sea": {
+              "boss": {
+                "current_level": 1
+              },
+              "story4-2": {
+                "not_current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story4-2": {
+      "name": "Blow up the Cataclysmic Watchers' tower",
+      "action_type": "creating",
+      "description": "Destroy the Tower through explosion. It is quick but might be dangerous",
+      "points_needed": 1e12,
+      "rewards": {
+        "gold": 0,
+        "renown": 1e7
+      },
+      "expense": 0,
+      "danger": 3200,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "creating": {
+              "content": {
+                "woodworking_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "engineering": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "crafting": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_sea": {
+              "boss": {
+                "current_level": 1
+              },
+              "skip0": {
+                "current_level": 1
+              },
+              "story4": {
+                "not_current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story5": {
+      "name": "Sail to the Titans’ Island",
+      "action_type": "exploring",
+      "description": "Sail to the island using the Stormboat",
+      "points_needed": 1e13,
+      "rewards": {
+        "gold": 0,
+        "renown": 1e5
+      },
+      "expense": 0,
+      "danger": 3000,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "world_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_sea": {
+              "story4": {
+                "current_level": 1
+              },
+              "story5-2": {
+                "not_current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "explorations": {
+            "dark_sea": {
+              "story4-2": {
+                "current_level": 1
+              },
+              "story5-2": {
+                "not_current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story5-2": {
+      "name": "Stream to the Titans’ Island",
+      "action_type": "fishing",
+      "description": "Let the aquatic creatures guide you.",
+      "points_needed": 5e12,
+      "rewards": {
+        "gold": 0,
+        "renown": 1e5
+      },
+      "expense": 0,
+      "danger": 2500,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                },
+                "world_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                }
+              }
+            },
+            "fishing": {
+              "content": {
+                "aquatic_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_sea": {
+              "story4": {
+                "current_level": 1
+              },
+              "story5": {
+                "not_current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "explorations": {
+            "dark_sea": {
+              "story4-2": {
+                "current_level": 1
+              },
+              "story5": {
+                "not_current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "boss-2": {
+      "name": "Titans",
+      "action_type": "combat",
+      "description": "Defeat the Titans, the ancient giants protecting the barrier source.",
+      "points_needed": 1e14,
+      "is_boss": true,
+      "rewards": {
+        "gold": 1e7,
+        "renown": 1e7,
+        "happiness": 0.2,
+				"lifespan_day": 600,
+				"temporal": 3,
+				"eternal_lifespan_day": 10
+      },
+      "expense": 0,
+      "danger": 3500,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "2": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_sea": {
+              "story5": {
+                "current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "explorations": {
+            "dark_sea": {
+              "story5-2": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story7": {
+      "name": "Destroy the Titans' tower",
+      "action_type": "creating",
+      "description": "Destroy the Titans Tower with your strength. It might be slower but less dangerous.",
+      "points_needed": 5e14,
+      "rewards": {
+        "gold": 0,
+        "renown": 1e7
+      },
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "creating": {
+              "content": {
+                "woodworking_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "engineering": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "crafting": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_sea": {
+              "boss-2": {
+                "current_level": 1
+              },
+              "story7-2": {
+                "not_current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story7-2": {
+      "name": "Blow up the Titans' tower",
+      "action_type": "creating",
+      "description": "Destroy the Tower through explosion. Quick but dangerous.",
+      "points_needed": 5e12,
+      "rewards": {
+        "gold": 0,
+        "renown": 1e7
+      },
+      "expense": 0,
+      "danger": 3300,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "creating": {
+              "content": {
+                "woodworking_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "engineering": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "crafting": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_sea": {
+              "boss-2": {
+                "current_level": 1
+              },
+              "skip0": {
+                "current_level": 1
+              },
+              "story7": {
+                "not_current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story8": {
+      "name": "Head towards the Demon Castle",
+      "action_type": "exploring",
+      "description": "Head towards the final battle.",
+      "points_needed": 1e13,
+      "rewards": {},
+      "expense": 0,
+      "danger": 3000,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "riding": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "world_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_sea": {
+              "story7": {
+                "current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "explorations": {
+            "dark_sea": {
+              "story7-2": {
+                "current_level": 1
+              }
+            }
+          }
+        },
+        "2": {
+          "explorations": {
+            "dark_sea": {
+              "story1-2": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "content": {
+    "timeless_wealth": {
+      "name": "Timeless Wealth",
+      "description": "Coins imbued with the power of time will follow you in your next lives. For each level of Timeless wealth, you start an additional with 1000 gold each.",
+      "hidden": true,
+      "effects": {},
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 1,
+      "max_level": -1
+    },
+    "historical_memory": {
+      "name": "Historical Deeds",
+      "description": "Your deeds are remembered by time. For each level of Historical Deeds, you start with an additional 100 renown each.",
+      "hidden": true,
+      "effects": {},
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 1,
+      "max_level": -1
+    },
+    "chronic_insight": {
+      "name": "Chronic Insight",
+      "description": "Reduces the scaling of exp required by 1% (Additively) per each level",
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "exp_required_percentage_reduction": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 1
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 2,
+      "max_level": 20
+    },
+    "accelerated_perception": {
+      "name": "Accelerated Perception",
+      "description": "Increases Game Speed by x0.1 for each level",
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "gamespeed_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.0,
+            "scaling": 0.1
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 3,
+      "max_level": 5
+    },
+    "temporal_adaptation": {
+      "name": "Temporal Adaptation",
+      "description": "Your body adapts to the power of time better.\n\nDecreases rebirths required to obtain temporal essence by 1 and Lifespan increases by 10 years for each level",
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "lifespan_year_increase": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 10
+          },
+          "temporal_essence_rebirth_needed_reduction": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 1
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 3,
+      "max_level": 5
+    },
+    "eternal_learnings": {
+      "name": "Eternal Learnings",
+      "description": "Break the limit of leveling up once with overflow experience. Overflowing experience will level up Job, Trainings, and Skills more than once. The amount of level ups depends on its level.",
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "level_up_cap": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 1
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 5,
+      "max_level": 5
+    },
+    "stored_miracles": {
+      "name": "Stored Miracles",
+      "description": "Gain miracles for every 100 luck level for every life. Dying during explorations consumes a miracle which will prevent your death.",
+      "hidden": true,
+      "effects": {},
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 2,
+      "max_level": 1
+    },
+    "fairy's_motivation": {
+      "name": "Fairy’s Motivation",
+      "description": "Luminara’s Tapper automatically fills up",
+      "hidden": true,
+      "effects": {},
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 1,
+      "max_level": 1
+    },
+    "making_of_a_fairy_queen": {
+      "name": "Making of a Fairy Queen",
+      "description": "Each time a fairy is defeated during battle, they will follow Luminara, increasing the max fairy buffs.",
+      "hidden": true,
+      "effects": {},
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 5,
+      "max_level": 1
+    },
+    "indomitable_will": {
+      "name": "Indomitable Will",
+      "description": "When dying during an exploration, choose to press on only once for each exploration.",
+      "hidden": true,
+      "effects": {},
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 10,
+      "max_level": 1
+    },
+    "temporal_youth": {
+      "name": "Temporal Youth",
+      "description": "Rebirth at the age of 12.",
+      "hidden": true,
+      "effects": {},
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 5,
+      "max_level": 1
+    }
+  }
+}

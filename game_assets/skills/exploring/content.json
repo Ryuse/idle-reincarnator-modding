@@ -1,0 +1,86 @@
+{
+  "content": {
+    "riding": {
+      "name": "Riding",
+      "description": "Be more proficient at riding anything, treating anything you seat on as an extension of yourself",
+      "base_exp_req": 200,
+      "hidden": true,
+      "effects": {
+        "lifestyles": {
+          "content": {
+            "transportation": {
+              "level_increase": {
+                "scaling_type": "linear",
+                "base": 0,
+                "scaling": 0.1
+              }
+            }
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "exploring": {
+              "riding": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "navigation": {
+      "name": "Navigation",
+      "description": "Ability to navigate and find the most efficient routes.",
+      "base_exp_req": 200,
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "exploration_speed_multiplier": {
+            "scaling_type": "linear",
+            "base": 1,
+            "scaling": 0.01
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "exploring": {
+              "navigation": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "world_lore": {
+      "name": "World Lore",
+      "description": "Learn the history of the world and where things are",
+      "base_exp_req": 300,
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "exploration_speed_multiplier": {
+            "scaling_type": "linear",
+            "base": 1,
+            "scaling": 0.01
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "exploring": {
+              "world_lore": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

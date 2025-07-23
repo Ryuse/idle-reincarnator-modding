@@ -1,0 +1,272 @@
+{
+  "name": "Civilization",
+  "tab_name": "Tech",
+  "description": "[center]You have introduced technologies to Eldoria, advancing it as a civilization. The higher the Civilization Capability and Ekistical Level, the happier its people.\n\nThese technologies have bonuses and persists through rebirths.[/center]",
+  "types": {
+    "1": {
+      "name": "I",
+      "civilization_value": 1,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "honorary_baron": {
+                "current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "technologies": {
+            "1": {
+              "was_any_unlocked": true
+            }
+          }
+        }
+      }
+    },
+    "2": {
+      "name": "II",
+      "civilization_value": 2,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "viscount": {
+                "current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "technologies": {
+            "2": {
+              "was_any_unlocked": true
+            }
+          }
+        }
+      }
+    },
+    "3": {
+      "name": "III",
+      "civilization_value": 3,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "count": {
+                "current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "technologies": {
+            "3": {
+              "was_any_unlocked": true
+            }
+          }
+        }
+      }
+    },
+    "4": {
+      "name": "IV",
+      "civilization_value": 4,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "marquis": {
+                "current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "technologies": {
+            "4": {
+              "was_any_unlocked": true
+            }
+          }
+        }
+      }
+    },
+    "5": {
+      "name": "V",
+      "civilization_value": 5,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "duke": {
+                "current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "technologies": {
+            "5": {
+              "was_any_unlocked": true
+            }
+          }
+        }
+      }
+    },
+    "6": {
+      "name": "VI",
+      "civilization_value": 8,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "archduke": {
+                "current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "technologies": {
+            "6": {
+              "was_any_unlocked": true
+            }
+          }
+        }
+      }
+    },
+    "7": {
+      "name": "VII",
+      "civilization_value": 10,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "imperial_preceptor": {
+                "current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "technologies": {
+            "7": {
+              "was_any_unlocked": true
+            }
+          }
+        }
+      }
+    },
+    "0": {
+      "name": "Σ",
+      "civilization_value": 5,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "technologies": {
+            "0": {
+              "was_any_unlocked": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "civilization_levels": {
+    "village_dominion": {
+      "name": "Village Dominion",
+      "happiness_bonus": 0,
+      "requirements": {
+        "0": {
+          "civilization_capability": 0
+        }
+      }
+    },
+    "township": {
+      "name": "Township",
+      "happiness_bonus": 0.1,
+      "requirements": {
+        "0": {
+          "civilization_capability": 10
+        }
+      }
+    },
+    "duchy": {
+      "name": "Duchy",
+      "happiness_bonus": 0.2,
+      "requirements": {
+        "0": {
+          "civilization_capability": 30
+        }
+      }
+    },
+    "regiopolis": {
+      "name": "Regiopolis",
+      "happiness_bonus": 0.3,
+      "requirements": {
+        "0": {
+          "civilization_capability": 60
+        }
+      }
+    },
+    "fiefdom": {
+      "name": "Fiefdom",
+      "happiness_bonus": 0.5,
+      "requirements": {
+        "0": {
+          "civilization_capability": 100
+        }
+      }
+    },
+    "kingdom": {
+      "name": "Kingdom",
+      "happiness_bonus": 0.7,
+      "requirements": {
+        "0": {
+          "civilization_capability": 150
+        }
+      }
+    },
+    "empiric_megapolis": {
+      "name": "Empiric Megapolis",
+      "happiness_bonus": 0.9,
+      "requirements": {
+        "0": {
+          "civilization_capability": 200
+        }
+      }
+    },
+    "unified_realm": {
+      "name": "Unified Realm",
+      "happiness_bonus": 1.5,
+      "requirements": {
+        "0": {
+          "civilization_capability": 250
+        }
+      }
+    }
+  },
+  "requirements": {
+    "0": {
+      "technologies": {
+        "1": {
+          "was_any_unlocked": true
+        }
+      }
+    },
+    "1": {
+      "jobs": {
+        "noble": {
+          "was_any_unlocked": true
+        }
+      }
+    }
+  }
+}

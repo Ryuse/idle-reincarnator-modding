@@ -1,0 +1,183 @@
+{
+  "content": {
+    "luminara": {
+      "name": "Luminara",
+      "description": "This annoying fairy will try to motivate you, If you feed her.",
+      "hidden": false,
+      "effects": {
+        "text": "Shows a tapable area that will multiply your overall happiness when tapped"
+      },
+      "expense": 1,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "shaded_woods": {
+              "story8": {
+                "current_max_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "puppy": {
+      "name": "Wolf Puppy",
+      "description": "A wild wolf puppy that decided to follow you. It makes you happy.",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "happiness_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.5,
+            "scaling": 0.1
+          }
+        }
+      },
+      "expense": 10,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "stories": {
+            "life": {
+              "puppy_companion": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "fish_king": {
+      "name": "Genomic Fish",
+      "description": "A fish that rules above other fishes and makes them healthier.",
+      "hidden": true,
+      "effects": {
+        "lifestyles": {
+          "content": {
+            "food": {
+              "content": {
+                "fish": {
+                  "level_increase": {
+                    "scaling_type": "linear",
+                    "base": 50,
+                    "scaling": 5
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "expense": 10,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "stories": {
+            "life": {
+              "king_fish": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "old_farmer": {
+      "name": "The Old Farmer",
+      "description": "This Old Farmer is stronger than you thought",
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "danger_decrease": {
+            "scaling_type": "linear",
+            "base": 50,
+            "scaling": 1
+          }
+        }
+      },
+      "expense": 1,
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "ancient_crypt": {
+              "ally0": {
+                "current_level": 1
+              },
+              "boss": {
+                "not_current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "eldorian_army": {
+      "name": "Eldorian Army",
+      "description": "Lead the army of Eldoria to fight with you.",
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "danger_decrease": {
+            "scaling_type": "linear",
+            "base": 1000,
+            "scaling": 10
+          }
+        }
+      },
+      "expense": 1000,
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "stories": {
+            "life": {
+              "eldorian_army_companion": {
+                "unlocked": true
+              }
+            }
+          },
+          "explorations": {
+            "dark_light": {
+              "story9": {
+                "not_current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "noek_suul": {
+      "name": "Noek Suul",
+      "description": "The ruler of the dragons and a timeless being.",
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "danger_decrease": {
+            "scaling_type": "linear",
+            "base": 150,
+            "scaling": 3
+          },
+          "exp_multiplier": {
+            "scaling_type": "linear",
+            "base": 2,
+            "scaling": 0.2
+          }
+        }
+      },
+      "expense": 0,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "stories": {
+            "lore": {
+              "exploration_9_superboss_complete": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

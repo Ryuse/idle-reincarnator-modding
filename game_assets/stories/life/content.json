@@ -1,0 +1,334 @@
+{
+  "content": {
+    "lifestyle_unlock": {
+      "title": "Better Food",
+      "body": "With the money you've earned from working, you've saved up enough money to be able to buy porridge! \n\nChanging your lifestyle from eating scraps to eating porridge makes you happier and do better in life in general, allowing you to learn and do things faster. \n\nHaving better lifestyle may just be difficult to sustain if you're poor, so you need to watch your finances and earn more money.",
+      "rewards": {},
+      "effects": {},
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "stories": {
+            "lore": {
+              "start": {
+                "unlocked": true
+              }
+            }
+          },
+          "gold": 100
+        }
+      }
+    },
+    "baron_30": {
+      "title": "A \"Gift\" from the King",
+      "body": "The King felt bad that a noble like you is living in a shabby house so he bestowed you a piece of land with a mansion for you to call home.",
+      "rewards": {},
+      "effects": {
+        "text": "Mansion Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "baron": {
+                "current_level": 30
+              }
+            }
+          }
+        }
+      }
+    },
+    "puppy_companion": {
+      "title": "Wolf Puppy",
+      "body": "As you embarked on another wolf-hunting expedition, a different idea crossed your mind – taming them. Drawing upon your expertise in animal handling, you endeavored to tame the wolves instead. After several attempts, a wolf pup, drawn to your gestures and offerings of delectable treats, decided to join you, forming an unexpected yet mutually beneficial bond.",
+      "rewards": {},
+      "effects": {
+        "text": "Wolf Puppy Companion Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "grasslands": {
+              "5": {
+                "current_level": 25
+              }
+            }
+          },
+          "technologies": {
+            "3": {
+              "farmer_120": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "dragon_core_unlock": {
+      "title": "Baby Dragon Slayer",
+      "body": "You've achieved quite a rare feat, by slaying an Infant Dragon.\n\nYou obtain its core and you feel life essence coursing through your body just by touching it. However, it seems to require food to continue feeding you life essence.\n\nThe tale of you slaying the dragon spreads, and you're now hailed as the Baby Dragon Slayer. The city, once shadowed by draconic fear, now looks to you with abit more admiration.",
+      "rewards": {},
+      "effects": {
+        "text": "Dragon Core Item unlocked",
+        "overall": {
+          "exp_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.5,
+            "scaling": 0
+          }
+        }
+      },
+      "steam_achievement_id": "BABY_DRAGON_SLAYER",
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "grasslands": {
+              "superboss": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "fairy_unlock": {
+      "title": "Fairy Companion",
+      "body": "The fairy has decided to join you after being defeated. You learn their name to be Luminara. Luminara told you that she seems to have a special skill that will motivate you, provide you feed her snacks.",
+      "rewards": {},
+      "effects": {
+        "text": "Luminara Companion unlocked"
+      },
+      "steam_achievement_id": "FAIRY_WHISPERER",
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "shaded_woods": {
+              "story8": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "fairy_unlock_not": {
+      "title": "Fairy Companion. Not.",
+      "body": "However Luminara did not allow that to happen. Only Luminara gets the snacks.",
+      "rewards": {},
+      "effects": {
+        "text": "Nothing Important"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "shaded_woods": {
+              "story8": {
+                "max_level": 1
+              }
+            }
+          },
+          "stories": {
+            "life": {
+              "fairy_unlock": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "fairy_unlock_not_not": {
+      "title": "Fairy Companion. Not. Not?",
+      "body": "But on second thought, Luminara allowed the fairy to join.",
+      "rewards": {},
+      "effects": {
+        "text": "Fairy Tapper max bonus increased by 0.01 this regression."
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "temporals": {
+            "0": {
+              "making_of_a_fairy_queen": {
+                "current_level": 1
+              }
+            }
+          },
+          "stories": {
+            "life": {
+              "fairy_unlock_not": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "king_fish": {
+      "title": "King of Fishes",
+      "body": "While inspecting your catch in the bountiful sea, you come across a peculiar fish in your basket, radiating an air of authority. Notably, the other fishes in its presence appear more robust and vibrant than their typical counterparts. Recognizing its uniqueness, you opt not to trade this extraordinary fish but, instead, choose to preserve it for your fish farm in the hopes that it might enhance the overall quality of your aquatic stock.",
+      "rewards": {},
+      "effects": {
+        "text": "Genomic Fish Companion unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "item0": {
+                "current_level": 20
+              }
+            }
+          },
+          "technologies": {
+            "2": {
+              "angler_80": {
+                "unlocked": true
+              }
+            }
+          },
+          "jobs": {
+            "common": {
+              "angler": {
+                "current_level": 20
+              }
+            }
+          }
+        }
+      }
+    },
+    "crab_mount": {
+      "title": "Friendly Crustacean",
+      "body": "During the sea monster battle, a colossal crab unexpectedly boards your ship. Though the crew was initially alarmed, the creature shows no signs of aggression. Taking a chance, you decide to tame it with some provisions. \n\nSurprisingly, the giant crab enjoys the food, prompting you to offer more. After indulging in a few barrels, the creature appears content and peacefully drifts into slumber. While your food supplies dwindle from the generous feeding, you find yourself contemplating a temporary diet.",
+      "rewards": {},
+      "effects": {
+        "text": "Giant Crab Transportation unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story7": {
+                "current_level": 50
+              }
+            }
+          },
+          "technologies": {
+            "3": {
+              "farmer_120": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "eldorian_army_companion": {
+      "title": "An Army",
+      "body": "With your ascension to the role of Grand Cross, the formidable strength of Eldoria's army now answers your command, poised to stand as a bulwark against any threat to the realm. \n\nWith their unwavering support, you pledge to vanquish the enemies of Eldoria and safeguard its future.",
+      "rewards": {},
+      "effects": {
+        "text": "Eldorian Army unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_light": {
+              "story4": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "dragon_mount": {
+      "title": "True Dragon",
+      "body": "After your earthshaking battle with Noek Suul, a dragon was in awe of your strength. The dragon decided to follow you and learn your ways to be stronger. You being confused as to why a dragon would want to follow you and leave its tribe, decided to just accept then.",
+      "rewards": {},
+      "effects": {
+        "text": "True Dragon Transportation unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "avanosh": {
+              "superboss": {
+                "current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "explorations": {
+            "avanosh": {
+              "boss": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "roc_mount": {
+      "title": "An old friend",
+      "body": "While training under your future self’s guidance, a powerful gust of wind suddenly tears through the air, strong enough to rend the ground. Yet, there’s no malice in its force—it feels oddly familiar and comforting. \n\nTurning toward the source, you see the majestic Roc, the guardian of the Hall of Heroes, watching you with a warm, knowing gaze. Confused, you freeze as the Roc releases a glowing orb of light that strikes your forehead. In an instant, vivid memories flood your mind, piecing together the truth of who you are.\n\nYou recall saving a fledgling Roc as a child, its wing injured and its life in peril. You cared for it, shielding it from harm, raising it until it grew strong enough to rule the skies. That same Roc now stands before you, a loyal companion from a time long past. With its presence, you remember your legacy—you were the first king of humanity, leading the charge against the Demon King alongside the ten heroes. \n\nThe Roc has not forgotten you, standing as both a guardian and a reminder of the bond you once shared and the destiny awaiting you.",
+      "rewards": {},
+      "effects": {
+        "text": "Roc Transportation unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "boss": {
+                "current_level": 1
+              }
+            }
+          },
+          "skills": {
+            "fundamentals": {
+              "heroic_potential": {
+                "current_level": 400
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

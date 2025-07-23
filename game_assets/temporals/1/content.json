@@ -1,0 +1,177 @@
+{
+  "content": {
+    "perennial_investments": {
+      "name": "Perennial Investments",
+      "description": "Your wealth from your many lives are going to give you gold daily. You'll gain 1 gold per day per levels of Perennial Investments.",
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "daily_gold_gain": {
+            "scaling_type": "linear",
+            "base": 0.0,
+            "scaling": 1.0
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 20,
+      "max_level": -1
+    },
+    "accelerated_perception_ii": {
+      "name": "Accelerated Perception II",
+      "description": "Increases Game Speed by x0.1 for each level. Stacks multiplicatively with Accelerated Perception",
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "gamespeed_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.0,
+            "scaling": 0.1
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 5,
+      "max_level": 5
+    },
+    "chronic_insight_ii": {
+      "name": "Chronic Insight II",
+      "description": "Reduces the scaling of exp required by 1% (Additively) per each level. Stacks with other Chronic Insight skills.",
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "exp_required_percentage_reduction": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 1
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 5,
+      "max_level": 20
+    },
+    "temporal_adaptation_ii": {
+      "name": "Temporal Adaptation II",
+      "description": "Your body adapts to the power of time better.\n\nDecreases rebirths required to obtain temporal essence by 1 and Lifespan increases by 10 years for each level",
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "lifespan_year_increase": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 10
+          },
+          "temporal_essence_rebirth_needed_reduction": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 1
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 10,
+      "max_level": 3
+    },
+    "eternal_learnings_ii": {
+      "name": "Eternal Learnings II",
+      "description": "Break the limit of leveling up once with overflow experience. Overflowing experience will level up Job, Trainings, and Skills more than once. The amount of level ups depends on its level.",
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "level_up_cap": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 1
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 10,
+      "max_level": 15
+    },
+    "causality_manipulation": {
+      "name": "Causality Manipulation",
+      "description": "Change the timeline to survive. Gain miracles for every 50 luck level for every life. Dying during explorations consumes a miracle which will prevent your death.",
+      "hidden": true,
+      "effects": {},
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "temporals": {
+            "0": {
+              "stored_miracles": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      },
+      "temporal_cost": 10,
+      "max_level": 1
+    },
+    "echoes_of_time": {
+      "name": "Echoes of Time",
+      "description": "Hear echoes from yourselves in different time. Bosses defeated will reduce their future danger by the number of times you have defeated the boss. The danger reduction will persist through rebirths and regressions. \n\n New Boss Danger = Boss Danger - (boss lifetime defeat amount * (0.1 x echoes of time levels))",
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "boss_danger_reduction_per_defeat": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 0.1
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 20,
+      "max_level": 5
+    },
+    "time_split": {
+      "name": "Time Split",
+      "description": "Be at two places at once. Different from doppelganger. You can explore and do jobs at the same time.",
+      "hidden": true,
+      "effects": {},
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 50,
+      "max_level": 1
+    },
+    "destined_journey": {
+      "name": "Destined Journey",
+      "description": "Fulfill your destiny of becoming a hero and make your automations easier. Exploration can be automated.",
+      "hidden": true,
+      "effects": {},
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 10,
+      "max_level": 1
+    },
+    "timestream_butler": {
+      "name": "Timestream Butler",
+      "description": "This butler will help you adjust your way of life based on the budget you give it. Lifestyle can be automated.",
+      "hidden": true,
+      "effects": {},
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 10,
+      "max_level": 1
+    },
+    "library_of_time": {
+      "name": "Monolith of Ages",
+      "description": "Obtain a monolith containing knowledge that will resist regression. Technologies will persists through regressions.",
+      "hidden": true,
+      "effects": {},
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 30,
+      "max_level": 1
+    }
+  }
+}

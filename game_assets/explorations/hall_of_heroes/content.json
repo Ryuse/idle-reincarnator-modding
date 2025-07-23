@@ -1,0 +1,992 @@
+{
+  "content": {
+    "story0": {
+      "name": "Enter the Hall of Heroes",
+      "action_type": "exploring",
+      "description": "Open the door and get in.",
+      "points_needed": 3000000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "boss": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story1": {
+      "name": "Explore the hall",
+      "action_type": "exploring",
+      "description": "Explore the hall. Maybe you'll find something.",
+      "points_needed": 3000000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": true,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "story0": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "spell0": {
+      "name": "Decrypt the wall carvings",
+      "action_type": "arcane",
+      "description": "The wall carvings seems to say something.",
+      "points_needed": 3000000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "arcane": {
+              "content": {
+                "mana_control": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                },
+                "spell_craft": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "story1": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "story2": {
+      "name": "Enter the inner hall",
+      "action_type": "exploring",
+      "description": "You find a door that goes deeper inside. Go in.",
+      "points_needed": 3000000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "story1": {
+                "current_level": 5
+              }
+            }
+          }
+        }
+      }
+    },
+    "story3": {
+      "name": "Old Souls",
+      "action_type": "social",
+      "description": "Engage with the old souls.",
+      "points_needed": 3000000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "charm": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 200,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "story2": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "boss": {
+      "name": "The Last Test",
+      "action_type": "combat",
+      "description": "Battle all the heroes of the past, proving yourself.",
+      "is_boss": true,
+      "points_needed": 50000000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 500000,
+        "happiness": 0.10,
+				"temporal": 2,
+				"eternal_lifespan_day": 10
+      },
+      "expense": 0,
+      "danger": 2300,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "defense": {
+              "content": {
+                "endurance": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 500,
+                    "scaling": 0
+                  }
+                }
+              }
+            },
+            "combat": {
+              "content": {
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 500,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "heroic_tests_completed": 3,
+          "explorations": {
+            "hall_of_heroes": {
+              "story5": {
+                "unlocked": false
+              }
+            }
+          }
+        }
+      }
+    },
+    "story4-0": {
+      "name": "Test of the Sage",
+      "action_type": "fundamentals",
+      "description": "Brave through nightmarish situations and horrors in peace.",
+      "points_needed": 10000000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 2000,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "fundamentals": {
+              "content": {
+                "concentration": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                },
+                "critical_thought": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "story3": {
+                "current_level": 1
+              },
+              "boss": {
+                "not_current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story4-1": {
+      "name": "Test of the Guardian",
+      "action_type": "defense",
+      "description": "Push a boulder up a mountain.",
+      "points_needed": 10000000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 2000,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "defense": {
+              "content": {
+                "agility": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                },
+                "endurance": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                },
+                "evasion_techniques": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                },
+                "healing_arts": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "story3": {
+                "current_level": 1
+              },
+              "boss": {
+                "not_current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story4-2": {
+      "name": "Test of the Deathbringer",
+      "action_type": "combat",
+      "description": "Fight yourself.",
+      "points_needed": 10000000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 2000,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                },
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "story3": {
+                "current_level": 1
+              },
+              "boss": {
+                "not_current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story4-3": {
+      "name": "Test of the Seeker",
+      "action_type": "scavenging",
+      "description": "Find 100 needles in a desert.",
+      "points_needed": 10000000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 2000,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "scavenging": {
+              "content": {
+                "beggar_instinct": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                },
+                "herbal_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "story3": {
+                "current_level": 1
+              },
+              "boss": {
+                "not_current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story4-4": {
+      "name": "Test of the Tidecaller",
+      "action_type": "fishing",
+      "description": "Fish up a Leviathan.",
+      "points_needed": 10000000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 2000,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "fishing": {
+              "content": {
+                "aquatic_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                },
+                "fishing_rod_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "story3": {
+                "current_level": 1
+              },
+              "boss": {
+                "not_current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story4-5": {
+      "name": "Test of the Grand Crafter",
+      "action_type": "creating",
+      "description": "Build a tower that touches the clouds.",
+      "points_needed": 10000000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 2000,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "creating": {
+              "content": {
+                "woodworking_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                },
+                "engineering": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                },
+                "crafting": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                },
+                "cooking": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "story3": {
+                "current_level": 1
+              },
+              "boss": {
+                "not_current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story4-6": {
+      "name": "Test of the Excavator",
+      "action_type": "excavating",
+      "description": "Mine underground to find the mythical ore, Orichalcum.",
+      "points_needed": 10000000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 2000,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "excavating": {
+              "content": {
+                "mining_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                },
+                "geology": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "story3": {
+                "current_level": 1
+              },
+              "boss": {
+                "not_current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story4-7": {
+      "name": "Test of the Unfettered",
+      "action_type": "exploring",
+      "description": "Find your way out of the mirror dimension.",
+      "points_needed": 10000000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 2000,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "riding": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                },
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                },
+                "world_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "story3": {
+                "current_level": 1
+              },
+              "boss": {
+                "not_current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story4-8": {
+      "name": "Test of the Emperor",
+      "action_type": "social",
+      "description": "Turn a village into an empire.",
+      "points_needed": 10000000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 2000,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "charm": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                },
+                "negotiation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                },
+                "grace": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                },
+                "leadership": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                },
+                "teaching": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "story3": {
+                "current_level": 1
+              },
+              "boss": {
+                "not_current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story4-9": {
+      "name": "Test of the Forbidden One",
+      "action_type": "arcane",
+      "description": "Steal knowledge from the Gods.",
+      "points_needed": 10000000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 2000,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "arcane": {
+              "content": {
+                "mana_sense": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                },
+                "mana_control": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                },
+                "spell_craft": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "story3": {
+                "current_level": 1
+              },
+              "boss": {
+                "not_current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story5": {
+      "name": "Hidden Door",
+      "action_type": "fundamentals",
+      "description": "After beating all of the tests, a door opens up.",
+      "points_needed": 50000000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 500000
+      },
+      "expense": 0,
+      "danger": 2200,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "defense": {
+              "content": {
+                "endurance": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 500,
+                    "scaling": 0
+                  }
+                }
+              }
+            },
+            "combat": {
+              "content": {
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 500,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "heroic_tests_completed": 10
+        }
+      }
+    },
+    "superboss": {
+      "name": "Masked Person",
+      "action_type": "combat",
+      "description": "They want a fight.",
+      "is_boss": true,
+      "points_needed": 500000000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 0,
+        "happiness": 0.3,
+				"lifespan_day": 1000,
+				"temporal": 3,
+				"eternal_lifespan_day": 50
+      },
+      "expense": 0,
+      "danger": 3300,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "defense": {
+              "content": {
+                "endurance": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 500,
+                    "scaling": 0
+                  }
+                }
+              }
+            },
+            "combat": {
+              "content": {
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 500,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "story5": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story6": {
+      "name": "Leave the Hall of Heroes",
+      "action_type": "fundamentals",
+      "description": "It’s time to go back to Exah",
+      "points_needed": 50000000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {},
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "boss": {
+                "current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "explorations": {
+            "hall_of_heroes": {
+              "superboss": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "content": {
+    "charm": {
+      "name": "Charm",
+      "description": "Be charming to others",
+      "base_exp_req": 300,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "income_multiplier": {
+            "scaling_type": "logarithmic",
+            "base": 1,
+            "scaling": 100
+          },
+          "content": {
+            "common": {
+              "content": {
+                "bard": {
+                  "exp_multiplier": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.03
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "social": {
+              "charm": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "negotiation": {
+      "name": "Negotiation",
+      "description": "Negotiate for better prices",
+      "base_exp_req": 300,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "merchant": {
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1,
+                    "scaling": 100
+                  }
+                }
+              }
+            }
+          }
+        },
+        "overall": {
+          "expenses_multiplier": {
+            "scaling_type": "exponential",
+            "base": 1,
+            "scaling": 0.996
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "social": {
+              "negotiation": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "grace": {
+      "name": "Grace",
+      "description": "Act with grace and elegance",
+      "base_exp_req": 200,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "content": {
+            "noble": {
+              "exp_multiplier": {
+                "scaling_type": "logarithmic",
+                "base": 1,
+                "scaling": 200
+              }
+            }
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "social": {
+              "grace": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "leadership": {
+      "name": "Leadership",
+      "description": "Lead people to do your bidding",
+      "base_exp_req": 200,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "passive_income_multiplier": {
+            "scaling_type": "logarithmic",
+            "base": 1,
+            "scaling": 100
+          }
+        },
+        "lifestyles": {
+          "content": {
+            "companion": {
+              "level_increase": {
+                "scaling_type": "linear",
+                "base": 0,
+                "scaling": 0.1
+              }
+            }
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "social": {
+              "leadership": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "teaching": {
+      "name": "Teaching",
+      "description": "Impart your intent or knowledge to others.",
+      "base_exp_req": 200,
+      "hidden": true,
+      "effects": {
+        "trainings": {
+          "content": {
+            "worldly": {
+              "level_increase": {
+                "scaling_type": "linear",
+                "base": 0,
+                "scaling": 0.5
+              }
+            }
+          }
+        },
+        "jobs": {
+          "common": {
+            "content": {
+              "educator": {
+                "exp_multiplier": {
+                  "scaling_type": "logarithmic",
+                  "base": 1,
+                  "scaling": 150
+                }
+              }
+            }
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "social": {
+              "teaching": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

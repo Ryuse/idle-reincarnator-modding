@@ -1,0 +1,186 @@
+{
+  "content": {
+    "homeless": {
+      "name": "Homeless",
+      "description": "Living without a permanent home.",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "happiness_multiplier": {
+            "scaling_type": "linear",
+            "base": 1,
+            "scaling": 0.01
+          }
+        }
+      },
+      "expense": 0,
+      "lockable": false,
+      "requirements": {}
+    },
+    "tent": {
+      "name": "Tent",
+      "description": "A basic tent for shelter.",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "happiness_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.1,
+            "scaling": 0.02
+          }
+        }
+      },
+      "expense": 1,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "gold": 100
+        }
+      }
+    },
+    "hut": {
+      "name": "Wooden Hut",
+      "description": "A small wooden hut to call home.",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "happiness_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.3,
+            "scaling": 0.03
+          }
+        }
+      },
+      "expense": 3,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "gold": 3000
+        }
+      }
+    },
+    "cottage": {
+      "name": "Cottage",
+      "description": "A comfortable cottage for a better lifestyle.",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "happiness_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.5,
+            "scaling": 0.05
+          }
+        }
+      },
+      "expense": 10,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "gold": 10000
+        }
+      }
+    },
+    "house": {
+      "name": "House",
+      "description": "A house in the middle of town close to the market",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "happiness_multiplier": {
+            "scaling_type": "linear",
+            "base": 2,
+            "scaling": 0.1
+          }
+        }
+      },
+      "expense": 20,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "gold": 20000
+        }
+      }
+    },
+    "mansion": {
+      "name": "Mansion",
+      "description": "Your own mansion gifted to you by the king",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "happiness_multiplier": {
+            "scaling_type": "linear",
+            "base": 3,
+            "scaling": 0.2
+          }
+        }
+      },
+      "expense": 50,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "baron": {
+                "current_level": 30
+              }
+            }
+          }
+        }
+      }
+    },
+    "villa": {
+      "name": "Sea-side Villa",
+      "description": "A villa gifted to you by the king that's very close to the sea on the south of Eldoria",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "happiness_multiplier": {
+            "scaling_type": "linear",
+            "base": 5,
+            "scaling": 0.3
+          }
+        }
+      },
+      "expense": 80,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story0": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "palace": {
+      "name": "Palace",
+      "description": "The home of a person guiding the development of Eldoria.",
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "happiness_multiplier": {
+            "scaling_type": "linear",
+            "base": 10,
+            "scaling": 0.5
+          }
+        }
+      },
+      "expense": 150,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "imperial_preceptor": {
+                "current_level": 50
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

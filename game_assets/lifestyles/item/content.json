@@ -1,0 +1,493 @@
+{
+  "content": {
+    "midas_touch": {
+      "name": "Midas Touch",
+      "description": "You're gonna have a lot of money",
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "income_multiplier": {
+            "scaling_type": "logarithmic",
+            "base": 100000,
+            "scaling": 0
+          }
+        }
+      },
+      "expense": 0,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "dev_mode": true
+        }
+      }
+    },
+    "god_mode": {
+      "name": "God Mode",
+      "description": "You're gonna be very happy tough god",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "happiness_multiplier": {
+            "scaling_type": "linear",
+            "base": 1000,
+            "scaling": 0
+          },
+          "danger_decrease": {
+            "scaling_type": "linear",
+            "base": 10000,
+            "scaling": 0
+          }
+        }
+      },
+      "expense": 0,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "dev_mode": true
+        }
+      }
+    },
+    "immortality": {
+      "name": "Immortality",
+      "description": "You're gonna live for a long time",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "lifespan_multiplier": {
+            "scaling_type": "linear",
+            "base": 1000,
+            "scaling": 0
+          }
+        }
+      },
+      "expense": 0,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "dev_mode": true
+        }
+      }
+    },
+    "time_accelerator": {
+      "name": "Time Accelerator",
+      "description": "A powerful machine for passing time",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "gamespeed_multiplier": {
+            "scaling_type": "linear",
+            "base": 1000,
+            "scaling": 0
+          }
+        }
+      },
+      "expense": 0,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "dev_mode": true
+        }
+      }
+    },
+    "book": {
+      "name": "Book",
+      "description": "A book for gaining knowledge and wisdom.",
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "exp_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.1,
+            "scaling": 0.05
+          }
+        }
+      },
+      "expense": 2,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "trainings": {
+            "mental": {
+              "thought_reconstruction": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "stone": {
+      "name": "A very heavy stone",
+      "description": "A very heavy stone. Use it for training.",
+      "hidden": false,
+      "effects": {
+        "trainings": {
+          "content": {
+            "physical": {
+              "exp_multiplier": {
+                "scaling_type": "linear",
+                "base": 1.1,
+                "scaling": 0.05
+              }
+            }
+          }
+        }
+      },
+      "expense": 1,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "miner": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "training_dummy": {
+      "name": "Training Dummy",
+      "description": "A Dummy for honing combat skills.",
+      "hidden": false,
+      "effects": {
+        "trainings": {
+          "content": {
+            "physical": {
+              "exp_multiplier": {
+                "scaling_type": "linear",
+                "base": 1.2,
+                "scaling": 0.05
+              }
+            }
+          }
+        }
+      },
+      "expense": 2,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "knight": {
+              "page": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "explosives": {
+      "name": "Explosive Powder Bag",
+      "description": "Light up the wick and throw it for a bang",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "danger_decrease": {
+            "scaling_type": "linear",
+            "base": 5,
+            "scaling": 0.5
+          }
+        },
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "miner": {
+                  "exp_multiplier": {
+                    "scaling_type": "linear",
+                    "base": 1.5,
+                    "scaling": 0.1
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "expense": 7,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "technologies": {
+            "1": {
+              "miner_50": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "spyglass": {
+      "name": "Spyglass",
+      "description": "A handy tool that can let you see things from far away",
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "danger_decrease": {
+            "scaling_type": "linear",
+            "base": 10,
+            "scaling": 0.5
+          }
+        }
+      },
+      "expense": 5,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "technologies": {
+            "3": {
+              "artificer_90": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "armor": {
+      "name": "Armor",
+      "description": "An armor for knights. Offers great protection.",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "danger_decrease": {
+            "scaling_type": "linear",
+            "base": 15,
+            "scaling": 1.5
+          },
+          "exploration_speed_multiplier": {
+            "scaling_type": "linear",
+            "base": 0.90,
+            "scaling": 0
+          }
+        }
+      },
+      "expense": 10,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "knight": {
+              "knight": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "shield": {
+      "name": "Shield",
+      "description": "A shield for knights. Block incoming attacks.",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "danger_decrease": {
+            "scaling_type": "linear",
+            "base": 15,
+            "scaling": 1.5
+          },
+          "exploration_speed_multiplier": {
+            "scaling_type": "linear",
+            "base": 0.95,
+            "scaling": 0
+          }
+        }
+      },
+      "expense": 15,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "knight": {
+              "great_knight": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "dragon_core": {
+      "name": "Dragon Core",
+      "description": "A Dragon Core that strengthens its owner.",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "lifespan_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.05,
+            "scaling": 0
+          }
+        }
+      },
+      "expense": 2,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "grasslands": {
+              "superboss": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "poison_sac": {
+      "name": "Poison Sac",
+      "description": "A sac that produces poison to coat your weapons in",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "danger_decrease": {
+            "scaling_type": "linear",
+            "base": 25,
+            "scaling": 1
+          }
+        }
+      },
+      "expense": 10,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "shaded_woods": {
+              "item1": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "ring_of_darkness": {
+      "name": "Ring of Darkness",
+      "description": "A magical ring that cloaks you in darkness which allows you to move stealthily.",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "danger_decrease": {
+            "scaling_type": "linear",
+            "base": 15,
+            "scaling": 2
+          },
+          "exploration_speed_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.1,
+            "scaling": 0.05
+          }
+        }
+      },
+      "expense": 15,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "ancient_crypt": {
+              "item0": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "mana_battery": {
+      "name": "Mana Battery",
+      "description": "An object of exquisite craftsmanship that's able to store mana.",
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "spell_slots": {
+            "scaling_type": "linear",
+            "base": 1,
+            "scaling": 0.02
+          }
+        }
+      },
+      "expense": 100,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "technologies": {
+            "6": {
+              "wizard_90": {
+                "unlocked": true
+              }
+            }
+          },
+          "jobs": {
+            "arcanic": {
+              "journeyman": {
+                "current_level": 50
+              }
+            }
+          }
+        }
+      }
+    },
+    "lucky_rock": {
+      "name": "Lucky Stone",
+      "description": "A golden stone you found while exploring the Exian market. You feel lucky while holding this stone",
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "income_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.1,
+            "scaling": 0.01
+          }
+        }
+      },
+      "expense": 0,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "item1": {
+                "current_level": 30
+              }
+            }
+          }
+        }
+      }
+    },
+    "rune_stone": {
+      "name": "Rune Stone",
+      "description": "A rune covered rock containing dense magical knowledge found in the Exian Library.",
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "arcane": {
+              "exp_multiplier": {
+                "scaling_type": "linear",
+                "base": 1.05,
+                "scaling": 0.025
+              }
+            }
+          }
+        }
+      },
+      "expense": 200,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "item0": {
+                "current_level": 30
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "content": {
+    "magelight": {
+      "name": "Magelight",
+      "description": "Beginner Magic. Conjure a floating ball of light to illuminate the surroundings",
+      "base_exp_req": 100,
+      "slot_size": 1,
+      "expense": 0,
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "exploration_speed_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.1,
+            "scaling": 0.005
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "skills": {
+            "arcane": {
+              "conjuration": {
+                "current_level": 10
+              }
+            }
+          },
+          "jobs": {
+            "arcanic": {
+              "neophyte": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "arcane_hands": {
+      "name": "Arcane Hands",
+      "description": "Elementary Magic. Summon mystical hands that you can control at will",
+      "base_exp_req": 100,
+      "slot_size": 2,
+      "expense": 0,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "exp_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.2,
+            "scaling": 0.05
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "skills": {
+            "arcane": {
+              "conjuration": {
+                "current_level": 20
+              }
+            }
+          },
+          "jobs": {
+            "arcanic": {
+              "journeyman": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "conjure_matter": {
+      "name": "Conjure Matter",
+      "description": "Elementary Magic. Summon inorganic matter for your use, reducing lifestyle cost.",
+      "base_exp_req": 100,
+      "slot_size": 2,
+      "expense": 0,
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "expenses_multiplier": {
+            "scaling_type": "exponential",
+            "base": 1,
+            "scaling": 0.99
+          }
+        },
+        "lifestyles": {
+          "content": {
+            "home": {
+              "level_increase": {
+                "scaling_type": "linear",
+                "base": 5,
+                "scaling": 0.1
+              }
+            },
+            "item": {
+              "level_increase": {
+                "scaling_type": "linear",
+                "base": 5,
+                "scaling": 0.1
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "skills": {
+            "arcane": {
+              "conjuration": {
+                "current_level": 40
+              }
+            }
+          },
+          "jobs": {
+            "arcanic": {
+              "journeyman": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "weather_manipulation": {
+      "name": "Weather Manipulation",
+      "description": "Intermediate Magic. Command the clouds in the sky to your needs, making your environment more favourable.",
+      "base_exp_req": 100,
+      "slot_size": 3,
+      "expense": 0,
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "danger_decrease": {
+            "scaling_type": "linear",
+            "base": 15,
+            "scaling": 1
+          },
+          "exploration_speed_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.0,
+            "scaling": 0.01
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "skills": {
+            "arcane": {
+              "conjuration": {
+                "current_level": 60
+              }
+            }
+          },
+          "jobs": {
+            "arcanic": {
+              "magi": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "enchant": {
+      "name": "Enchant",
+      "description": "Intermediate Magic. Enchant the items that you own.",
+      "base_exp_req": 100,
+      "slot_size": 3,
+      "expense": 0,
+      "hidden": false,
+      "effects": {
+        "lifestyles": {
+          "content": {
+            "item": {
+              "level_increase": {
+                "scaling_type": "linear",
+                "base": 20,
+                "scaling": 1
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "skills": {
+            "arcane": {
+              "conjuration": {
+                "current_level": 100
+              }
+            }
+          },
+          "jobs": {
+            "arcanic": {
+              "magi": {
+                "current_level": 30
+              }
+            }
+          }
+        }
+      }
+    },
+    "doppelganger": {
+      "name": "Doppelganger",
+      "description": "Advanced Magic. Why conjure just a hand when you can conjure a copy of yourself",
+      "base_exp_req": 1000,
+      "slot_size": 4,
+      "expense": 0,
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "job_action_increase": {
+            "scaling_type": "linear",
+            "base": 1,
+            "scaling": 0.04
+          },
+          "training_action_increase": {
+            "scaling_type": "linear",
+            "base": 1,
+            "scaling": 0.04
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "skills": {
+            "arcane": {
+              "conjuration": {
+                "current_level": 150
+              }
+            }
+          },
+          "jobs": {
+            "arcanic": {
+              "wizard": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,720 @@
+{
+  "content": {
+    "beggar": {
+      "name": "Beggar",
+      "description": "Beg for some money and rely on the kindness of others, honing resourcefulness and street smarts.",
+      "base_income": 0.7,
+      "is_passive_income": false,
+      "base_exp_req": 50,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "beggar": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "fundamentals": {
+              "content": {
+                "resourcefulness": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.2
+                  }
+                }
+              }
+            },
+            "scavenging": {
+              "content": {
+                "beggar_instinct": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.2
+                  }
+                }
+              }
+            },
+            "exploring": {
+              "content": {
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.2
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {}
+    },
+    "farmer": {
+      "name": "Farmer",
+      "description": "Cultivate crops, nurturing the earth's bounty of food, herbs, and fruits.",
+      "base_income": 1.4,
+      "is_passive_income": false,
+      "base_exp_req": 60,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "farmer": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "scavenging": {
+              "content": {
+                "herbal_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.2
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "beggar": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "angler": {
+      "name": "Angler",
+      "description": "Catch fishes, mastering the art of fishing, gaining aquatic knowledge and rod skills.",
+      "base_income": 1.9,
+      "is_passive_income": false,
+      "base_exp_req": 80,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "angler": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "fishing": {
+              "content": {
+                "aquatic_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.2
+                  }
+                },
+                "fishing_rod_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.1
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "farmer": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "carpenter": {
+      "name": "Carpenter",
+      "description": "Craft sturdy homes and furnishings through skilled woodworking.",
+      "base_income": 2.1,
+      "is_passive_income": false,
+      "base_exp_req": 100,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "carpenter": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "creating": {
+              "content": {
+                "woodworking_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.2
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "angler": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "miner": {
+      "name": "Miner",
+      "description": "Extract valuable ores and minerals from the depths, strengthening mining prowess. Sometimes you may even get valuable minerals.",
+      "base_income": 2.3,
+      "is_passive_income": false,
+      "base_exp_req": 120,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "miner": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0.5,
+                    "scaling": 0.1
+                  }
+                }
+              }
+            },
+            "excavating": {
+              "content": {
+                "mining_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.2
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "carpenter": {
+                "current_level": 10
+              }
+            }
+          },
+          "skills": {
+            "combat": {
+              "strength": {
+                "current_level": 5
+              }
+            }
+          }
+        }
+      }
+    },
+    "bard": {
+      "name": "Bard",
+      "description": "Captivate audiences with enthralling tales, increasing charm and presence.",
+      "base_income": 2.7,
+      "is_passive_income": false,
+      "base_exp_req": 150,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "bard": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "charm": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.2
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "miner": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "merchant": {
+      "name": "Merchant",
+      "description": "Establish a thriving business, honing negotiation abilities.",
+      "base_income": 0.2,
+      "is_passive_income": true,
+      "base_exp_req": 200,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "merchant": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "negotiation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.2
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "bard": {
+                "current_level": 15
+              }
+            }
+          }
+        }
+      }
+    },
+    "healer": {
+      "name": "Healer",
+      "description": "A healer, endowed with the profound knowledge of restorative arts, mends the fabric of life with gentle hands and wisdom. Through their compassionate touch and mastery of healing arts, they bring solace to those in pain and restore balance to the ailing.",
+      "base_income": 7,
+      "is_passive_income": false,
+      "base_exp_req": 1000,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "healer": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "defense": {
+              "content": {
+                "healing_arts": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.1
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "shaded_woods": {
+              "job0": {
+                "current_level": 25
+              }
+            }
+          }
+        },
+        "1": {
+          "technologies": {
+            "6": {
+              "healer_120": {
+                "unlocked": true
+              }
+            }
+          },
+          "jobs": {
+            "common": {
+              "merchant": {
+                "current_level": 30
+              }
+            }
+          }
+        }
+      }
+    },
+    "gambler": {
+      "name": "Gambler",
+      "description": "Test your luck, risking it all for potential “gains” but mostly losses.",
+      "base_income": -3,
+      "is_passive_income": false,
+      "base_exp_req": 200,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "gambler": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "fundamentals": {
+              "content": {
+                "luck": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.2
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "merchant": {
+                "current_level": 20
+              }
+            },
+            "noble": {
+              "baron": {
+                "current_level": 20
+              }
+            }
+          }
+        }
+      }
+    },
+    "artificer": {
+      "name": "Artificer",
+      "description": "Make intricate items worthy of being called works of art",
+      "base_income": 4,
+      "is_passive_income": false,
+      "base_exp_req": 300,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "artificer": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "creating": {
+              "content": {
+                "crafting": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.2
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "skills": {
+            "creating": {
+              "engineering": {
+                "current_level": 50
+              }
+            }
+          }
+        }
+      }
+    },
+    "culinarian": {
+      "name": "Culinarian",
+      "description": "The unsung artist of the medieval feast, crafts symphonies of flavor, turning humble ingredients into culinary masterpieces that captivate the senses.",
+      "base_income": 4,
+      "is_passive_income": false,
+      "base_exp_req": 300,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "culinarian": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "creating": {
+              "content": {
+                "cooking": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.2
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "count": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "educator": {
+      "name": "Educator",
+      "description": "Educate the masses and make them realize their own greatness.",
+      "base_income": 7,
+      "is_passive_income": false,
+      "base_exp_req": 1500,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "educator": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "fundamentals": {
+              "content": {
+                "concentration": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 20,
+                    "scaling": 4
+                  }
+                },
+                "critical_thought": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 20,
+                    "scaling": 4
+                  }
+                },
+                "literacy": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 20,
+                    "scaling": 4
+                  }
+                }
+              }
+            },
+            "social": {
+              "content": {
+                "teaching": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.2
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "trainings": {
+            "worldly": {
+              "explorer_school": {
+                "current_level": 100
+              },
+              "engineering_school": {
+                "current_level": 100
+              },
+              "combat_school": {
+                "current_level": 100
+              },
+              "mental_school": {
+                "current_level": 100
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

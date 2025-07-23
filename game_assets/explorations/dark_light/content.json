@@ -1,0 +1,327 @@
+{
+  "content": {
+    "story0": {
+      "name": "Dark Light in the Sky",
+      "action_type": "fundamentals",
+      "description": "A sphere of black light is getting bigger in the sky",
+      "is_force_regress_starter": true,
+      "points_needed": 100000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {},
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "civilization_capability": 100,
+          "explorations": {
+            "eldorian_tournament": {
+              "boss": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story1": {
+      "name": "Summons",
+      "action_type": "social",
+      "description": "The King have summoned you for a talk. It seems pretty urgent.",
+      "points_needed": 10000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 1000
+      },
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": 3,
+      "repeatable": true,
+      "hidden": false,
+      "effects": {},
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_light": {
+              "story0": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story2": {
+      "name": "Grand Speech",
+      "action_type": "fundamentals",
+      "description": "The king is making a speech. To prepare for the war.",
+      "points_needed": 100000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 1000
+      },
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": 3,
+      "repeatable": true,
+      "hidden": false,
+      "effects": {},
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_light": {
+              "story1": {
+                "current_level": 3
+              }
+            }
+          },
+          "jobs": {
+            "knight": {
+              "mystic_knight": {
+                "current_level": 50
+              }
+            }
+          }
+        }
+      }
+    },
+    "story3": {
+      "name": "War Preparations",
+      "action_type": "social",
+      "description": "The king is gathering forces to attack the source of the black light. Help with the war efforts.",
+      "points_needed": 1000000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 1000
+      },
+      "expense": 1000,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {},
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_light": {
+              "story2": {
+                "current_level": 3
+              }
+            }
+          }
+        }
+      }
+    },
+    "story4": {
+      "name": "Organize an army",
+      "action_type": "social",
+      "description": "Gather forces for you to lead towards the source of the black light.",
+      "points_needed": 1000000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 1000
+      },
+      "expense": 1000,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {},
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "knight": {
+              "grand_cross": {
+                "current_level": 10
+              }
+            }
+          },
+          "explorations": {
+            "dark_light": {
+              "story3": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story5": {
+      "name": "Move through the Shaded Woods",
+      "action_type": "social",
+      "description": "Lead your army through the Shaded woods. It is filled with danger but you've got an army on your side.",
+      "points_needed": 1000000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 1000
+      },
+      "expense": 1000,
+      "danger": 200,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {},
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_light": {
+              "story4": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story6": {
+      "name": "Attack the demons",
+      "action_type": "combat",
+      "description": "Charge towards An army of demons protecting a group of sorcerers casting a giant spell.",
+      "points_needed": 300000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 10000
+      },
+      "expense": 0,
+      "danger": 2300,
+      "repeat_max": 20,
+      "repeatable": true,
+      "hidden": true,
+      "effects": {},
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_light": {
+              "story5": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story7": {
+      "name": "Brace for magic attacks!",
+      "action_type": "defense",
+      "description": "Brace for the magic attacks coming from the sky.",
+      "points_needed": 10000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 10000
+      },
+      "expense": 0,
+      "danger": 2450,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {},
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_light": {
+              "story6": {
+                "current_level": 20
+              }
+            }
+          }
+        }
+      }
+    },
+    "story8": {
+      "name": "Continue the attacks",
+      "action_type": "combat",
+      "description": "Continue attacking. They are getting desperate. You are almost winning!",
+      "points_needed": 400000000,
+      "rewards": {
+        "gold": 0,
+        "renown": 10000
+      },
+      "expense": 0,
+      "danger": 2400,
+      "repeat_max": 20,
+      "repeatable": true,
+      "hidden": true,
+      "effects": {},
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_light": {
+              "story7": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "boss": {
+      "name": "Noek Suul",
+      "action_type": "combat",
+      "description": "As you were about to reach the source of the black light, a dragon swoops down from the sky and blocks your way.",
+      "is_boss": true,
+      "is_force_regress_ender": true,
+      "points_needed": 100000000000,
+      "rewards": {
+        "gold": 1000000,
+        "renown": 1000000,
+        "happiness": 0.05,
+				"temporal": 1,
+				"eternal_lifespan_day": 10
+      },
+      "expense": 0,
+      "danger": 3000,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {},
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_light": {
+              "story8": {
+                "current_level": 20
+              }
+            }
+          }
+        }
+      }
+    },
+    "story9": {
+      "name": "End of war",
+      "action_type": "fundamentals",
+      "description": "It's over.",
+      "points_needed": 500000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {},
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_light": {
+              "boss": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

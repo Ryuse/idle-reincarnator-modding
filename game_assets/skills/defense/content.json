@@ -1,0 +1,179 @@
+{
+  "content": {
+    "agility": {
+      "name": "Agility",
+      "description": "Be fast enough to run away from any danger",
+      "base_exp_req": 100,
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "danger_decrease": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 1
+          }
+        },
+        "lifestyles": {
+          "content": {
+            "transportation": {
+              "content": {
+                "foot": {
+                  "level_increase": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.1
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "defense": {
+              "agility": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "endurance": {
+      "name": "Endurance",
+      "description": "Take more hits",
+      "base_exp_req": 100,
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "danger_decrease": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 1
+          },
+          "lifespan_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.00,
+            "scaling": 0.0005
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "defense": {
+              "endurance": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "evasion_techniques": {
+      "name": "Evasion Techniques",
+      "description": "Master advanced evasion techniques to dodge attacks more effectively.",
+      "base_exp_req": 130,
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "danger_decrease": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 1
+          }
+        },
+        "lifestyles": {
+          "content": {
+            "transportation": {
+              "content": {
+                "foot": {
+                  "level_increase": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.2
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "defense": {
+              "evasion_techniques": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "healing_arts": {
+      "name": "Healing Arts",
+      "description": "Your knowledge of healing people through many means",
+      "base_exp_req": 1000,
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "danger_decrease": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 1
+          },
+          "lifespan_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.00,
+            "scaling": 0.001
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "defense": {
+              "healing_arts": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "temporal_haste": {
+      "name": "Temporal Haste",
+      "description": "Your mastery of moving out of time",
+      "base_exp_req": 1000000000,
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "danger_decrease": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 2
+          },
+          "gamespeed_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.00,
+            "scaling": 0.0005
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "defense": {
+              "temporal_haste": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

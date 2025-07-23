@@ -1,0 +1,87 @@
+{
+  "content": {
+    "aquatic_knowledge": {
+      "name": "Aquatic Knowledge",
+      "description": "Understanding underwater ecosystems for better fishing results.",
+      "base_exp_req": 100,
+      "hidden": true,
+      "effects": {
+        "lifestyles": {
+          "content": {
+            "food": {
+              "content": {
+                "fish": {
+                  "expenses_multiplier": {
+                    "scaling_type": "exponential",
+                    "base": 1,
+                    "scaling": 0.995
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "angler": {
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1,
+                    "scaling": 100
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "fishing": {
+              "aquatic_knowledge": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "fishing_rod_mastery": {
+      "name": "Fishing Rod Mastery",
+      "description": "Your mastery in handling a fishing rod",
+      "base_exp_req": 100,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "angler": {
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1,
+                    "scaling": 200
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "fishing": {
+              "fishing_rod_mastery": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

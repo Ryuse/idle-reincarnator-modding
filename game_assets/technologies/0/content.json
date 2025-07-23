@@ -1,0 +1,95 @@
+{
+  "content": {
+    "magic_academy": {
+      "title": "Sanctum of the Arcanists",
+      "body": "With your establishment of a Magic Academy and spreading the knowledge of magic freely, the people of Eldoria are now able to learn magic and advance it.\n\nMagic Academy and schools of Conjuration and Evocation are unlocked.",
+      "effects": {
+        "text": "Sanctum of the Arcanists unlocked"
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "magic_research": {
+              "story9": {
+                "current_max_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "angler_stormboat": {
+      "title": "Stormboats",
+      "body": "With the mermaid princess sharing her knowledge about boats from her kingdom braving storms like a breeze, you asked her whether it was acceptable to share this knowledge to your people and she agreed. \n\nWith her agreement, you spread the knowledge of how to build them to the masses, greatly improving the safety of sailors and fishermen alike. Thus, increasing their income and lowering fish prices.",
+      "effects": {
+        "lifestyles": {
+          "content": {
+            "food": {
+              "content": {
+                "fish": {
+                  "expenses_multiplier": {
+                    "scaling_type": "exponential",
+                    "base": 0.98,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "angler": {
+                  "income_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.2,
+                    "scaling": 0
+                  },
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.5,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story5": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "illusion_magic_school": {
+      "title": "Illusionists",
+      "body": "Following the successful alliance with Atlanta, a wave of magically adept Atlantans has chosen to relocate to Eldoria, inaugurating the School of Illusions. \n\nIllusionists, with their expertise, enrich the cultural landscape, providing captivating entertainment, fostering education through mesmerizing displays, and applying their skills to diverse practical endeavors within the kingdom. \n\nThe establishment of this magical institution signifies a harmonious integration of talents and knowledge between the two allied kingdoms.",
+      "effects": {
+        "text": "School of Illusion Unlocked"
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story17": {
+                "current_max_level": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

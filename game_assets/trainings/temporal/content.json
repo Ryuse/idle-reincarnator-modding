@@ -1,0 +1,96 @@
+{
+  "content": {
+    "tempus_seance": {
+      "name": "Tempus Seance",
+      "description": "Better understand the powers of time.",
+      "base_exp_req": 1000000,
+      "expense": 0,
+      "hidden": true,
+      "effects": {
+        "trainings": {
+          "content": {
+            "temporal": {
+              "content": {
+                "tempus_seance": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "fundamentals": {
+              "content": {
+                "temporal_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.1
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "regressions": 1,
+          "total_temporals": 25
+        }
+      }
+    },
+    "time_shift": {
+      "name": "Time Shift",
+      "description": "Learn to flow along time.",
+      "base_exp_req": 100000000,
+      "expense": 0,
+      "hidden": true,
+      "effects": {
+        "trainings": {
+          "content": {
+            "temporal": {
+              "content": {
+                "time_shift": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "defense": {
+              "content": {
+                "temporal_haste": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.1
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "regressions": 1,
+          "total_temporals": 100
+        }
+      }
+    }
+  }
+}

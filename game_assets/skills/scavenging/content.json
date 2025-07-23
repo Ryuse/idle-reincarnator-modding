@@ -1,0 +1,83 @@
+{
+  "content": {
+    "beggar_instinct": {
+      "name": "Beggar's Instinct",
+      "description": "A natural instinct for finding hidden or overlooked items in various environments.",
+      "base_exp_req": 100,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "beggar": {
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1,
+                    "scaling": 100
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "scavenging": {
+              "beggar_instinct": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "herbal_lore": {
+      "name": "Herbal Lore",
+      "description": "Knowledge of where plants are or will be.",
+      "base_exp_req": 100,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "farmer": {
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1,
+                    "scaling": 100
+                  }
+                }
+              }
+            }
+          }
+        },
+        "lifestyles": {
+          "content": {
+            "food": {
+              "level_increase": {
+                "scaling_type": "linear",
+                "base": 0,
+                "scaling": 0.05
+              }
+            }
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "scavenging": {
+              "herbal_lore": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

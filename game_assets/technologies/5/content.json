@@ -1,0 +1,427 @@
+{
+  "content": {
+    "duke_20": {
+      "title": "Roads",
+      "body": "Your vision for organized and well-designed urban areas has materialized through effective urban planning. This enhances living conditions, promotes efficient resource use, and contributes to the overall prosperity of the community.",
+      "effects": {
+        "jobs": {
+          "income_multiplier": {
+            "scaling_type": "logarithmic",
+            "base": 1.05,
+            "scaling": 100
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "carpenter": {
+                "current_level": 110
+              }
+            },
+            "noble": {
+              "duke": {
+                "current_level": 30
+              }
+            }
+          },
+          "skills": {
+            "creating": {
+              "engineering": {
+                "current_level": 150
+              }
+            },
+            "fundamentals": {
+              "critical_thought": {
+                "current_level": 150
+              }
+            }
+          }
+        }
+      }
+    },
+    "duke_30": {
+      "title": "Urban Planning",
+      "body": "Your vision for organized and well-designed urban areas has materialized through effective urban planning. This enhances living conditions, promotes efficient resource use, and contributes to the overall prosperity of the community.",
+      "effects": {
+        "lifestyles": {
+          "content": {
+            "home": {
+              "level_increase": {
+                "scaling_type": "linear",
+                "base": 10,
+                "scaling": 0.00
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "carpenter": {
+                "current_level": 110
+              }
+            },
+            "noble": {
+              "duke": {
+                "current_level": 30
+              }
+            }
+          },
+          "skills": {
+            "creating": {
+              "engineering": {
+                "current_level": 150
+              }
+            },
+            "fundamentals": {
+              "critical_thought": {
+                "current_level": 150
+              }
+            }
+          }
+        }
+      }
+    },
+    "artificer_120": {
+      "title": "Elemental Forging",
+      "body": "Elemental Forging, an advanced craft mastered by the skilled Artificers, seamlessly integrates Conjuration and Evocation magic into the creation of magical items. By drawing upon the elemental forces within the enchanted materials, these artisans infuse their creations with the essence of elements. \n\nThe result is a harmonious fusion of magical properties, providing wielders with enhanced capabilities and unlocking a diverse range of elemental effects. This intricate process demands a deep understanding of both conjuration and evocation principles, making Artificers practicing Elemental Forging true masters of manipulating the elemental forces in the pursuit of extraordinary craftsmanship.",
+      "effects": {
+        "lifestyles": {
+          "content": {
+            "item": {
+              "level_increase": {
+                "scaling_type": "linear",
+                "base": 5,
+                "scaling": 0.0
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "artificer": {
+                "current_level": 120
+              }
+            },
+            "noble": {
+              "duke": {
+                "current_level": 30
+              }
+            }
+          },
+          "skills": {
+            "arcane": {
+              "conjuration": {
+                "current_level": 50
+              },
+              "evocation": {
+                "current_level": 50
+              }
+            }
+          }
+        }
+      }
+    },
+    "culinarian_100": {
+      "title": "Freezer",
+      "body": "Through meticulous experimentation, you've unveiled a remarkable truth: food spoils at a slower rate when kept at lower temperatures. Building on this revelation, you ingeniously blended magical and engineering principles to create the magical freezer. \n\nThis extraordinary device harnesses the benefits of colder environments, slowing food decay and significantly enhancing freshness. \n\nAs a result, not only does this invention lower the cost of food, but it also ensures a longer shelf life, marking a pivotal advancement in the preservation of culinary resources.",
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "culinarian": {
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.2,
+                    "scaling": 0
+                  },
+                  "income_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.2,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "lifestyles": {
+          "content": {
+            "food": {
+              "level_increase": {
+                "scaling_type": "linear",
+                "base": 2,
+                "scaling": 0
+              },
+              "expenses_multiplier": {
+                "scaling_type": "exponential",
+                "base": 0.98,
+                "scaling": 1
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "culinarian": {
+                "current_level": 100
+              }
+            },
+            "noble": {
+              "duke": {
+                "current_level": 20
+              }
+            }
+          },
+          "skills": {
+            "arcane": {
+              "conjuration": {
+                "current_level": 50
+              }
+            },
+            "creating": {
+              "engineering": {
+                "current_level": 120
+              }
+            }
+          }
+        }
+      }
+    },
+    "merchant_110": {
+      "title": "Lighthouse",
+      "body": "The construction of lighthouses improves maritime navigation and safety during the dark. This innovation reduces the risk of shipwrecks and supports the growth of maritime trade whether it is dawn or dusk.",
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "angler": {
+                  "income_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.2,
+                    "scaling": 0
+                  }
+                },
+                "merchant": {
+                  "income_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.2,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "angler": {
+                "current_level": 110
+              },
+              "carpenter": {
+                "current_level": 100
+              },
+              "merchant": {
+                "current_level": 110
+              }
+            },
+            "noble": {
+              "duke": {
+                "current_level": 20
+              }
+            }
+          },
+          "explorations": {
+            "blue_sea": {
+              "story17": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "angler_150": {
+      "title": "Celestial Navigation",
+      "body": "By mastering the stars, long sea voyages are now possible, expanding the realm’s horizons and boosting maritime trade.",
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "angler": {
+                  "income_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.3,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "angler": {
+                "current_level": 150
+              }
+            },
+            "noble": {
+              "duke": {
+                "current_level": 50
+              }
+            }
+          },
+          "explorations": {
+            "blue_sea": {
+              "story17": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "critical_thinking_130": {
+      "title": "Libraries",
+      "body": "The creation and proliferation of libraries serve as repositories of knowledge, contributing to the preservation and dissemination of information. This innovation supports scholarly pursuits and intellectual growth.",
+      "effects": {
+        "skills": {
+          "exp_multiplier": {
+            "scaling_type": "logarithmic",
+            "base": 1.2,
+            "scaling": 0
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "duke": {
+                "current_level": 10
+              }
+            }
+          },
+          "skills": {
+            "fundamentals": {
+              "critical_thought": {
+                "current_level": 130
+              },
+              "literacy": {
+                "current_level": 100
+              }
+            }
+          }
+        }
+      }
+    },
+    "lord_knight_100": {
+      "title": "Dojos",
+      "body": "The establishment of dojos as training centers for martial arts facilitates skill development and community building. This innovation contributes to the widespread practice and mastery of martial arts.",
+      "effects": {
+        "trainings": {
+          "content": {
+            "physical": {
+              "exp_multiplier": {
+                "scaling_type": "logarithmic",
+                "base": 1.25,
+                "scaling": 0
+              }
+            }
+          }
+        },
+        "jobs": {
+          "content": {
+            "knight": {
+              "exp_multiplier": {
+                "scaling_type": "logarithmic",
+                "base": 1.1,
+                "scaling": 100
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "knight": {
+              "lord_knight": {
+                "current_level": 100
+              }
+            },
+            "noble": {
+              "duke": {
+                "current_level": 30
+              }
+            }
+          }
+        }
+      }
+    },
+    "magi_60": {
+      "title": "Chant Omission",
+      "body": "Harnessing your extensive experience in magical experimentation and spellcraft, you've uncovered techniques for streamlining the incantations required to cast spells. \n\nBy omitting certain portions of traditional chants, you've unlocked a method that accelerates spellcasting, significantly boosting efficiency and reducing the time required to invoke magical effects. \n\nThis discovery has advanced Eldoria’s knowledge of magic and your contribution will be passed on to generations to come.",
+      "effects": {
+        "spells": {
+          "level_increase": {
+            "scaling_type": "linear",
+            "base": 5,
+            "scaling": 0
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "arcanic": {
+              "magi": {
+                "current_level": 60
+              }
+            },
+            "noble": {
+              "duke": {
+                "current_level": 40
+              }
+            }
+          },
+          "skills": {
+            "arcane": {
+              "spell_craft": {
+                "current_level": 100
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

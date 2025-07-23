@@ -1,0 +1,153 @@
+{
+  "content": {
+    "prestidigitation": {
+      "name": "Prestidigitation",
+      "description": "Beginner Magic. Use mystic arts to alter how you are perceived",
+      "base_exp_req": 100,
+      "slot_size": 1,
+      "expense": 0,
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "renown_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.1,
+            "scaling": 0.1
+          },
+          "income_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.1,
+            "scaling": 0.1
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "skills": {
+            "arcane": {
+              "illusion": {
+                "current_level": 10
+              }
+            }
+          },
+          "jobs": {
+            "arcanic": {
+              "neophyte": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "illusionary_doubles": {
+      "name": "Illusionary Doubles",
+      "description": "Intermediate Magic. Create clones of yourself that can be used to draw away attention",
+      "base_exp_req": 100,
+      "slot_size": 3,
+      "expense": 0,
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "danger_decrease": {
+            "scaling_type": "linear",
+            "base": 30,
+            "scaling": 1
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "skills": {
+            "arcane": {
+              "illusion": {
+                "current_level": 10
+              }
+            }
+          },
+          "jobs": {
+            "arcanic": {
+              "magi": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "memory_imprint": {
+      "name": "Memory Imprint",
+      "description": "Advanced Magic. Imprint the things that you see in your mind",
+      "base_exp_req": 100,
+      "slot_size": 4,
+      "expense": 0,
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "exp_multiplier": {
+            "scaling_type": "linear",
+            "base": 3,
+            "scaling": 0.25
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "skills": {
+            "arcane": {
+              "illusion": {
+                "current_level": 100
+              }
+            }
+          },
+          "jobs": {
+            "arcanic": {
+              "wizard": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "boundless_dreams": {
+      "name": "Boundless Dreams",
+      "description": "Grand Magic. Simulate millions situations in your dreams to come up with the best outcome",
+      "base_exp_req": 100,
+      "slot_size": 5,
+      "expense": 0,
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "exp_multiplier": {
+            "scaling_type": "linear",
+            "base": 10,
+            "scaling": 1
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "skills": {
+            "arcane": {
+              "illusion": {
+                "current_level": 200
+              }
+            }
+          },
+          "jobs": {
+            "heroic": {
+              "forbidden_invoker": {
+                "current_level": 100
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

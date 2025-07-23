@@ -1,0 +1,105 @@
+{
+  "name": "Jobs",
+  "tab_name": "Jobs",
+  "description": "[center]Explore various professions, earn coins, and unlock valuable skills by taking on different jobs.[/center]",
+  "types": {
+    "common": {
+      "name": "Endeavors of the Common",
+      "tab_name": "Common",
+      "description": "Work for the common people and make a living through humble yet essential jobs.",
+      "lockable": false,
+      "requirements": {}
+    },
+    "knight": {
+      "name": "Order of the Knights",
+      "tab_name": "Knight",
+      "description": "Join the prestigious Order of the Knights, progress through the ranks, and become a formidable force.",
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "skills": {
+            "combat": {
+              "strength": {
+                "current_level": 5
+              }
+            }
+          }
+        }
+      }
+    },
+    "noble": {
+      "name": "Echelons of Eldoria",
+      "tab_name": "Echelon",
+      "description": "Ascend to the ranks of nobility in Eldoria, obtaining wealth and recognition.",
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "grasslands": {
+              "boss": {
+                "current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "explorations": {
+            "grasslands": {
+              "boss": {
+                "current_max_level": 1
+              }
+            }
+          },
+          "jobs": {
+            "knight": {
+              "squire": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "arcanic": {
+      "name": "Sanctum of the Arcanists",
+      "tab_name": "Arcanic",
+      "description": "Explore magic's mysteries in the Sanctum. Train under skilled spellcasters, unlocking new powers daily.",
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "technologies": {
+            "0": {
+              "magic_academy": {
+                "unlocked": true
+              }
+            }
+          },
+          "jobs": {
+            "noble": {
+              "baron": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "heroic": {
+      "name": "Hall of Heroes",
+      "tab_name": "Heroic",
+      "description": "The place where the heroes of the past rest. The heroes have left their legacy here and you can learn them, provided you pass their test. ",
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "heroic": {
+              "any_unlocked": true
+            }
+          }
+        }
+      }
+    }
+  },
+	"requirements": {
+	}
+}

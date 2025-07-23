@@ -1,0 +1,370 @@
+{
+  "content": {
+    "scraps": {
+      "name": "Scraps",
+      "description": "Food scraps that you find around.",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "happiness_multiplier": {
+            "scaling_type": "linear",
+            "base": 1,
+            "scaling": 0.01
+          }
+        }
+      },
+      "expense": 0,
+      "lockable": false,
+      "requirements": {}
+    },
+    "porridge": {
+      "name": "Porridge",
+      "description": "A very watered down porridge.",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "happiness_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.1,
+            "scaling": 0.02
+          }
+        }
+      },
+      "expense": 1,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "gold": 100
+        }
+      }
+    },
+    "potato": {
+      "name": "Potatoes",
+      "description": "Potatoes from your farm. Delicious.",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "happiness_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.2,
+            "scaling": 0.03
+          }
+        }
+      },
+      "expense": 2,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "farmer": {
+                "current_level": 15
+              }
+            }
+          }
+        }
+      }
+    },
+    "fish": {
+      "name": "Fish",
+      "description": "Careful of the bones.",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "happiness_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.3,
+            "scaling": 0.04
+          }
+        }
+      },
+      "expense": 4,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "angler": {
+                "current_level": 20
+              }
+            }
+          }
+        }
+      }
+    },
+    "bread": {
+      "name": "Bread",
+      "description": "Freshly baked bread for a satisfying meal.",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "happiness_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.5,
+            "scaling": 0.05
+          }
+        }
+      },
+      "expense": 7,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "gold": 5000
+        }
+      }
+    },
+    "chicken": {
+      "name": "Chicken",
+      "description": "Delicious chicken for a hearty feast.",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "happiness_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.7,
+            "scaling": 0.06
+          }
+        }
+      },
+      "expense": 10,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "gold": 10000
+        }
+      }
+    },
+    "beer": {
+      "name": "Beer",
+      "description": "Drinking liquid bread makes you a bit happier.",
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "happiness_multiplier": {
+            "scaling_type": "linear",
+            "base": 3,
+            "scaling": 0.03
+          },
+          "lifespan_decrease_per_day": {
+            "scaling_type": "linear",
+            "base": 0.15,
+            "scaling": 0.00
+          },
+          "exploration_speed_multiplier": {
+            "scaling_type": "linear",
+            "base": 0.9,
+            "scaling": 0.0
+          },
+          "combat_exploration_speed_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.2,
+            "scaling": 0.0
+          }
+        }
+      },
+      "expense": 10,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "technologies": {
+            "4": {
+              "culinarian_80": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "light_berry": {
+      "name": "Light Berries",
+      "description": "Berries from the Shaded Woods. It tastes horrible but you feel better after eating it.",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "happiness_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.2,
+            "scaling": 0.04
+          },
+          "lifespan_increase_per_day": {
+            "scaling_type": "linear",
+            "base": 0.1,
+            "scaling": 0.01
+          }
+        }
+      },
+      "expense": 5,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "technologies": {
+            "1": {
+              "light_berry": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "mana_berries": {
+      "name": "Mana Berries",
+      "description": "Berries from the Floating Groves. It tastes like blueberries and mana seems to be concentrated in it.",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "happiness_multiplier": {
+            "scaling_type": "linear",
+            "base": 2.5,
+            "scaling": 0.05
+          }
+        },
+        "skills": {
+          "content": {
+            "arcane": {
+              "exp_multiplier": {
+                "scaling_type": "linear",
+                "base": 1.1,
+                "scaling": 0.05
+              }
+            }
+          }
+        }
+      },
+      "expense": 5,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "technologies": {
+            "6": {
+              "mana_berry": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "magma_berry": {
+      "name": "Magma Berries",
+      "description": "Berries found from Avanosh. It tastes spicy but considering it grew from magma it's probably normal.",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "happiness_multiplier": {
+            "scaling_type": "linear",
+            "base": 3,
+            "scaling": 0.1
+          }
+        },
+        "skills": {
+          "content": {
+            "defense": {
+              "exp_multiplier": {
+                "scaling_type": "linear",
+                "base": 1.2,
+                "scaling": 0.075
+              }
+            }
+          }
+        }
+      },
+      "expense": 50,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "technologies": {
+            "7": {
+              "magma_berry": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "cake": {
+      "name": "Strawberry Cake",
+      "description": "A confectionery created by the finest culinarians. It's delicious, but may kill you slowly.",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "happiness_multiplier": {
+            "scaling_type": "linear",
+            "base": 4,
+            "scaling": 0.04
+          },
+          "lifespan_decrease_per_day": {
+            "scaling_type": "linear",
+            "base": 0.2,
+            "scaling": 0
+          }
+        }
+      },
+      "expense": 15,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "culinarian": {
+                "current_level": 30
+              }
+            }
+          }
+        }
+      }
+    },
+    "ultimate_berry": {
+      "name": "Ultimate Berry",
+      "description": "The supreme berry obtained from combining the genetic information of all berries. Tastes like oranges.",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "happiness_multiplier": {
+            "scaling_type": "linear",
+            "base": 5,
+            "scaling": 0.2
+          },
+          "lifespan_increase_per_day": {
+            "scaling_type": "linear",
+            "base": 0.1,
+            "scaling": 0.01
+          }
+        },
+        "skills": {
+          "content": {
+            "defense": {
+              "exp_multiplier": {
+                "scaling_type": "linear",
+                "base": 1.5,
+                "scaling": 0.1
+              }
+            },
+            "arcane": {
+              "exp_multiplier": {
+                "scaling_type": "linear",
+                "base": 1.1,
+                "scaling": 0.05
+              }
+            }
+          }
+        }
+      },
+      "expense": 500,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "technologies": {
+            "7": {
+              "ultimate_berry": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

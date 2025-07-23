@@ -1,0 +1,707 @@
+{
+  "content": {
+    "farmer_70": {
+      "title": "Fertilizers",
+      "body": "Through experimentation and agricultural expertise, you've developed effective fertilizers that enhance soil fertility. This breakthrough has led to improved crop yields and, subsequently, increased food production.",
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "farmer": {
+                  "income_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.05,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "farmer": {
+                "current_level": 70
+              }
+            },
+            "noble": {
+              "viscount": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "farmer_80": {
+      "title": "Pesticides",
+      "body": "Your innovative approach to pest control has resulted in the development of effective pesticides. These substances protect crops from harmful pests, ensuring a healthier harvest and reducing the risk of crop losses.",
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "farmer": {
+                  "income_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.10,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "farmer": {
+                "current_level": 80
+              }
+            },
+            "noble": {
+              "viscount": {
+                "current_level": 20
+              }
+            }
+          }
+        }
+      }
+    },
+    "farmer_85": {
+      "title": "Windmill",
+      "body": "The introduction of windmills has mechanized various agricultural processes, such as grinding grains and pumping water. This innovation increases efficiency, reduces labor, and enhances overall productivity.",
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "farmer": {
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.10,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "farmer": {
+                "current_level": 80
+              }
+            },
+            "noble": {
+              "viscount": {
+                "current_level": 20
+              }
+            }
+          }
+        }
+      }
+    },
+    "farmer_90": {
+      "title": "Aqueducts",
+      "body": "You spread the knowledge of creating canals around farms to keep crops always hydrated. With the implementation of aqueducts, water distribution becomes more efficient, ensuring consistent irrigation for crops. This not only increases agricultural productivity but also contributes to the overall stability of food production.",
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "farmer": {
+                  "income_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.15,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "lifestyles": {
+          "content": {
+            "food": {
+              "expenses_multiplier": {
+                "scaling_type": "exponential",
+                "base": 0.98,
+                "scaling": 0
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "farmer": {
+                "current_level": 90
+              },
+              "carpenter": {
+                "current_level": 70
+              }
+            },
+            "noble": {
+              "viscount": {
+                "current_level": 30
+              }
+            }
+          },
+          "skills": {
+            "creating": {
+              "engineering": {
+                "current_level": 100
+              }
+            }
+          }
+        }
+      }
+    },
+    "angler_70": {
+      "title": "Fish Farms",
+      "body": "Your expertise in aquaculture has led to the establishment of fish farms. Controlled environments allow for the systematic cultivation of fish, providing a stable and predictable source of seafood. This innovation contributes to both food security and economic prosperity.",
+      "effects": {
+        "lifestyles": {
+          "content": {
+            "food": {
+              "content": {
+                "fish": {
+                  "expenses_multiplier": {
+                    "scaling_type": "exponential",
+                    "base": 0.98,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "angler": {
+                  "income_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.15,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "angler": {
+                "current_level": 70
+              }
+            },
+            "noble": {
+              "viscount": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "angler_80": {
+      "title": "Aquaponics",
+      "body": "Building on fish farming, you've introduced aquaponics — a sustainable farming method that combines fish cultivation with plant growth. This integrated system maximizes resource efficiency and yields, creating a harmonious ecosystem that benefits both aquatic life and crop production.",
+      "effects": {
+        "lifestyles": {
+          "content": {
+            "food": {
+              "content": {
+                "fish": {
+                  "expenses_multiplier": {
+                    "scaling_type": "exponential",
+                    "base": 0.98,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "angler": {
+                  "income_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.2,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "farmer": {
+                "current_level": 80
+              },
+              "angler": {
+                "current_level": 80
+              }
+            },
+            "noble": {
+              "viscount": {
+                "current_level": 20
+              }
+            }
+          }
+        }
+      }
+    },
+    "carpenter_70": {
+      "title": "Blueprints",
+      "body": "The introduction of detailed blueprints has revolutionized construction planning. Builders can now follow precise guidelines, reducing errors and optimizing construction processes. This innovation contributes to more efficient and cost-effective construction projects.",
+      "effects": {
+        "lifestyles": {
+          "content": {
+            "home": {
+              "expenses_multiplier": {
+                "scaling_type": "exponential",
+                "base": 0.98,
+                "scaling": 0
+              }
+            }
+          }
+        },
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "carpenter": {
+                  "income_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.2,
+                    "scaling": 0
+                  },
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.2,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "carpenter": {
+                "current_level": 70
+              }
+            },
+            "noble": {
+              "viscount": {
+                "current_level": 10
+              }
+            }
+          },
+          "skills": {
+            "fundamentals": {
+              "literacy": {
+                "current_level": 100
+              }
+            },
+            "creating": {
+              "engineering": {
+                "current_level": 100
+              }
+            }
+          }
+        }
+      }
+    },
+    "carpenter_80": {
+      "title": "Crane",
+      "body": "The introduction of cranes in construction projects has revolutionized the handling of heavy materials and structures. This innovation significantly speeds up construction processes and reduces costs.",
+      "effects": {
+        "lifestyles": {
+          "content": {
+            "home": {
+              "expenses_multiplier": {
+                "scaling_type": "exponential",
+                "base": 0.98,
+                "scaling": 0
+              },
+              "level_increase": {
+                "scaling_type": "linear",
+                "base": 5,
+                "scaling": 0.00
+              }
+            }
+          }
+        },
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "carpenter": {
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.2,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "carpenter": {
+                "current_level": 80
+              },
+              "artificer": {
+                "current_level": 70
+              }
+            },
+            "noble": {
+              "viscount": {
+                "current_level": 20
+              }
+            }
+          },
+          "skills": {
+            "creating": {
+              "engineering": {
+                "current_level": 120
+              },
+              "crafting": {
+                "current_level": 100
+              }
+            }
+          }
+        }
+      }
+    },
+    "miner_70": {
+      "title": "Water-Powered Mills",
+      "body": "Water-powered mills were introduced to crush ore and separate minerals, improving the processing of extracted materials.",
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "miner": {
+                  "income_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.15,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "miner": {
+                "current_level": 70
+              }
+            },
+            "noble": {
+              "viscount": {
+                "current_level": 10
+              }
+            }
+          },
+          "skills": {
+            "creating": {
+              "engineering": {
+                "current_level": 90
+              }
+            }
+          }
+        }
+      }
+    },
+    "miner_80": {
+      "title": "Rail Transport",
+      "body": "The implementation of rail systems within mines enhanced transportation of minerals, streamlining the movement of extracted ores within large mining complexes.",
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "miner": {
+                  "income_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.2,
+                    "scaling": 0
+                  },
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.2,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "miner": {
+                "current_level": 80
+              }
+            },
+            "noble": {
+              "viscount": {
+                "current_level": 20
+              }
+            }
+          },
+          "skills": {
+            "creating": {
+              "engineering": {
+                "current_level": 100
+              }
+            }
+          }
+        }
+      }
+    },
+    "gambler_50": {
+      "title": "Statistical Analysis",
+      "body": "Your gambling addiction has brought forth you strategizing on how to win more. You used your experience in gambling to calculate the probabilities of certain events happening. \n\nYou later applied this skill during your explorations and thus reducing the chances of dangerous events happening. Seeing how this benefited you by reducing the chances of danger, you spread the knowledge of statistical analysis to the masses using your influence. ",
+      "effects": {
+        "overall": {
+          "danger_decrease": {
+            "scaling_type": "linear",
+            "base": 5,
+            "scaling": 0
+          }
+        },
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "gambler": {
+                  "income_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 0.9,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "gambler": {
+                "current_level": 50
+              }
+            },
+            "noble": {
+              "viscount": {
+                "current_level": 30
+              }
+            }
+          }
+        }
+      }
+    },
+    "artificer_70": {
+      "title": "Bronze Alloy",
+      "body": "While mixing ores you’ve found in the mine together, you have discovered an orange alloy that you’ll call bronze. \n\nBronze alloys provides a more durable and versatile material for various applications, from tools to weaponry. This innovation improves the quality and functionality of tools.",
+      "effects": {
+        "jobs": {
+          "exp_multiplier": {
+            "scaling_type": "logarithmic",
+            "base": 1.05,
+            "scaling": 0
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "miner": {
+                "current_level": 80
+              },
+              "artificer": {
+                "current_level": 70
+              }
+            },
+            "noble": {
+              "viscount": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "artificer_80": {
+      "title": "Armor Engineering",
+      "body": "Leveraging your extensive experience as a Squire in aiding knights with their armor, you've envisioned and introduced specialized techniques in armor crafting to amplify defensive capabilities. This innovative approach enhances the protective qualities of armor sets, representing a significant advancement in defensive warfare. \n\nThe carefully crafted techniques, born from firsthand encounters with armor intricacies, result in superior protection for warriors on the battlefield. As your contributions disseminate, this innovation fortifies knights and soldiers, empowering them against adversaries with heightened resilience and advanced defensive attributes.",
+      "effects": {
+        "lifestyles": {
+          "content": {
+            "item": {
+              "content": {
+                "armor": {
+                  "level_increase": {
+                    "scaling_type": "linear",
+                    "base": 5,
+                    "scaling": 0.0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "artificer": {
+                "current_level": 80
+              }
+            },
+            "knight": {
+              "squire": {
+                "current_level": 100
+              }
+            },
+            "noble": {
+              "viscount": {
+                "current_level": 20
+              }
+            }
+          }
+        }
+      }
+    },
+    "merchant_50": {
+      "title": "Bill of Exchange",
+      "body": "Your implementation of Bill of Exchange ushered in a new era of economic efficiency and reliability. Merchants can now issue written orders for payment, enabling them to conduct business without the need for extensive amounts of coinage. This not only reduces the risk of theft but also streamlines the trading process. ",
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "merchant": {
+                  "income_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "merchant": {
+                "current_level": 50
+              }
+            },
+            "noble": {
+              "viscount": {
+                "current_level": 30
+              }
+            }
+          }
+        }
+      }
+    },
+    "footman_50": {
+      "title": "Exercise Techniques",
+      "body": "The development of specialized exercise techniques enhances physical training routines. This innovation improves overall fitness levels and contributes to the well-being of individuals.",
+      "effects": {
+        "trainings": {
+          "content": {
+            "physical": {
+              "exp_multiplier": {
+                "scaling_type": "logarithmic",
+                "base": 1.1,
+                "scaling": 0
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "knight": {
+              "footman": {
+                "current_level": 50
+              }
+            },
+            "noble": {
+              "viscount": {
+                "current_level": 30
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

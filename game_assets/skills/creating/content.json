@@ -1,0 +1,184 @@
+{
+  "content": {
+    "woodworking_mastery": {
+      "name": "Woodworking Mastery",
+      "description": "Master the art of building structures, furniture, and more",
+      "base_exp_req": 100,
+      "hidden": true,
+      "effects": {
+        "lifestyles": {
+          "content": {
+            "home": {
+              "expenses_multiplier": {
+                "scaling_type": "exponential",
+                "base": 1,
+                "scaling": 0.995
+              }
+            }
+          }
+        },
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "carpenter": {
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1,
+                    "scaling": 100
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "creating": {
+              "woodworking_mastery": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "engineering": {
+      "name": "Engineering",
+      "description": "Understanding of mechanical systems and complex structures",
+      "base_exp_req": 100,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "carpenter": {
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1,
+                    "scaling": 90
+                  }
+                }
+              }
+            }
+          }
+        },
+        "lifestyles": {
+          "content": {
+            "home": {
+              "level_increase": {
+                "scaling_type": "linear",
+                "base": 0,
+                "scaling": 0.02
+              }
+            }
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "creating": {
+              "engineering": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "crafting": {
+      "name": "Crafting",
+      "description": "Craft things with a multitude of materials",
+      "base_exp_req": 100,
+      "hidden": true,
+      "effects": {
+        "lifestyles": {
+          "content": {
+            "item": {
+              "level_increase": {
+                "scaling_type": "linear",
+                "base": 0,
+                "scaling": 0.1
+              }
+            }
+          }
+        },
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "artificer": {
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1,
+                    "scaling": 100
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "creating": {
+              "crafting": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "cooking": {
+      "name": "Cooking",
+      "description": "Cook delicious meals that makes you happy",
+      "base_exp_req": 100,
+      "hidden": true,
+      "effects": {
+        "lifestyles": {
+          "content": {
+            "food": {
+              "level_increase": {
+                "scaling_type": "linear",
+                "base": 0,
+                "scaling": 0.1
+              }
+            }
+          }
+        },
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "culinarian": {
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1,
+                    "scaling": 100
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "creating": {
+              "cooking": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

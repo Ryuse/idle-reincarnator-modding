@@ -1,0 +1,95 @@
+{
+  "name": "Spells",
+  "tab_name": "Spells",
+  "description": "[center]Choose the spells you'll use[/center]",
+  "types": {
+    "conjuration": {
+      "name": "Conjuration",
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "arcanic": {
+              "neophyte": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "evocation": {
+      "name": "Evocation",
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "arcanic": {
+              "neophyte": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "illusion": {
+      "name": "Illusion",
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "technologies": {
+            "0": {
+              "magic_academy": {
+                "unlocked": true
+              },
+              "illusion_magic_school": {
+                "unlocked": true
+              }
+            }
+          },
+          "jobs": {
+            "arcanic": {
+              "neophyte": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "restoration": {
+      "name": "Restoration",
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "technologies": {
+            "7": {
+              "restoration_magic_school": {
+                "unlocked": true
+              }
+            }
+          },
+          "jobs": {
+            "arcanic": {
+              "neophyte": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": {
+    "0": {
+      "jobs": {
+        "arcanic": {
+          "neophyte": {
+            "unlocked": true
+          }
+        }
+      }
+    }
+  }
+}

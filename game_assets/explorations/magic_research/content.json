@@ -1,0 +1,448 @@
+{
+  "content": {
+    "story0": {
+      "name": "Open the book",
+      "action_type": "combat",
+      "description": "Try to open the book. It's very difficult to open. ",
+      "points_needed": 2000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 200,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 50,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "ancient_crypt": {
+              "boss": {
+                "current_level": 1
+              }
+            }
+          },
+          "technologies": {
+            "0": {
+              "magic_academy": {
+                "unlocked": false
+              }
+            }
+          }
+        }
+      }
+    },
+    "story1": {
+      "name": "Collect Materials",
+      "action_type": "scavenging",
+      "description": "Collect the materials needed for the unlocking ritual.",
+      "points_needed": 3000000,
+      "rewards": {},
+      "expense": 200,
+      "danger": 200,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "scavenging": {
+              "content": {
+                "beggar_instinct": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 50,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "magic_research": {
+              "story0": {
+                "current_level": 1
+              },
+              "story9": {
+                "not_max_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story2": {
+      "name": "Unlocking Ritual",
+      "action_type": "fundamentals",
+      "description": "Perform the Unlocking Ritual.",
+      "points_needed": 2500000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 200,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "arcane": {
+              "content": {
+                "mana_sense": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 50,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "magic_research": {
+              "story1": {
+                "current_level": 1
+              },
+              "story9": {
+                "not_max_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story3": {
+      "name": "Decipher the book",
+      "action_type": "fundamentals",
+      "description": "Try to understand the arcane book.",
+      "points_needed": 3000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "fundamentals": {
+              "content": {
+                "literacy": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 50,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "magic_research": {
+              "story2": {
+                "current_level": 1
+              },
+              "story9": {
+                "not_max_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story4": {
+      "name": "Construct Mind Runes",
+      "action_type": "fundamentals",
+      "description": "Build the runes in your mind.",
+      "points_needed": 3000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "arcane": {
+              "content": {
+                "mana_sense": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 50,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "magic_research": {
+              "story3": {
+                "current_level": 1
+              },
+              "story9": {
+                "not_max_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story5": {
+      "name": "Re-decipher the book",
+      "action_type": "fundamentals",
+      "description": "Decipher the book’s new contents.",
+      "points_needed": 3500000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "fundamentals": {
+              "content": {
+                "literacy": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 50,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "magic_research": {
+              "story4": {
+                "current_level": 1
+              },
+              "story9": {
+                "not_max_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story6": {
+      "name": "Magical Chants",
+      "action_type": "fundamentals",
+      "description": "Try out the chants.",
+      "points_needed": 3000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "arcane": {
+              "content": {
+                "mana_sense": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 50,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "magic_research": {
+              "story5": {
+                "current_level": 1
+              },
+              "story9": {
+                "not_max_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story7": {
+      "name": "Simplify the Chants",
+      "action_type": "fundamentals",
+      "description": "Put the chants into words.",
+      "points_needed": 4000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "fundamentals": {
+              "content": {
+                "literacy": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 50,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "magic_research": {
+              "story6": {
+                "current_level": 1
+              },
+              "story9": {
+                "not_max_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story8": {
+      "name": "Organize Magical Knowledge",
+      "action_type": "fundamentals",
+      "description": "The knowledge inside the book is too difficult to understand without organizing them.",
+      "points_needed": 4000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "fundamentals": {
+              "content": {
+                "literacy": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 50,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "magic_research": {
+              "story7": {
+                "current_level": 1
+              },
+              "story9": {
+                "not_max_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story9": {
+      "name": "Establishing a Magical School",
+      "action_type": "fundamentals",
+      "description": "Start Eldoria’s path to the Arcane.",
+      "points_needed": 5000000,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "leadership": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 50,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "magic_research": {
+              "story8": {
+                "current_level": 1
+              },
+              "story9": {
+                "not_max_level": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

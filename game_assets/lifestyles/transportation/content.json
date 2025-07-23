@@ -1,0 +1,288 @@
+{
+  "content": {
+    "foot": {
+      "name": "Foot",
+      "description": "Simple transportation on foot.",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "exploration_speed_multiplier": {
+            "scaling_type": "linear",
+            "base": 1,
+            "scaling": 0.01
+          }
+        }
+      },
+      "expense": 0,
+      "lockable": false,
+      "requirements": {}
+    },
+    "donkey": {
+      "name": "Donkey",
+      "description": "A stubborn donkey that won't listen to what you say, probably because it can't understand human language.",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "exploration_speed_multiplier": {
+            "scaling_type": "linear",
+            "base": 0.5,
+            "scaling": 0.05
+          }
+        },
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "riding": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 3,
+                    "scaling": 0.3
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "expense": 5,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "farmer": {
+                "current_level": 15
+              }
+            }
+          }
+        }
+      }
+    },
+    "horse": {
+      "name": "Horse",
+      "description": "A horse for swift travel.",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "exploration_speed_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.3,
+            "scaling": 0.05
+          }
+        },
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "riding": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1.3,
+                    "scaling": 0.05
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "expense": 10,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "knight": {
+              "footman": {
+                "current_level": 15
+              }
+            }
+          }
+        }
+      }
+    },
+    "war_horse": {
+      "name": "War Horse",
+      "description": "A horse bred for war.",
+      "hidden": false,
+      "effects": {
+        "overall": {
+          "exploration_speed_multiplier": {
+            "scaling_type": "linear",
+            "base": 1.5,
+            "scaling": 0.075
+          }
+        },
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "riding": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1.5,
+                    "scaling": 0.1
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "expense": 25,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "knight": {
+              "knight": {
+                "current_level": 15
+              }
+            }
+          }
+        }
+      }
+    },
+    "sir_crabs": {
+      "name": "Sir Crabs",
+      "description": "A 'friendly' crab you found in your travels. It eats a lot.",
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "danger_decrease": {
+            "scaling_type": "linear",
+            "base": 5,
+            "scaling": 0.5
+          },
+          "exploration_speed_multiplier": {
+            "scaling_type": "linear",
+            "base": 2,
+            "scaling": 0.1
+          }
+        },
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "riding": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 2,
+                    "scaling": 0.2
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "expense": 50,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "stories": {
+            "life": {
+              "crab_mount": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "true_dragon": {
+      "name": "True Dragon",
+      "description": "A dragon that was impressed by your strength. It eats a lot.",
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "danger_decrease": {
+            "scaling_type": "linear",
+            "base": 10,
+            "scaling": 1
+          },
+          "exploration_speed_multiplier": {
+            "scaling_type": "linear",
+            "base": 3,
+            "scaling": 0.15
+          }
+        },
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "riding": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 5,
+                    "scaling": 0.5
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "expense": 100,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "stories": {
+            "life": {
+              "dragon_mount": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "roc": {
+      "name": "Roc",
+      "description": "Your old friend and a mythical creature that has lived for ages.",
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "danger_decrease": {
+            "scaling_type": "linear",
+            "base": 20,
+            "scaling": 2
+          },
+          "exploration_speed_multiplier": {
+            "scaling_type": "linear",
+            "base": 5,
+            "scaling": 0.25
+          }
+        },
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "riding": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 15,
+                    "scaling": 1
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "expense": 500,
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "stories": {
+            "life": {
+              "roc_mount": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

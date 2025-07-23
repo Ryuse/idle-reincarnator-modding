@@ -1,0 +1,50 @@
+{
+  "content": {
+    "chronic_insight_iv": {
+      "name": "Chronic Insight IV",
+      "description": "Reduces the scaling of exp required by 1% (Additively) per each level. Stacks with Chronic Insights",
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "exp_required_percentage_reduction": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 1
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 50,
+      "max_level": 20
+    },
+    "echoes_of_time_iii": {
+      "name": "Echoes of Time III",
+      "description": "Hear echoes from yourselves in different time. Bosses defeated will reduce their future danger by the number of times you have defeated the boss. The danger reduction will persist through rebirths and regressions. \n\n New Boss Danger = Boss Danger - (boss lifetime defeat amount * (0.1 x total echoes of time levels))",
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "boss_danger_reduction_per_defeat": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 0.1
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 50,
+      "max_level": 20
+    },
+    "idle_reincarnator": {
+      "name": "Idle Reincarnator",
+      "description": "Even after all the multiple lives, you're still you. \n\nRebirth and Regression can be automated.",
+      "hidden": true,
+      "effects": {},
+      "lockable": false,
+      "requirements": {},
+      "temporal_cost": 1000,
+      "max_level": 1
+    }
+  }
+}

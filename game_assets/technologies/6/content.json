@@ -1,0 +1,369 @@
+{
+  "content": {
+    "critical_thinking_175": {
+      "title": "Judicial System",
+      "body": "The implementation of a comprehensive judicial system marks a significant stride in Eldoria's governance. This technological advancement establishes a structured legal framework, complete with courts, judges, and legal procedures. \n\nWith the introduction of the judicial system, disputes are resolved impartially, ensuring fair and just outcomes for all citizens. Legal codes and precedents contribute to the development of a stable and predictable legal environment, fostering trust in the justice system. The Judicial System technology not only upholds the rule of law but also promotes social harmony and the protection of individual rights.",
+      "effects": {
+        "overall": {
+          "happiness_multiplier": {
+            "scaling_type": "logarithmic",
+            "base": 1.05,
+            "scaling": 0
+          }
+        },
+        "jobs": {
+          "content": {
+            "noble": {
+              "exp_multiplier": {
+                "scaling_type": "logarithmic",
+                "base": 1.1,
+                "scaling": 0
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "archduke": {
+                "current_level": 10
+              }
+            }
+          },
+          "skills": {
+            "fundamentals": {
+              "critical_thought": {
+                "current_level": 175
+              }
+            }
+          }
+        }
+      }
+    },
+    "mystic_knight_110": {
+      "title": "War Council",
+      "body": "The formation of a War Council unites the best minds in warfare, enhancing your realm’s defensive and offensive strategies.",
+      "effects": {
+        "trainings": {
+          "content": {
+            "physical": {
+              "exp_multiplier": {
+                "scaling_type": "logarithmic",
+                "base": 1.5,
+                "scaling": 0
+              }
+            }
+          }
+        },
+        "jobs": {
+          "content": {
+            "knight": {
+              "exp_multiplier": {
+                "scaling_type": "logarithmic",
+                "base": 1.5,
+                "scaling": 0
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "knight": {
+              "mystic_knight": {
+                "current_level": 110
+              }
+            },
+            "noble": {
+              "archduke": {
+                "current_level": 100
+              }
+            }
+          },
+          "skills": {
+            "fundamentals": {
+              "critical_thought": {
+                "current_level": 200
+              }
+            }
+          }
+        }
+      }
+    },
+    "world_lore_300": {
+      "title": "Realm Map",
+      "body": "You have created a map of most of the realm throughout your explorations, highlighting its dangers and attributes. This has made exploration safer for explorers.",
+      "effects": {
+        "overall": {
+          "danger_decrease": {
+            "scaling_type": "linear",
+            "base": 100,
+            "scaling": 0
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "archduke": {
+                "current_level": 200
+              }
+            }
+          },
+          "skills": {
+            "fundamentals": {
+              "critical_thought": {
+                "current_level": 300
+              }
+            }
+          }
+        }
+      }
+    },
+    "grand_creator_150": {
+      "title": "Monumental Architecture",
+      "body": "Through your visionary guidance, monumental structures symbolizing your civilization's greatness rise to the sky, inspiring awe and attracting pilgrims from distant lands.",
+      "effects": {
+        "lifestyles": {
+          "content": {
+            "home": {
+              "level_increase": {
+                "scaling_type": "linear",
+                "base": 10,
+                "scaling": 0.00
+              }
+            }
+          }
+        },
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "carpenter": {
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.2,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "heroic": {
+              "grand_creator": {
+                "current_level": 150
+              }
+            },
+            "noble": {
+              "archduke": {
+                "current_level": 100
+              }
+            }
+          },
+          "skills": {
+            "creating": {
+              "engineering": {
+                "current_level": 300
+              }
+            }
+          }
+        }
+      }
+    },
+    "healer_120": {
+      "title": "Healer’s Institute",
+      "body": "Drawing upon your vast influence and unparalleled expertise as a revered healer, you have established a sacred institute dedicated to nurturing the next generation of caregivers. This hallowed sanctuary serves as a beacon of hope, where the common folk can unlock the profound mysteries of the healing arts and harness their own innate potential to better the lives of others.\n\nThrough your tutelage and guidance, an ever-growing number of apprentices emerge from these hallowed halls, their hands imbued with the power to mend wounds, alleviate afflictions, and restore vitality. This influx of skilled healers directly enriches the lives of Eldoria's citizens, fortifying their well-being and resilience against the perils of sickness and injury.",
+      "effects": {
+        "text": "Alternate Healer Job requirements unlocked"
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "healer": {
+                "current_level": 120
+              }
+            },
+            "noble": {
+              "archduke": {
+                "current_level": 40
+              }
+            }
+          }
+        }
+      }
+    },
+    "wizard_80": {
+      "title": "Chantless Casting",
+      "body": "In your relentless quest for mastery over magic, you delved deep into the subtle currents of mana that weave through each spell. \n\nThrough unwavering focus and countless hours of practice, you unlocked the secret to casting spells with unparalleled efficiency and power—without the constraints of traditional chants. \n\nWith a flourish of arcane prowess, you unveiled your groundbreaking technique to the esteemed scholars of the Sanctum of the Arcanist, igniting a revolution in Eldoria's magical arts and forever altering the course of spellcasting history.",
+      "effects": {
+        "spells": {
+          "level_increase": {
+            "scaling_type": "linear",
+            "base": 5,
+            "scaling": 0
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "technologies": {
+            "5": {
+              "magi_60": {
+                "unlocked": true
+              }
+            }
+          },
+          "jobs": {
+            "arcanic": {
+              "wizard": {
+                "current_level": 80
+              }
+            },
+            "noble": {
+              "archduke": {
+                "current_level": 30
+              }
+            }
+          },
+          "skills": {
+            "arcane": {
+              "mana_sense": {
+                "current_level": 200
+              },
+              "mana_control": {
+                "current_level": 200
+              },
+              "spell_craft": {
+                "current_level": 200
+              }
+            }
+          }
+        }
+      }
+    },
+    "wizard_90": {
+      "title": "Mana Storage",
+      "body": "As the quest for greater mana capacity consumed your thoughts, a revelation sparked within: why confine such power solely within the confines of one's being?\n\n With this epiphany, your formidable expertise in both the arcane and the art of crafting ignited a creative pursuit unlike any other. \n\nThrough relentless innovation and the melding of ancient arts, you forged a marvel of enchantment—a mystical artifact designed to harness and contain mana, a testament to your unparalleled mastery of both magic and craftsmanship.\n\nYou spread your knowledge of its creation to the Sanctum to push forward the progress of magical technology in Eldoria.",
+      "effects": {
+        "text": "Mana Battery Unlocked"
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "artificer": {
+                "current_level": 130
+              }
+            },
+            "noble": {
+              "archduke": {
+                "current_level": 50
+              }
+            },
+            "arcanic": {
+              "wizard": {
+                "current_level": 90
+              }
+            }
+          },
+          "skills": {
+            "arcane": {
+              "mana_control": {
+                "current_level": 210
+              }
+            }
+          }
+        }
+      }
+    },
+    "mana_berry": {
+      "title": "Mana Berry Cultivation",
+      "body": "After harvesting Mana Berries for a long time, you've had enough seeds from the berries to cultivate them! You can now eat the berries but still have to maintain them. \n\nMana Berries are unlocked and will be in the future.",
+      "effects": {
+        "text": "Mana Berries Food Unlocked"
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "item2": {
+                "current_level": 20
+              }
+            }
+          },
+          "jobs": {
+            "common": {
+              "farmer": {
+                "current_level": 150
+              }
+            },
+            "noble": {
+              "archduke": {
+                "current_level": 60
+              }
+            }
+          }
+        }
+      }
+    },
+    "volcanic_forge": {
+      "title": "Volcanic Forge",
+      "body": "After harnessing the power of the ores of Avanosh, you have created a forge that can reach and endure temperature of the world’s core. \n\nThis forge will allow the people of Eldoria to further their technological prowess in forging, making any items that come out of the forge to be stronger.",
+      "effects": {
+        "lifestyles": {
+          "content": {
+            "item": {
+              "level_increase": {
+                "scaling_type": "linear",
+                "base": 10,
+                "scaling": 0.0
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "heroic": {
+              "grand_creator": {
+                "current_level": 100
+              }
+            },
+            "noble": {
+              "archduke": {
+                "current_level": 100
+              }
+            }
+          },
+          "explorations": {
+            "avanosh": {
+              "item1": {
+                "current_level": 50
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

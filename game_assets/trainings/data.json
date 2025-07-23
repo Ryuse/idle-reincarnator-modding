@@ -1,0 +1,86 @@
+{
+  "name": "Trainings",
+  "tab_name": "Train",
+  "description": "[center]Train to enhance your skills and knowledge, unlocking new levels of expertise along the way.[/center]",
+  "types": {
+    "mental": {
+      "name": "Mental",
+      "lockable": false,
+      "requirements": {}
+    },
+    "physical": {
+      "name": "Physical",
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "farmer": {
+                "current_level": 5
+              }
+            }
+          }
+        }
+      }
+    },
+    "worldly": {
+      "name": "Worldly",
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "baron": {
+                "current_level": 10
+              }
+            }
+          }
+        },
+        "1": {
+          "technologies": {
+            "4": {
+              "critical_thinking_100": {
+                "unlocked": true
+              }
+            }
+          },
+          "not_age": {
+            "years": 13
+          }
+        }
+      }
+    },
+    "arcane": {
+      "name": "Arcane",
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "technologies": {
+            "0": {
+              "magic_academy": {
+                "unlocked": true
+              }
+            }
+          },
+          "jobs": {
+            "arcanic": {
+              "neophyte": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "temporal": {
+      "name": "Temporal",
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "regressions": 1,
+          "total_temporals": 25
+        }
+      }
+    }
+  }
+}

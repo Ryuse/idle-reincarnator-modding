@@ -1,0 +1,217 @@
+{
+  "content": {
+    "mana_sense": {
+      "name": "Mana Sense",
+      "description": "Your ability to sense mana. This determines your future as a Wizard.",
+      "base_exp_req": 300,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "content": {
+            "arcanic": {
+              "exp_multiplier": {
+                "scaling_type": "logarithmic",
+                "base": 1,
+                "scaling": 100
+              }
+            }
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "arcane": {
+              "mana_sense": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "mana_control": {
+      "name": "Mana Control",
+      "description": "Your ability to control and manipulate mana, determining your capability as an arcane practitioner.",
+      "base_exp_req": 300,
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "spell_slots": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 0.04
+          }
+        },
+        "jobs": {
+          "content": {
+            "arcanic": {
+              "exp_multiplier": {
+                "scaling_type": "logarithmic",
+                "base": 1,
+                "scaling": 200
+              }
+            }
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "arcane": {
+              "mana_control": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "spell_craft": {
+      "name": "Spell Craft",
+      "description": "Your proficiency in making and using spells",
+      "base_exp_req": 1000,
+      "hidden": true,
+      "effects": {
+        "spells": {
+          "level_increase": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 0.1
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "arcane": {
+              "spell_craft": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "conjuration": {
+      "name": "Conjuration Magic",
+      "description": "Your ability to use Conjuration magic",
+      "base_exp_req": 1000,
+      "hidden": true,
+      "effects": {
+        "spells": {
+          "content":{
+            "conjuration":{
+              "level_increase": {
+                "scaling_type": "linear",
+                "base": 0,
+                "scaling": 0.025
+              }
+            }
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "arcane": {
+              "conjuration": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "evocation": {
+      "name": "Evocation Magic",
+      "description": "Your ability to use evocation magic",
+      "base_exp_req": 1000,
+      "hidden": true,
+      "effects": {
+        "spells": {
+          "content":{
+            "evocation":{
+              "level_increase": {
+                "scaling_type": "linear",
+                "base": 0,
+                "scaling": 0.025
+              }
+            }
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "arcane": {
+              "evocation": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "illusion": {
+      "name": "Illusion Magic",
+      "description": "Your ability to use illusion magic",
+      "base_exp_req": 1500,
+      "hidden": true,
+      "effects": {
+        "spells": {
+          "content":{
+            "illusion":{
+              "level_increase": {
+                "scaling_type": "linear",
+                "base": 0,
+                "scaling": 0.025
+              }
+            }
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "arcane": {
+              "illusion": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "restoration": {
+      "name": "Restoration Magic",
+      "description": "Your ability to use restoration magic",
+      "base_exp_req": 1500,
+      "hidden": true,
+      "effects": {
+        "spells": {
+          "content":{
+            "restoration":{
+              "level_increase": {
+                "scaling_type": "linear",
+                "base": 0,
+                "scaling": 0.025
+              }
+            }
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "arcane": {
+              "restoration": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

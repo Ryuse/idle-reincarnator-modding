@@ -1,0 +1,236 @@
+{
+  "content": {
+    "conjuration_tower": {
+      "name": "Tower of Conjuration",
+      "description": "Study the magic of conjuration at this school",
+      "base_exp_req": 100,
+      "expense": 5,
+      "hidden": false,
+      "effects": {
+        "trainings": {
+          "content": {
+            "arcane": {
+              "content": {
+                "conjuration_tower": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "arcane": {
+              "content": {
+                "conjuration": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.2
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "technologies": {
+            "0": {
+              "magic_academy": {
+                "unlocked": true
+              }
+            }
+          },
+          "jobs": {
+            "arcanic": {
+              "neophyte": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "evocation_tower": {
+      "name": "Tower of Evocation",
+      "description": "Study the magic of evocation at this school",
+      "base_exp_req": 100,
+      "expense": 5,
+      "hidden": false,
+      "effects": {
+        "trainings": {
+          "content": {
+            "arcane": {
+              "content": {
+                "evocation_tower": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "arcane": {
+              "content": {
+                "evocation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.2
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "technologies": {
+            "0": {
+              "magic_academy": {
+                "unlocked": true
+              }
+            }
+          },
+          "jobs": {
+            "arcanic": {
+              "neophyte": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "illusion_tower": {
+      "name": "Tower of Illusion",
+      "description": "Study the magic of illusion at this school",
+      "base_exp_req": 100,
+      "expense": 5,
+      "hidden": true,
+      "effects": {
+        "trainings": {
+          "content": {
+            "arcane": {
+              "content": {
+                "illusion_tower": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "arcane": {
+              "content": {
+                "illusion": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.2
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "technologies": {
+            "0": {
+              "illusion_magic_school": {
+                "unlocked": true
+              }
+            }
+          },
+          "jobs": {
+            "arcanic": {
+              "neophyte": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "restoration_tower": {
+      "name": "Tower of Restoration",
+      "description": "Study the magic of restoration at this school",
+      "base_exp_req": 100,
+      "expense": 5,
+      "hidden": true,
+      "effects": {
+        "trainings": {
+          "content": {
+            "arcane": {
+              "content": {
+                "restoration_tower": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "arcane": {
+              "content": {
+                "restoration": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.2
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "technologies": {
+            "7": {
+              "restoration_magic_school": {
+                "unlocked": true
+              }
+            }
+          },
+          "jobs": {
+            "arcanic": {
+              "neophyte": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

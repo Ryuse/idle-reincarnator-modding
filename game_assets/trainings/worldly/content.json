@@ -1,0 +1,281 @@
+{
+  "content": {
+    "explorer_school": {
+      "name": "Academy of Explorers",
+      "description": "Learn how to explore from the experienced explorers",
+      "base_exp_req": 100,
+      "expense": 5,
+      "hidden": false,
+      "effects": {
+        "trainings": {
+          "content": {
+            "worldly": {
+              "content": {
+                "explorer_school": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 10,
+                    "scaling": 2
+                  }
+                },
+                "world_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 10,
+                    "scaling": 2
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "baron": {
+                "current_level": 10
+              }
+            }
+          }
+        },
+        "1": {
+          "technologies": {
+            "4": {
+              "critical_thinking_100": {
+                "unlocked": true
+              }
+            }
+          },
+          "not_age": {
+            "years": 13
+          }
+        }
+      }
+    },
+    "engineering_school": {
+      "name": "School of Engineering",
+      "description": "Learn from complex structures and how to build them",
+      "base_exp_req": 100,
+      "expense": 5,
+      "hidden": false,
+      "effects": {
+        "trainings": {
+          "content": {
+            "worldly": {
+              "content": {
+                "engineering_school": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "creating": {
+              "content": {
+                "engineering": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 10,
+                    "scaling": 2
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "baron": {
+                "current_level": 10
+              }
+            }
+          }
+        },
+        "1": {
+          "technologies": {
+            "4": {
+              "critical_thinking_100": {
+                "unlocked": true
+              }
+            }
+          },
+          "not_age": {
+            "years": 13
+          }
+        }
+      }
+    },
+    "combat_school": {
+      "name": "Valorian Institute",
+      "description": "Learn complex battle techniques passed down to only the nobles",
+      "base_exp_req": 100,
+      "expense": 5,
+      "hidden": false,
+      "effects": {
+        "trainings": {
+          "content": {
+            "worldly": {
+              "content": {
+                "combat_school": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "defense": {
+              "content": {
+                "evasion_techniques": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 2,
+                    "scaling": 0.4
+                  }
+                }
+              }
+            },
+            "combat": {
+              "content": {
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 10,
+                    "scaling": 2
+                  }
+                },
+                "weapon_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 10,
+                    "scaling": 2
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "baron": {
+                "current_level": 10
+              }
+            }
+          }
+        },
+        "1": {
+          "technologies": {
+            "4": {
+              "critical_thinking_100": {
+                "unlocked": true
+              }
+            }
+          },
+          "not_age": {
+            "years": 13
+          }
+        }
+      }
+    },
+    "mental_school": {
+      "name": "Goddess Cathedral",
+      "description": "Learn how to read and write here",
+      "base_exp_req": 100,
+      "expense": 5,
+      "hidden": false,
+      "effects": {
+        "trainings": {
+          "content": {
+            "worldly": {
+              "content": {
+                "mental_school": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "fundamentals": {
+              "content": {
+                "literacy": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 10,
+                    "scaling": 2
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "baron": {
+                "current_level": 10
+              }
+            }
+          }
+        },
+        "1": {
+          "technologies": {
+            "4": {
+              "critical_thinking_100": {
+                "unlocked": true
+              }
+            }
+          },
+          "not_age": {
+            "years": 13
+          }
+        }
+      }
+    }
+  }
+}

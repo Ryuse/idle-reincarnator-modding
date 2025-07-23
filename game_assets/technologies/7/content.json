@@ -1,0 +1,320 @@
+{
+  "content": {
+    "sage_400": {
+      "title": "Philosophy of Logic",
+      "body": "Through deep contemplation and debate, the principles of logic have emerged, advancing education and governance. Critical thinking permeates society, inspiring innovation.",
+      "effects": {
+        "overall": {
+          "exp_multiplier": {
+            "scaling_type": "logarithmic",
+            "base": 1.5,
+            "scaling": 0
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "imperial_preceptor": {
+                "current_level": 400
+              }
+            },
+            "heroic": {
+              "sage": {
+                "current_level": 400
+              }
+            }
+          },
+          "skills": {
+            "fundamentals": {
+              "critical_thought": {
+                "current_level": 500
+              }
+            }
+          }
+        }
+      }
+    },
+    "grand_creator_400": {
+      "title": "Arcane Processors",
+      "body": "Your vision of connecting people and your near godlike skills have borne fruit and created the piece of device that normal people can use in their daily lives. This device connects to a network that lets people communicate with each other in a virtual world and share ideas and news, allowing the fast exchange of information.",
+      "effects": {
+        "overall": {
+          "renown_multiplier": {
+            "scaling_type": "linear",
+            "base": 2,
+            "scaling": 0.1
+          },
+          "income_multiplier": {
+            "scaling_type": "linear",
+            "base": 2,
+            "scaling": 0.1
+          },
+          "exp_multiplier": {
+            "scaling_type": "logarithmic",
+            "base": 1.2,
+            "scaling": 0
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "heroic": {
+              "grand_creator": {
+                "current_level": 400
+              },
+              "forbidden_invoker": {
+                "current_level": 400
+              }
+            },
+            "noble": {
+              "imperial_preceptor": {
+                "current_level": 400
+              }
+            }
+          }
+        }
+      }
+    },
+    "wizard_100": {
+      "title": "Gateways",
+      "body": "Leveraging your esteemed position as the Imperial Preceptor and your great knowledge of magic, you proposed an innovative solution to the King: the establishment of interlinked magical structures spanning the realm, capable of compressing space and facilitating instantaneous travel between distant locations. \n\nYour visionary concept, realized through these gateways, enables swift transportation of goods and individuals across Eldoria. To ensure safety, you advocated for the deployment of vigilant guards at each gateways, warding off potential threats and safeguarding the populace. \n\nThis groundbreaking infrastructure promises to not only streamline travel but also stimulate economic growth by fostering enhanced trade networks and bolstering Eldoria's prosperity.",
+      "effects": {
+        "overall": {
+          "income_multiplier": {
+            "scaling_type": "logarithmic",
+            "base": 1.2,
+            "scaling": 0
+          },
+          "exploration_speed_multiplier": {
+            "scaling_type": "logarithmic",
+            "base": 1.2,
+            "scaling": 0
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "imperial_preceptor": {
+                "current_level": 30
+              }
+            }
+          },
+          "skills": {
+            "arcane": {
+              "evocation": {
+                "current_level": 200
+              }
+            }
+          }
+        }
+      }
+    },
+    "restoration_magic_school": {
+      "title": "School of Restoration",
+      "body": "As the defender of the realm, imperial preceptor, and the greatest healer of Eldoria, you have pioneered a new school of magic that revolutionizes healing in battle. Once confined to peaceful environments, healing magic can now be wielded in the midst of combat, allowing healers to protect and restore their allies on the frontlines. Your discovery has transformed the role of healers, empowering them to actively shape the outcome of battles with both healing and defense.",
+      "effects": {
+        "text": "School of Restoration Unlocked"
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "healer": {
+                "current_level": 200
+              }
+            },
+            "noble": {
+              "imperial_preceptor": {
+                "current_level": 100
+              }
+            },
+            "heroic": {
+              "realm_guardian": {
+                "current_level": 100
+              }
+            }
+          }
+        }
+      }
+    },
+    "magma_berry": {
+      "title": "Magma Berry Cultivation",
+      "body": "After harvesting Magma Berries for a long time, you've had enough seeds from the berries to cultivate them! Cultivating them requires lava and you may have burnt parts of Eldoria trying to cultivate them but.. now you can now eat the berries! \n\nMagma Berries are unlocked and will be in the future.",
+      "effects": {
+        "text": "Magma Berries Food Unlocked"
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "avanosh": {
+              "item0": {
+                "current_level": 20
+              }
+            }
+          },
+          "jobs": {
+            "common": {
+              "farmer": {
+                "current_level": 180
+              }
+            },
+            "heroic": {
+              "sage": {
+                "current_level": 100
+              }
+            }
+          }
+        }
+      }
+    },
+    "merchant_200": {
+      "title": "Global Trade",
+      "body": "Your influence in the realm has established far-reaching trade routes, connecting distant lands and fostering cultural and economic exchange. Wealth and prosperity abound.",
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "merchant": {
+                  "income_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1000,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "merchant": {
+                "current_level": 200
+              }
+            },
+            "noble": {
+              "imperial_preceptor": {
+                "current_level": 200
+              }
+            }
+          },
+          "technologies": {
+            "4": {
+              "merchant_100": {
+                "unlocked": true
+              }
+            }
+          },
+          "stories": {
+            "lore": {
+              "exploration_9_superboss_complete": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "genomic_studies": {
+      "title": "Genomic Studies",
+      "body": "The studies guarded by the Abominations in the Demon King's castle basement contained profound information about the study of life done throughout milleniums. \n\nUnderstanding a millenium worth of information is difficult for a normal being but you have done it. \n\nThis knowledge will benefit many, improving the potential of a species as a whole. If used maliciously, it can cause great harm, just like what happened to the Dragons and their blemished descendants.",
+      "effects": {
+        "overall": {
+          "exp_multiplier": {
+            "scaling_type": "logarithmic",
+            "base": 2,
+            "scaling": 0
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "heroic": {
+              "sage": {
+                "current_level": 400
+              },
+              "forbidden_invoker": {
+                "current_level": 400
+              }
+            },
+            "noble": {
+              "imperial_preceptor": {
+                "current_level": 300
+              }
+            }
+          },
+          "explorations": {
+            "yuksul": {
+              "item0": {
+                "current_level": 50
+              }
+            }
+          }
+        }
+      }
+    },
+    "ultimate_berry": {
+      "title": "Ultimate Berry Cultivation",
+      "body": "Using your great knowledge of genetic manipulation, you have created the perfect berry by combining all of the genetic information of the berries into one. This berry will be of great benefit for the people of the realm, no matter what species they are.",
+      "effects": {
+        "text": "Ultimate Berries Food Unlocked"
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "heroic": {
+              "sage": {
+                "current_level": 420
+              },
+              "forbidden_invoker": {
+                "current_level": 420
+              }
+            },
+            "noble": {
+              "imperial_preceptor": {
+                "current_level": 420
+              }
+            }
+          },
+          "technologies": {
+            "7": {
+              "magma_berry": {
+                "unlocked": true
+              },
+              "genomic_studies": {
+                "unlocked": true
+              }
+            },
+            "6": {
+              "mana_berry": {
+                "unlocked": true
+              }
+            },
+            "1": {
+              "light_berry": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

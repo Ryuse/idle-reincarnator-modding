@@ -1,0 +1,466 @@
+{
+  "content": {
+    "scribe": {
+      "name": "Scribe",
+      "description": "Initiate your journey into the world of magic as a scribe.",
+      "base_income": 2,
+      "is_passive_income": false,
+      "base_exp_req": 200,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "arcanic": {
+              "content": {
+                "scribe": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "fundamentals": {
+              "content": {
+                "concentration": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.02
+                  }
+                }
+              }
+            },
+            "arcane": {
+              "content": {
+                "mana_sense": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.02
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "technologies": {
+            "0": {
+              "magic_academy": {
+                "unlocked": true
+              }
+            }
+          },
+          "jobs": {
+            "noble": {
+              "baron": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "acolyte": {
+      "name": "Acolyte",
+      "description": "Progress from a mere scribe to an Acolyte, delving deeper into magical studies.",
+      "base_income": 3,
+      "is_passive_income": false,
+      "base_exp_req": 200,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "arcanic": {
+              "content": {
+                "acolyte": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "fundamentals": {
+              "content": {
+                "concentration": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.03
+                  }
+                }
+              }
+            },
+            "arcane": {
+              "content": {
+                "mana_sense": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.03
+                  }
+                },
+                "mana_control": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.03
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "arcanic": {
+              "scribe": {
+                "current_level": 30
+              }
+            }
+          },
+          "skills": {
+            "arcane": {
+              "mana_sense": {
+                "current_level": 50
+              }
+            }
+          }
+        }
+      }
+    },
+    "neophyte": {
+      "name": "Neophyte",
+      "description": "Master the fundamentals of magic and earn the title of Neophyte, gaining recognition and granting you the permission to learn beginner spells.",
+      "base_income": 4,
+      "is_passive_income": false,
+      "base_exp_req": 200,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "arcanic": {
+              "content": {
+                "neophyte": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "fundamentals": {
+              "content": {
+                "concentration": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.05
+                  }
+                }
+              }
+            },
+            "arcane": {
+              "content": {
+                "mana_sense": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.05
+                  }
+                },
+                "mana_control": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.05
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "arcanic": {
+              "acolyte": {
+                "current_level": 50
+              }
+            }
+          },
+          "skills": {
+            "arcane": {
+              "mana_sense": {
+                "current_level": 80
+              },
+              "mana_control": {
+                "current_level": 50
+              }
+            }
+          }
+        }
+      }
+    },
+    "journeyman": {
+      "name": "Journeyman",
+      "description": "With learning the basic magic from different schools. You are now worthy to be called a Journeyman. You can now learn Elementary Spells.",
+      "base_income": 7,
+      "is_passive_income": false,
+      "base_exp_req": 500,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "arcanic": {
+              "content": {
+                "journeyman": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "fundamentals": {
+              "content": {
+                "concentration": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.1
+                  }
+                }
+              }
+            },
+            "arcane": {
+              "content": {
+                "mana_sense": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.1
+                  }
+                },
+                "mana_control": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.1
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "arcanic": {
+              "neophyte": {
+                "current_level": 75
+              }
+            }
+          },
+          "skills": {
+            "arcane": {
+              "mana_sense": {
+                "current_level": 100
+              },
+              "mana_control": {
+                "current_level": 100
+              }
+            }
+          },
+          "schools_graduated": 2
+        }
+      }
+    },
+    "magi": {
+      "name": "Magi",
+      "description": "Attain the rank of being an official Magi, wielding more advanced magical powers and spells. You can now learn Intermediate Spells.",
+      "base_income": 9,
+      "is_passive_income": false,
+      "base_exp_req": 1000,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "arcanic": {
+              "content": {
+                "magi": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "fundamentals": {
+              "content": {
+                "concentration": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.15
+                  }
+                }
+              }
+            },
+            "arcane": {
+              "content": {
+                "mana_sense": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.15
+                  }
+                },
+                "mana_control": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.15
+                  }
+                },
+                "spell_craft": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.15
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "arcanic": {
+              "journeyman": {
+                "current_level": 100
+              }
+            }
+          }
+        }
+      }
+    },
+    "wizard": {
+      "name": "Wizard",
+      "description": "Rise to the esteemed rank of Wizard, mastering complex spells and arcane knowledge. Your rank gives you access towards learning Advanced Spells.",
+      "base_income": 13,
+      "is_passive_income": false,
+      "base_exp_req": 2000,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "arcanic": {
+              "content": {
+                "wizard": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "fundamentals": {
+              "content": {
+                "concentration": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.3
+                  }
+                }
+              }
+            },
+            "arcane": {
+              "content": {
+                "mana_sense": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.3
+                  }
+                },
+                "mana_control": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.3
+                  }
+                },
+                "spell_craft": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 0,
+                    "scaling": 0.3
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "arcanic": {
+              "magi": {
+                "current_level": 100
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,578 @@
+{
+  "content": {
+    "honorary_baron": {
+      "name": "Honorary Baron",
+      "description": "Rise to the status of an Honorary Baron, straddling the line between commoner and noble.",
+      "base_income": 0.2,
+      "is_passive_income": true,
+      "base_exp_req": 300,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "noble": {
+              "content": {
+                "honorary_baron": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "grace": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.2
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "grasslands": {
+              "boss": {
+                "current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "explorations": {
+            "grasslands": {
+              "boss": {
+                "current_max_level": 1
+              }
+            }
+          },
+          "jobs": {
+            "knight": {
+              "squire": {
+                "current_level": 10
+              }
+            }
+          },
+          "renown": 100,
+          "gold": 10000
+        }
+      }
+    },
+    "baron": {
+      "name": "Baron",
+      "description": "Attain the title of Baron, the lowest rank among the nobility.",
+      "base_income": 0.3,
+      "is_passive_income": true,
+      "base_exp_req": 500,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "noble": {
+              "content": {
+                "baron": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "grace": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.2
+                  }
+                },
+                "leadership": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.2
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "honorary_baron": {
+                "current_level": 20
+              }
+            }
+          },
+          "renown": 2000,
+          "gold": 20000
+        }
+      }
+    },
+    "viscount": {
+      "name": "Viscount",
+      "description": "Ascend to the esteemed rank of Viscount, gaining increased influence and responsibilities.",
+      "base_income": 0.4,
+      "is_passive_income": true,
+      "base_exp_req": 700,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "noble": {
+              "content": {
+                "viscount": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "grace": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1.2,
+                    "scaling": 0.3
+                  }
+                },
+                "leadership": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1.2,
+                    "scaling": 0.3
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "ancient_crypt": {
+              "boss": {
+                "current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "jobs": {
+            "noble": {
+              "baron": {
+                "current_level": 50
+              }
+            }
+          },
+          "explorations": {
+            "ancient_crypt": {
+              "boss": {
+                "max_level": 1
+              }
+            }
+          },
+          "renown": 5000,
+          "gold": 50000
+        }
+      }
+    },
+    "count": {
+      "name": "Count",
+      "description": "Continue your ascent to nobility, acquiring more significant lands and influence as a Count.",
+      "base_income": 0.5,
+      "is_passive_income": true,
+      "base_exp_req": 1000,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "noble": {
+              "content": {
+                "count": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "grace": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1.5,
+                    "scaling": 0.5
+                  }
+                },
+                "leadership": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1.5,
+                    "scaling": 0.5
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "viscount": {
+                "current_level": 50
+              }
+            }
+          },
+          "renown": 10000,
+          "gold": 100000
+        },
+        "1": {
+          "explorations": {
+            "blue_sea": {
+              "story17": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "marquis": {
+      "name": "Marquis",
+      "description": "Reach the distinguished rank of Marquis, overseeing vast territories and contributing to political decisions.",
+      "base_income": 0.8,
+      "is_passive_income": true,
+      "base_exp_req": 1300,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "noble": {
+              "content": {
+                "marquis": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "grace": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1.8,
+                    "scaling": 0.7
+                  }
+                },
+                "leadership": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1.8,
+                    "scaling": 0.7
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "count": {
+                "current_level": 50
+              }
+            }
+          },
+          "renown": 20000,
+          "gold": 200000
+        }
+      }
+    },
+    "duke": {
+      "name": "Duke",
+      "description": "Attain the revered title of Duke, holding considerable sway in the kingdom's affairs.",
+      "base_income": 1.1,
+      "is_passive_income": true,
+      "base_exp_req": 1600,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "noble": {
+              "content": {
+                "duke": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "grace": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 2,
+                    "scaling": 1
+                  }
+                },
+                "leadership": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 2,
+                    "scaling": 1
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "marquis": {
+                "current_level": 50
+              }
+            }
+          },
+          "renown": 50000,
+          "gold": 500000
+        }
+      }
+    },
+    "archduke": {
+      "name": "Archduke",
+      "description": "Emerge as an Archduke, commanding immense respect and influence across the kingdom.",
+      "base_income": 1.5,
+      "is_passive_income": true,
+      "base_exp_req": 2000,
+      "hidden": false,
+      "effects": {
+        "jobs": {
+          "content": {
+            "noble": {
+              "content": {
+                "archduke": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "social": {
+              "content": {
+                "grace": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 5,
+                    "scaling": 2.5
+                  }
+                },
+                "leadership": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 5,
+                    "scaling": 2.5
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "duke": {
+                "current_level": 50
+              }
+            }
+          },
+          "renown": 100000,
+          "gold": 1000000
+        }
+      }
+    },
+    "imperial_preceptor": {
+      "name": "Imperial Preceptor",
+      "description": "You are the teacher and advisor of the king. Your words and intentions guides the future of the kingdom. ",
+      "base_income": 2,
+      "is_passive_income": true,
+      "base_exp_req": 4000,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "content": {
+            "noble": {
+              "content": {
+                "imperial_preceptor": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "social": {
+              "exp_gain": {
+                "scaling_type": "linear",
+                "base": 5,
+                "scaling": 3
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "educator": {
+                "current_level": 100
+              }
+            },
+            "noble": {
+              "archduke": {
+                "current_level": 100
+              }
+            }
+          },
+          "renown": 1e6,
+          "gold": 1e7
+        }
+      }
+    },
+    "ruler_of_the_realm": {
+      "name": "Ruler of the Realm",
+      "description": "Use your unparalleled wisdom and strength to rule over the realm and bring it towards everlasting peace.",
+      "base_income": 200,
+      "is_passive_income": true,
+      "base_exp_req": 10000,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "content": {
+            "noble": {
+              "content": {
+                "ruler_of_the_realm": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "social": {
+              "exp_gain": {
+                "scaling_type": "linear",
+                "base": 20,
+                "scaling": 10
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "imperial_preceptor": {
+                "current_level": 400
+              }
+            }
+          },
+          "stories": {
+            "lore": {
+              "exploration_11_yuksul_end_complete": {
+                "unlocked": true
+              },
+              "civilization_level_7": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

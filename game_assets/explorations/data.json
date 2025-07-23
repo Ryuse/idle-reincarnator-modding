@@ -1,0 +1,218 @@
+{
+  "name": "Explorations",
+  "tab_name": "Explore",
+  "description": "[center]Explore areas for rewards. Exploration requires different skills and higher skill level results in faster exploration.[/center]",
+  "types": {
+    "grasslands": {
+      "name": "Grasslands",
+      "description": "The area outside the city of Eldoria, an open grassy field filled with monsters.",
+      "lockable": false,
+      "requirements": {}
+    },
+    "shaded_woods": {
+      "name": "Shaded Woods",
+      "description": "A forest filled with glowing trees to the north of Eldora.",
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "shaded_woods": {
+              "story0": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "ancient_crypt": {
+      "name": "Ancient Crypt",
+      "description": "An old dilapidated crypt in the middle of the Shaded Woods. It reeks of an aura of death and you feel that you shouldn't stick around for long.",
+      "lockable": false,
+      "requirements": {
+        "-1": {
+          "explorations": {
+            "ancient_crypt": {
+              "boss": {
+                "unlocked": true
+              }
+            }
+          }
+        },
+        "0": {
+          "explorations": {
+            "ancient_crypt": {
+              "story0": {
+                "unlocked": true
+              }
+            }
+          }
+        },
+        "1": {
+          "explorations": {
+            "ancient_crypt": {
+              "story0-1": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "magic_research": {
+      "name": "Magic Research",
+      "description": "After defeating the necromancer, the aura of death has diminished greatly. You look around his chambers and see a book on a pedestal and felt attracted to it. You feel compelled to read the book and understand it.",
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "magic_research": {
+              "story0": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "blue_sea": {
+      "name": "Blue Sea",
+      "description": "Your great service towards Eldoria is greatly appreciated by the King and thus offered you a place to take a break.",
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "blue_sea": {
+              "story0": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "eldorian_tournament": {
+      "name": "Eldorian Tournament",
+      "description": "A tournament is being held to find out who is the strongest in all of Eldoria! With your accomplishments and deeds, you were cordially invited to participate. Show off your strength to everyone!",
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "eldorian_tournament": {
+              "story0": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "dark_light": {
+      "name": "Dark Light",
+      "description": "A dark light is seen in the sky",
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "eldorian_tournament": {
+              "boss": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "exah": {
+      "name": "Exah",
+      "description": "Invitation to Exah",
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "exah": {
+              "story0": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "hall_of_heroes": {
+      "name": "Hall of Heroes",
+      "description": "The hall where the souls of the old heroes rest.",
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "hall_of_heroes": {
+              "story0": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "avanosh": {
+      "name": "Avanosh",
+      "description": "Home of the dragons",
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "avanosh": {
+              "story0": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "dark_sea": {
+      "name": "Dark Sea",
+      "description": "The forbidden sea of the ancient ones",
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_sea": {
+              "story0": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "yuksul": {
+      "name": "Yuksul",
+      "description": "The Final Frontier",
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "yuksul": {
+              "story0": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": {
+    "0": {
+      "explorations": {
+        "grasslands": {
+          "0": {
+            "unlocked": true
+          }
+        }
+      }
+    }
+  }
+}

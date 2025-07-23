@@ -1,0 +1,72 @@
+{
+  "civilizations": {
+    "village_dominion": {
+      "name": "Village Dominion",
+      "happiness_bonus": 0,
+      "requirements": {}
+    },
+    "township": {
+      "name": "Township",
+      "happiness_bonus": 0.1,
+      "requirements": {
+        "0": {
+          "civilization_capability": 10
+        }
+      }
+    },
+    "duchy": {
+      "name": "Duchy",
+      "happiness_bonus": 0.2,
+      "requirements": {
+        "0": {
+          "civilization_capability": 30
+        }
+      }
+    },
+    "regiopolis": {
+      "name": "Regiopolis",
+      "happiness_bonus": 0.3,
+      "requirements": {
+        "0": {
+          "civilization_capability": 60
+        }
+      }
+    },
+    "fiefdom": {
+      "name": "Fiefdom",
+      "happiness_bonus": 0.5,
+      "requirements": {
+        "0": {
+          "civilization_capability": 100
+        }
+      }
+    },
+    "kingdom": {
+      "name": "Kingdom",
+      "happiness_bonus": 0.7,
+      "requirements": {
+        "0": {
+          "civilization_capability": 150
+        }
+      }
+    },
+    "empiric_megapolis": {
+      "name": "Empiric Megapolis",
+      "happiness_bonus": 0.9,
+      "requirements": {
+        "0": {
+          "civilization_capability": 200
+        }
+      }
+    },
+    "unified_realm": {
+      "name": "Unified Realm",
+      "happiness_bonus": 1.5,
+      "requirements": {
+        "0": {
+          "civilization_capability": 250
+        }
+      }
+    }
+  }
+}

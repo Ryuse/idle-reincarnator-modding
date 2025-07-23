@@ -1,0 +1,134 @@
+{
+  "name": "Skills",
+  "tab_name": "Skills",
+  "description": "[center]See the vast expanse of your acquired skills and witness the culmination of your effort.[/center]",
+  "types": {
+    "fundamentals": {
+      "name": "Fundamentals",
+      "requirements": {
+        "0": {
+          "skills": {
+            "fundamentals": {
+              "any_unlocked": true
+            }
+          }
+        }
+      }
+    },
+    "defense": {
+      "name": "Defense",
+      "requirements": {
+        "0": {
+          "skills": {
+            "defense": {
+              "any_unlocked": true
+            }
+          }
+        }
+      }
+    },
+    "combat": {
+      "name": "Combat",
+      "requirements": {
+        "0": {
+          "skills": {
+            "combat": {
+              "any_unlocked": true
+            }
+          }
+        }
+      }
+    },
+    "scavenging": {
+      "name": "Scavenging",
+      "requirements": {
+        "0": {
+          "skills": {
+            "scavenging": {
+              "any_unlocked": true
+            }
+          }
+        }
+      }
+    },
+    "fishing": {
+      "name": "Fishing",
+      "requirements": {
+        "0": {
+          "skills": {
+            "fishing": {
+              "any_unlocked": true
+            }
+          }
+        }
+      }
+    },
+    "creating": {
+      "name": "Creating",
+      "requirements": {
+        "0": {
+          "skills": {
+            "creating": {
+              "any_unlocked": true
+            }
+          }
+        }
+      }
+    },
+    "excavating": {
+      "name": "Excavating",
+      "requirements": {
+        "0": {
+          "skills": {
+            "excavating": {
+              "any_unlocked": true
+            }
+          }
+        }
+      }
+    },
+    "exploring": {
+      "name": "Exploring",
+      "requirements": {
+        "0": {
+          "skills": {
+            "exploring": {
+              "any_unlocked": true
+            }
+          }
+        }
+      }
+    },
+    "social": {
+      "name": "Social",
+      "requirements": {
+        "0": {
+          "skills": {
+            "social": {
+              "any_unlocked": true
+            }
+          }
+        }
+      }
+    },
+    "arcane": {
+      "name": "Arcane",
+      "requirements": {
+        "0": {
+          "skills": {
+            "arcane": {
+              "any_unlocked": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": {
+    "0": {
+      "skills": {
+        "any_unlocked": true
+      }
+    }
+  }
+}

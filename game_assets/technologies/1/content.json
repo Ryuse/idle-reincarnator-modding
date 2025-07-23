@@ -1,0 +1,509 @@
+{
+  "content": {
+    "farmer_50": {
+      "title": "Crop Rotation",
+      "body": "Using your influence as a noble and your extensive knowledge of farming techniques, you have introduced crop rotation into the Farming community. \n\nFood is cheaper now and will be in the future.",
+      "effects": {
+        "lifestyles": {
+          "content": {
+            "food": {
+              "expenses_multiplier": {
+                "scaling_type": "exponential",
+                "base": 0.99,
+                "scaling": 0
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "farmer": {
+                "current_level": 50
+              }
+            },
+            "noble": {
+              "baron": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "light_berry": {
+      "title": "Light Berry Cultivation",
+      "body": "After harvesting Light Berries for a long time, you've had enough seeds from the berries to cultivate them! You can now eat the berries but still have to maintain them. \n\nLight Berries are unlocked and will be in the future.",
+      "effects": {
+        "text": "Light Berries Food Unlocked"
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "shaded_woods": {
+              "item0": {
+                "current_level": 20
+              }
+            }
+          },
+          "jobs": {
+            "common": {
+              "farmer": {
+                "current_level": 60
+              }
+            },
+            "noble": {
+              "honorary_baron": {
+                "current_level": 20
+              }
+            }
+          }
+        }
+      }
+    },
+    "farmer_60": {
+      "title": "Animal Husbandry",
+      "body": "Your expertise in breeding and raising animals has elevated livestock management. This knowledge improves the quality and quantity of animal products, benefiting both farmers and consumers.",
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "farmer": {
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.05,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "farmer": {
+                "current_level": 60
+              }
+            },
+            "noble": {
+              "baron": {
+                "current_level": 20
+              }
+            }
+          }
+        }
+      }
+    },
+    "angler_50": {
+      "title": "Fishing Nets",
+      "body": "Your discovery of fishing nets have made it easier to catch fishes, allowing Anglers to cast these nets to cover a larger area, improving their chances of catching multiple fish in a single throw. \n\nFishes will be cheaper in the future and Angler Income will increase.",
+      "effects": {
+        "lifestyles": {
+          "content": {
+            "food": {
+              "content": {
+                "fish": {
+                  "expenses_multiplier": {
+                    "scaling_type": "exponential",
+                    "base": 0.99,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "angler": {
+                  "income_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.05,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "angler": {
+                "current_level": 50
+              }
+            },
+            "noble": {
+              "baron": {
+                "current_level": 20
+              }
+            }
+          }
+        }
+      }
+    },
+    "angler_60": {
+      "title": "Aquatic Traps",
+      "body": "In addition to fishing nets, you've devised specialized traps that further enhance the efficiency of fish harvesting. These traps provide an additional method for anglers to capture fish, contributing to a more sustainable and lucrative fishing industry.",
+      "effects": {
+        "lifestyles": {
+          "content": {
+            "food": {
+              "content": {
+                "fish": {
+                  "expenses_multiplier": {
+                    "scaling_type": "exponential",
+                    "base": 0.99,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "angler": {
+                  "income_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "angler": {
+                "current_level": 60
+              }
+            },
+            "noble": {
+              "baron": {
+                "current_level": 30
+              }
+            }
+          }
+        }
+      }
+    },
+    "carpenter_40": {
+      "title": "Basic Engineering",
+      "body": "Your early experiments with mechanical principles have laid the foundation for simple engineering marvels such as pulleys and levers.",
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "carpenter": {
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "carpenter": {
+                "current_level": 40
+              }
+            },
+            "noble": {
+              "baron": {
+                "current_level": 5
+              }
+            }
+          }
+        }
+      }
+    },
+    "carpenter_50": {
+      "title": "Nail-less Joinery",
+      "body": "You have discovered the technique of joining wood together without using nails and have used your influence to spread the technique. \n\nHouses will be cheaper in the future.",
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "carpenter": {
+                  "income_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "lifestyles": {
+          "content": {
+            "home": {
+              "expenses_multiplier": {
+                "scaling_type": "exponential",
+                "base": 0.99,
+                "scaling": 0
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "carpenter": {
+                "current_level": 50
+              }
+            },
+            "noble": {
+              "baron": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "carpenter_60": {
+      "title": "Mortise and Tenon Joints",
+      "body": "You've introduced the use of mortise and tenon joints in woodworking. This method enhances the structural integrity of wooden structures, making buildings more durable and resilient.",
+      "effects": {
+        "lifestyles": {
+          "content": {
+            "home": {
+              "expenses_multiplier": {
+                "scaling_type": "exponential",
+                "base": 0.99,
+                "scaling": 0
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "carpenter": {
+                "current_level": 60
+              }
+            },
+            "noble": {
+              "baron": {
+                "current_level": 20
+              }
+            }
+          }
+        }
+      }
+    },
+    "miner_50": {
+      "title": "Explosives",
+      "body": "Your discovery of gunpowder by mixing crushed ores made it easier for excavation to happen. \n\nThe explosives can also be used as a weapon when in danger.",
+      "effects": {
+        "text": "Explosive Powder Bag Unlocked",
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "miner": {
+                  "income_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.5,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "miner": {
+                "current_level": 50
+              }
+            },
+            "noble": {
+              "baron": {
+                "current_level": 20
+              }
+            }
+          }
+        }
+      }
+    },
+    "miner_60": {
+      "title": "Tunnels and Shafts",
+      "body": "You introduced advanced techniques like creating tunnels and vertical shafts were employed to access deeper mineral deposits. Timber supports were used to prevent collapses.",
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "miner": {
+                  "income_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.1,
+                    "scaling": 0
+                  },
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "miner": {
+                "current_level": 60
+              }
+            },
+            "noble": {
+              "baron": {
+                "current_level": 30
+              }
+            }
+          },
+          "skills": {
+            "creating": {
+              "engineering": {
+                "current_level": 80
+              }
+            }
+          }
+        }
+      }
+    },
+    "bard_50": {
+      "title": "Musical Sheet",
+      "body": "Your invention of the musical sheet have made it possible for musicians to record down how a song is played allowing one to learn music faster.",
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "bard": {
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.2,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "bard": {
+                "current_level": 50
+              }
+            },
+            "noble": {
+              "baron": {
+                "current_level": 30
+              }
+            }
+          }
+        }
+      }
+    },
+    "artificer_60": {
+      "title": "Gears",
+      "body": "In a moment of innovative exploration, you stumbled upon a remarkable revelation in the realm of mechanical design – the discovery of gears. \n\nIntrigued by the interaction between shapes, you found that a specific configuration, when set into motion, could seamlessly transmit rotation to another identical shape. This revelation, akin to unlocking the hidden language of mechanical synergy, has paved the way for the creation of intricate and highly functional machinery.",
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "artificer": {
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1.1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "artificer": {
+                "current_level": 60
+              }
+            },
+            "noble": {
+              "baron": {
+                "current_level": 20
+              }
+            }
+          },
+          "skills": {
+            "creating": {
+              "engineering": {
+                "current_level": 100
+              },
+              "crafting": {
+                "current_level": 80
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

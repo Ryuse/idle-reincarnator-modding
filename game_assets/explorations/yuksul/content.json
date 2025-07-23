@@ -1,0 +1,371 @@
+{
+  "content": {
+    "story0": {
+      "name": "Enter the Demon King's Castle",
+      "action_type": "fundamentals",
+      "description": "Enter the castle where the Demon King resides.",
+      "points_needed": 1e13,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {},
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "dark_sea": {
+              "story8": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story1": {
+      "name": "Explore the castle",
+      "action_type": "exploring",
+      "description": "Find your way around",
+      "points_needed": 1e13,
+      "rewards": {},
+      "expense": 0,
+      "danger": 3000,
+      "repeat_max": -1,
+      "repeatable": true,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                },
+                "world_lore": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "yuksul": {
+              "story0": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "item0": {
+      "name": "Abominations",
+      "action_type": "combat",
+      "description": "These should not exist.",
+      "points_needed": 5e15,
+      "rewards": {
+        "gold": 100000,
+        "renown": 100000
+      },
+      "expense": 0,
+      "danger": 4500,
+      "repeat_max": -1,
+      "repeatable": true,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 500,
+                    "scaling": 0
+                  }
+                },
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 500,
+                    "scaling": 0
+                  }
+                },
+                "weapon_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 500,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "yuksul": {
+              "story1": {
+                "current_level": 15
+              }
+            }
+          }
+        }
+      }
+    },
+    "story2": {
+      "name": "Fight Demonic Guards",
+      "action_type": "combat",
+      "description": "Fight the guards of the Demon King",
+      "points_needed": 1e15,
+      "rewards": {
+        "gold": 5e7,
+        "renown": 5e6
+      },
+      "expense": 0,
+      "danger": 4000,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                },
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                },
+                "weapon_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 400,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "yuksul": {
+              "story1": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "story3": {
+      "name": "Enter the Throne Room",
+      "action_type": "fundamentals",
+      "description": "The end is getting closer.",
+      "points_needed": 1e14,
+      "is_force_regress_starter": true,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {},
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "yuksul": {
+              "story2": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "boss": {
+      "name": "Demon King",
+      "action_type": "combat",
+      "description": "Fight and end the one terrorizing the realm.",
+      "points_needed": 1e16,
+      "is_boss": true,
+      "rewards": {
+        "gold": 1e8,
+        "renown": 1e8,
+        "happiness": 0.20,
+				"lifespan_day": 3000,
+				"temporal": 20,
+				"eternal_lifespan_day": 50
+      },
+      "expense": 0,
+      "danger": 6666,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1000,
+                    "scaling": 0
+                  }
+                },
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1000,
+                    "scaling": 0
+                  }
+                },
+                "weapon_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1000,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "yuksul": {
+              "story3": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "superboss": {
+      "name": "Altaraxia",
+      "action_type": "combat",
+      "description": "A creature that will end the world. End it.",
+      "points_needed": 1e18,
+      "is_boss": true,
+      "is_force_regress_ender": true,
+      "rewards": {
+        "gold": 1e10,
+        "renown": 1e9,
+        "happiness": 2,
+				"lifespan_day": 5000,
+				"temporal": 50,
+				"eternal_lifespan_day": 100
+      },
+      "expense": 0,
+      "danger": 9999,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 5000,
+                    "scaling": 0
+                  }
+                },
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 5000,
+                    "scaling": 0
+                  }
+                },
+                "weapon_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 5000,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "yuksul": {
+              "boss": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "yuksul_end": {
+      "name": "End of Battle",
+      "action_type": "fundamentals",
+      "description": "You have freed this realm from the grasp of Demon King. The realm is safe. Onwards to a bright future.",
+      "points_needed": 1e14,
+      "rewards": {},
+      "expense": 0,
+      "danger": 0,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {},
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "yuksul": {
+              "superboss": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

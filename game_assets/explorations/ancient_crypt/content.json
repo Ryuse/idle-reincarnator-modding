@@ -1,0 +1,527 @@
+{
+  "content": {
+    "story0": {
+      "name": "Destroy the Door",
+      "action_type": "excavating",
+      "description": "The entrance to the crypt is closed. Either destroy the door or solve the puzzle.",
+      "points_needed": 50000,
+      "rewards": {
+        "gold": 0,
+        "renown": 100
+      },
+      "expense": 0,
+      "danger": 200,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "excavating": {
+              "content": {
+                "geology": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 50,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "shaded_woods": {
+              "story9": {
+                "current_level": 1
+              }
+            },
+            "ancient_crypt": {
+              "story0-1": {
+                "not_current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "explorations": {
+            "shaded_woods": {
+              "skip1": {
+                "current_level": 1
+              }
+            },
+            "ancient_crypt": {
+              "story0-1": {
+                "not_current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story0-1": {
+      "name": "Unlock The Door",
+      "action_type": "arcane",
+      "description": "The entrance to the crypt is closed. Either destroy or unlock the door.",
+      "points_needed": 20000,
+      "rewards": {
+        "gold": 0,
+        "renown": 100
+      },
+      "expense": 0,
+      "danger": 200,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "arcane": {
+              "content": {
+                "mana_control": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 50,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "shaded_woods": {
+              "story9": {
+                "current_level": 1
+              }
+            },
+            "ancient_crypt": {
+              "story0": {
+                "not_current_level": 1
+              }
+            }
+          },
+          "skills": {
+            "arcane": {
+              "mana_sense": {
+                "current_level": 50
+              }
+            }
+          }
+        },
+        "1": {
+          "explorations": {
+            "shaded_woods": {
+              "skip1": {
+                "current_level": 1
+              }
+            },
+            "ancient_crypt": {
+              "story0": {
+                "not_current_level": 1
+              }
+            }
+          },
+          "skills": {
+            "arcane": {
+              "mana_sense": {
+                "current_level": 50
+              }
+            }
+          }
+        }
+      }
+    },
+    "story1": {
+      "name": "Spiritual Illusions",
+      "action_type": "fundamentals",
+      "description": "Separate the truth from the lies",
+      "points_needed": 30000,
+      "rewards": {
+        "gold": 0,
+        "renown": 100
+      },
+      "expense": 0,
+      "danger": 300,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 100,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "ancient_crypt": {
+              "story0": {
+                "current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "explorations": {
+            "ancient_crypt": {
+              "story0-1": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story2": {
+      "name": "Skeleton Guards",
+      "action_type": "combat",
+      "description": "Fight the skeletons inside the crypt.",
+      "points_needed": 500000,
+      "rewards": {
+        "gold": 0,
+        "renown": 100
+      },
+      "expense": 0,
+      "danger": 250,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 50,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "ancient_crypt": {
+              "story1": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story3": {
+      "name": "Explore the crypt",
+      "action_type": "exploring",
+      "description": "Explore the crypt",
+      "points_needed": 50000,
+      "rewards": {
+        "gold": 0,
+        "renown": 100
+      },
+      "expense": 0,
+      "danger": 250,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "exploring": {
+              "content": {
+                "navigation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 50,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "ancient_crypt": {
+              "story2": {
+                "current_level": 1
+              }
+            }
+          }
+        },
+        "1": {
+          "explorations": {
+            "ancient_crypt": {
+              "story0-1": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story4": {
+      "name": "Magical Trap",
+      "action_type": "defense",
+      "description": "While moving forward, you hear a click and glowing runes started appearing around the walls. Beams of dark light came out of the runes. Protect yourself!",
+      "points_needed": 50000,
+      "rewards": {
+        "gold": 0,
+        "renown": 100
+      },
+      "expense": 0,
+      "danger": 400,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "defense": {
+              "content": {
+                "endurance": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 500,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "ancient_crypt": {
+              "story3": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "item0": {
+      "name": "Hole in the ground",
+      "action_type": "fishing",
+      "description": "In a dimly lit hallway, a mysterious black ring glistens through a hole in the ground, just out of reach. Utilize your fishing pole to extract this enigmatic artifact from the depths of the crypt.",
+      "points_needed": 200000,
+      "rewards": {
+        "gold": 0,
+        "renown": 150
+      },
+      "expense": 0,
+      "danger": 200,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "fishing": {
+              "content": {
+                "fishing_rod_mastery": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 50,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "ancient_crypt": {
+              "story4": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "story5": {
+      "name": "Guardian of the Crypt",
+      "action_type": "combat",
+      "description": "As you delve deeper, ancient guardians - spectral remnants of the crypt's history - manifest. Challenge them.",
+      "points_needed": 200000,
+      "rewards": {
+        "gold": 0,
+        "renown": 100
+      },
+      "expense": 0,
+      "danger": 200,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 50,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "ancient_crypt": {
+              "story4": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "ally0": {
+      "name": "Save the Old Farmer",
+      "action_type": "combat",
+      "description": "As you defeat the ancient guardian, you see The Old Farmer trapped within a barrier of light. He told you to destroy the four pedestals around him to break the barrier of light and thus freeing him.",
+      "points_needed": 200000,
+      "rewards": {
+        "gold": 0,
+        "renown": 100
+      },
+      "expense": 0,
+      "danger": 200,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": true,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 50,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "ancient_crypt": {
+              "story5": {
+                "current_level": 1
+              }
+            }
+          },
+          "jobs": {
+            "common": {
+              "farmer": {
+                "current_level": 50
+              }
+            }
+          },
+          "not_age": {
+            "years": 35
+          }
+        }
+      }
+    },
+    "boss": {
+      "name": "Necromantic Showdown",
+      "action_type": "combat",
+      "description": "Confront the malevolent necromancer dwelling in the crypt",
+      "points_needed": 750000,
+      "is_boss": true,
+      "rewards": {
+        "gold": 0,
+        "renown": 100,
+        "happiness": 0.01,
+				"lifespan_day": 50
+      },
+      "expense": 0,
+      "danger": 400,
+      "repeat_max": -1,
+      "repeatable": false,
+      "hidden": false,
+      "effects": {
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 300,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "ancient_crypt": {
+              "story5": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

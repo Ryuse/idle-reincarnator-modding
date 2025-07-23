@@ -1,0 +1,1095 @@
+{
+  "content": {
+    "farmer_unlock": {
+      "title": "The Old Farmer",
+      "body": "While begging on the streets, a robust old man with a straw hat approached you. He was carrying a person tall basket full of vegetables with relative ease. \n\nHe asked whether you would like to help him on his farm.\n\nYou hesitated for a moment but then he said he'll pay you so you agreed straight away.",
+      "rewards": {},
+      "effects": {
+        "text": "Farmer Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "farmer": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "angler_unlock": {
+      "title": "Fishing Rod",
+      "body": "After months worth of work as a farmer, your efforts have not gone unnoticed. The Old Farmer, impressed with the work you've put in the farm, gave you a fishing rod.\n\nWith a warm smile, he shared tales of a secluded spot by the lake, known for its serene beauty and the joy of fishing. \n\nIntrigued by the delicious fish, you decide to explore this newfound skill.",
+      "rewards": {},
+      "effects": {
+        "text": "Angler Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "angler": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "carpenter_unlock": {
+      "title": "Carpenter by the Lakeside",
+      "body": "Under the blue sky, you cast your fishing line into the still waters of the lake, hoping to catch a delicious fish. Amidst the whispers of rustling leaves, another person sat near you and started fishing. While waiting for a fish to bite, you decided to strike up a conversation.\n\nAs the conversation unfolded, you couldn't help but admire the beauty of their well-crafted stool. You asked about its origin, and a smile showed on his face as he revealed, \"I made it myself.\" Impressed, your curiosity grew, prompting them for guidance on how they made it.\n\nUnder the fading daylight, he generously shared his knowledge of carpentry. After the enjoyable conversation, he stood up to leave and told you that if you want to learn more about carpentry you can come to his shop. You didn't catch any fish that day.",
+      "rewards": {},
+      "effects": {
+        "text": "Carpenter Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "carpenter": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "page_unlock": {
+      "title": "Order of the Knights",
+      "body": "After all the physical trainings you've done, you've gathered enough confidence to take the test for joining the Order of the Knights and.. \n\nyou've passed! \n\nYou asked about when you'll be able to get out of the city and were told that you need to complete your training first.",
+      "rewards": {},
+      "effects": {
+        "text": "Order of the Knights Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "knight": {
+              "page": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "miner_unlock": {
+      "title": "Mining Expedition",
+      "body": "While doing your training of lifting heavy things and putting them down, you start to look for heavier rocks for training. While in your search, you stumble upon a group of miners hard at work. Intrigued by the rhythmic clang of pickaxes against the rocky terrain, you approach them. The miners, recognizing your curiosity, invite you to join their expedition into the depths of the earth.\n\nIn the dimly lit tunnels, you learn the art of mining – extracting precious ores and uncovering hidden gems. The camaraderie among the miners becomes a source of inspiration, and you find yourself immersed in this subterranean world, unearthing treasures that add a glint to your growing repertoire of skills.\n\nBut most importantly, you found yourself a source of heavy rocks.",
+      "rewards": {},
+      "effects": {
+        "text": "Miner Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "miner": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "bard_unlock": {
+      "title": "Melodies in the Wind",
+      "body": "One evening, as you stroll through the city, the gentle strains of a melodious tune reach your ears. Mesmerized, you follow the enchanting melody to its source, discovering a bard perched on a street corner. Their fingers dance on the strings of a guitar, weaving tales with harmonious music.\n\nDrawn to the artistry of sound, you strike up a conversation with the bard. They share stories of distant lands and the power of music to transcend barriers. Inspired by their tales, you express a desire to learn the art of the bards.",
+      "rewards": {},
+      "effects": {
+        "text": "Bard Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "bard": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "merchant_unlock": {
+      "title": "Merchant's Alley",
+      "body": "In the search for a place to perform as a bard, you chance upon a vibrant marketplace adorned with colorful stalls and the aroma of exotic spices. The air is filled with the hustle and bustle of eager merchants. Intrigued by the art of trade, you decide to explore the Merchant's Alley.\n\nAs you navigate through the labyrinth of commerce, you encounter a seasoned merchant willing to impart their wisdom. They share insights into negotiation, bartering, and the delicate dance of supply and demand. Captivated by the world of mercantile endeavors, you decide to try your hand at becoming a merchant.",
+      "rewards": {},
+      "effects": {
+        "text": "Merchant Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "merchant": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "gambler_unlock": {
+      "title": "Losing Money",
+      "body": "As the opulent halls of the nobility beckoned, you found yourself entwined in the camaraderie of noble circles. Among the laughter and merriment, a peculiar pastime emerged – gambling. Pressured by the desire to fit in and maintain your status, you hesitated but ultimately succumbed to the allure of the dice and cards.\n\nIn the dimly lit corners of opulent estates, you tested your luck, embracing the thrill of uncertainty. The clinking of coins and the tension in the air accompanied your foray into this world of chance. As fate dealt its cards, you discovered an unexpected aptitude for the game.\n\nAn aptitude for losing your money",
+      "rewards": {},
+      "effects": {
+        "text": "Gambler Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "gambler": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "artificer_unlock": {
+      "title": "Becoming an Artist",
+      "body": "While doing your studies in the School of Engineering, you stumbled upon an Art Exhibition. Captivated by an extraordinary sculpture that breathed life into stone, your passion for art awakened. You approved the sculptor, an experienced Artificer, as you sought to learn their craft.\n\nUnder the Artificer's guidance, you delved into various forms of artistic expression, from painting to intricate craftsmanship, mixing both artistic intent with the precision of engineering. \n\nAfter finishing your studies under the Artificer, he has decided that you are good enough and that learning more about being an Artificer is dependant on you. With his words, you decided to be an artificer, crafting works of art to further your goals.",
+      "rewards": {},
+      "effects": {
+        "text": "Artificer Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "artificer": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "culinarian_unlock": {
+      "title": "Good Food",
+      "body": "While wandering through the bustling marketplace, you chanced upon a Culinarian preparing a feast that beckoned both eyes and nose.\n\nMesmerized by the artistry of their culinary creations, you approached and struck up a conversation. The Culinarian, sensing your genuine interest, invited you to assist in the kitchen, revealing the secrets of seasoning and the alchemy of flavors. \n\nThrough shared laughter and shared tastes, you discovered the joy of culinary craftsmanship, earning the title of Culinarian and carrying forth the legacy of flavors in your own unique way.",
+      "rewards": {},
+      "effects": {
+        "text": "Culinarian Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "culinarian": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "educator_unlock": {
+      "title": "Teacher",
+      "body": "Your dedication to learning has led you to master the curricula of all the kingdom's prestigious schools. With unparalleled knowledge and an insatiable thirst for wisdom, you have surpassed the bounds of what these esteemed institutions could offer. \n\nThe educators, recognizing your extraordinary accomplishments, have extended an invitation to join their ranks. This honor presents an opportunity to reshape the very foundations of learning, refining the syllabi and elevating the educational system to unprecedented heights. \n\nEmbrace this chance to leave an indelible mark, advancing the pursuit of knowledge for generations to come.",
+      "rewards": {},
+      "effects": {
+        "text": "Educator Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "educator": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "squire_unlock": {
+      "title": "Squire Initiation",
+      "body": "As a newly initiated Squire, you find yourself in the service of an experienced knight. Your days are filled with tasks that test not only your physical prowess but also your understanding of chivalry and honor. \n\nThe Old Knight becomes your mentor, guiding you in the ways of combat and knightly conduct.",
+      "rewards": {},
+      "effects": {
+        "text": "Squire Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "knight": {
+              "squire": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "early_noble_unlock": {
+      "title": "Noble Badge",
+      "body": "While offering your services to an Old Knight as a Squire, you inquire about the unknown badge that you own. \n\nThe Old Knight gave a hearty laugh upon seeing it and told you that you are one of them, a noble. \n\nHe then taught how the requirements and on how to claim your title as a noble.",
+      "rewards": {},
+      "effects": {
+        "text": "Echelons of Eldoria Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "rebirths": 1,
+          "explorations": {
+            "grasslands": {
+              "boss": {
+                "max_level": 1
+              }
+            }
+          },
+          "jobs": {
+            "knight": {
+              "squire": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "footman_unlock": {
+      "title": "Promotion",
+      "body": "As you near the end of your training, you were promoted to a Footman in a promotion ceremony with other Footmen to be. You look back at the times you participated in drills, battles, and learning to wield various weapons. \n\nThe Old Knight and The Old Farmer attended your ceremony with smiles and you see them chatting with one another happily. It’s as if they’ve know each other for a very long time.",
+      "rewards": {},
+      "effects": {
+        "text": "Footman Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "knight": {
+              "footman": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "cavalier_unlock": {
+      "title": "Mission of a Rider",
+      "body": "Through your tasks and adventures, your reputation grows. The people you aid and the challenges you overcome contribute to your renown. This led to your promotion to be a Cavalier, one of the horsemen in the Order of the Knights.\n\nAs one of the Cavaliers, you were tasked to eradicate goblins outside of the town to preserve the peace.\n\nJust to note, the promotion did not come with a free horse. The Order of the Knights horses can only be used for trainings.",
+      "rewards": {},
+      "effects": {
+        "text": "Cavalier Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "knight": {
+              "cavalier": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "knight_unlock": {
+      "title": "Chivalrous Ascension",
+      "body": "As you gain experience and prove yourself in various quests, you achieve the esteemed rank of Knight. The Order of the Knights recognizes your accomplishments, and you become a symbol of bravery and honor.\n\nThe responsibilities that come with this title reflect the culmination of your journey thus far.",
+      "rewards": {},
+      "effects": {
+        "text": "Knight Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "knight": {
+              "knight": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "great_knight_unlock": {
+      "title": "Becoming Great",
+      "body": "With your exemplary strength recognized, you ascend to the rank of the Great Knights. Your feats are celebrated, and you become one of the stronger humans in the city.\n\nThe Great Knights are tasked with protecting Eldoria. The challenges you face are more significant, but so are the rewards and the impact you can make.",
+      "rewards": {},
+      "effects": {
+        "text": "Great Knight Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "knight": {
+              "great_knight": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "lord_knight_unlock": {
+      "title": "A Lord",
+      "body": "As you excel in your role as a Great Knight, your prowess in combat and strategic thinking become unparalleled. The Order of the Knights acknowledges your exceptional skills, and you are granted the esteemed title of Lord Knight. With this elevated status, you become a beacon of leadership and honor within Eldoria. \n\nYour responsibilities extend beyond mere protection as you play a vital role in guiding the next generation of knights. Your every move is now scrutinized, and your decisions hold weight in the political landscape of the city.",
+      "rewards": {},
+      "effects": {
+        "text": "Lord Knight Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "knight": {
+              "lord_knight": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "mystic_knight_unlock": {
+      "title": "Knight of the Arcane",
+      "body": "Your prowess, both physical and arcane, has transcended human limitations. In recognition of your unparalleled might and profound mastery of the mystic arts, you have been bestowed the esteemed mantle of Mystic Knight. \n\nWielding formidable strength and commanding devastating spells, you shall be an indomitable force, laying waste to any who dare oppose the kingdom's sovereignty. Stride forth as the vanguard, a beacon of power advancing the realm's dominance, vanquishing enemies who threaten its peace and prosperity. Let the echoes of your triumphs resound, a testament to the kingdom's unwavering resolve and your unwavering dedication to its defense.",
+      "rewards": {},
+      "effects": {
+        "text": "Mystic Knight Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "knight": {
+              "mystic_knight": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "grand_cross_unlock": {
+      "title": "Grand Cross",
+      "body": "Ascending to the esteemed rank of Eldoria's Grand Cross, you transcend mortal limits, embodying the pinnacle of power and authority within the Order of the Knights. Your presence commands reverence, striking awe into the hearts of allies and foes alike. \n\nRenowned as a living legend, your superhuman abilities and unrivaled martial prowess leave a trail of victory in your wake, inspiring legions to follow your lead with unwavering loyalty. With every stride, you forge the path to glory, destined to etch your name in the annals of history as the epitome of valor and might.",
+      "rewards": {},
+      "effects": {
+        "text": "Grand Cross Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "knight": {
+              "grand_cross": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "noble_unlock": {
+      "title": "A Noble Reward",
+      "body": "Your valorous conquest over the treacherous Goblin King has not gone unnoticed. The resplendent halls of Eldoria echo with tales of your heroic deeds, and the King, deeply moved by your unwavering bravery, has chosen to honor you with a distinguished title.\n\nEmbrace this honor with pride, for you have earned not just a title, but the admiration and gratitude of an entire kingdom. This title will enable you to rise up the Echelons of Eldoria, being a greater noble and shower you in gold.",
+      "rewards": {
+        "gold": 5000
+      },
+      "effects": {
+        "text": "Honorary Baron Job Unlocked"
+      },
+      "steam_achievement_id": "GOBLIN_SLAYER",
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "grasslands": {
+              "boss": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "baron_unlock": {
+      "title": "An Official Noble",
+      "body": "With your reputation and wealth recognized, you are formally recognized as a Baron! You are now considered a true noble.",
+      "rewards": {},
+      "effects": {
+        "text": "Baron Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "baron": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "healer_unlocked": {
+      "title": "Long-eared Healer",
+      "body": "While gathering herbs in the Shaded Woods, you sustain injuries fending off beasts. As you press on, you encounter a hooded figure carrying a basket of herbs. \n\nAlert, you ready your weapon, prompting the stranger to unveil themselves, dropping the basket and raising their arms in a gesture of peace.\n\nA voice in your head assures they mean no harm and only wish to heal you. Touched by the kind offer, you lower your guard, allowing them to mend your wounds. \n\nAs they work, you notice their long ears and an otherworldly aura. Intrigued, you inquire about their origins, you hear another voice in your head stating that they cannot reveal who they are. To apologize however, they willingly offer to teach you the art of healing in detail.",
+      "rewards": {},
+      "effects": {
+        "text": "Healer Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "shaded_woods": {
+              "job0": {
+                "current_level": 25
+              }
+            }
+          },
+          "technologies": {
+            "6": {
+              "healer_120": {
+                "unlocked": false
+              }
+            }
+          }
+        }
+      }
+    },
+    "healer_unlocked-2": {
+      "title": "Healer’s Kindess",
+      "body": "Amidst the bustling market square where you hawked your wares, a figure clad in pristine white robes approached your stall, eyes keen as he perused the array of herbs and botanicals. Just then, a child's cry pierced the air - a young one had tumbled upon the cobblestones, knees abraded and bloodied.\n\nWithout hesitation, the robed stranger rushed to the child's aid. You watched, transfixed, as deft hands hovered over the wounds, cleaning and bandaging them. The youngster's sobs faded to a bright smile as the kind healer ruffled their hair.\n\nIn that moment, a profound calling stirred within you. As the benevolent figure returned to browse your stall, you found yourself emboldened to inquire about the noble path that allowed one to mend the injured and ease the suffering. With a warm smile, the healer produced an official invitation - a summons to the hallowed Healer's Institute, where you might learn the restorative arts.",
+      "rewards": {},
+      "effects": {
+        "text": "Healer Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "stories": {
+            "job": {
+              "healer_unlocked": {
+                "unlocked": false
+              }
+            }
+          },
+          "technologies": {
+            "6": {
+              "healer_120": {
+                "unlocked": true
+              }
+            }
+          },
+          "jobs": {
+            "common": {
+              "merchant": {
+                "current_level": 30
+              }
+            }
+          }
+        }
+      }
+    },
+    "viscount_reward": {
+      "title": "A Nobler Reward",
+      "body": "With the defeat of the Necromancer, the number of beasts coming out of the forest has been reduced, ridding the town of the beast attacks. This achievement has not gone unnoticed and the King has rewarded you with a new noble title.\n\n You have been granted the title of a Viscount!",
+      "rewards": {
+        "gold": 20000
+      },
+      "effects": {
+        "text": "Viscount Job Unlocked"
+      },
+      "steam_achievement_id": "NECROMANTIC",
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "explorations": {
+            "ancient_crypt": {
+              "boss": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "count_unlocked": {
+      "title": "A True Count",
+      "body": "In recognition of your unwavering dedication and service to Eldoria, you are bestowed with the title of a True Count. Your accomplishments resonate not only on the battlefield but also in the diplomatic and administrative realms. \n\nAs a True Count, you are entrusted with the management of a specific region within Eldoria. Your responsibilities include overseeing local governance, resolving disputes, and ensuring the prosperity of the people under your jurisdiction. \n\nYour influence extends beyond military matters, shaping the policies that govern the well-being of the citizens.",
+      "rewards": {},
+      "effects": {
+        "text": "Count Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "count": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "marquis_unlocked": {
+      "title": "Increase in influence",
+      "body": "Your influence in Eldoria continues to grow, marked by your exceptional deeds and contributions. The King acknowledges your significance and confers upon you an Increase in Influence. This recognition empowers you to actively participate in the decision-making processes of the city. \n\nYour voice carries weight in the royal court, and you have a say in matters of governance and policy. Your charisma and leadership skills make you a respected figure not only among the nobility but also among the common folk.",
+      "rewards": {},
+      "effects": {
+        "text": "Marquis Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "marquis": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "duke_unlocked": {
+      "title": "Duke",
+      "body": "As your achievements reach unprecedented heights, the King, impressed by your leadership and dedication, raises you to the distinguished position of Duke. This prestigious title comes with significant responsibilities and privileges. \n\nYou are entrusted with the oversight of multiple regions within Eldoria, and your role involves coordinating efforts for the betterment of the entire kingdom. Your decisions impact the economic, social, and political aspects of the realm. The Duke is a pivotal figure in the hierarchy, and your influence extends across the entire city.",
+      "rewards": {},
+      "effects": {
+        "text": "Duke Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "duke": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "archduke_unlocked": {
+      "title": "Influential",
+      "body": "Your journey of influence culminates in the grand title of Archduke, marking you as one of the most significant figures in Eldoria. Your impact on the city's fate is immeasurable. You are a key advisor to the King, shaping the policies that govern the entire realm. \n\nYour decisions reverberate across Eldoria, affecting the lives of all its inhabitants. The title of Influential signifies not just political power but also the profound respect and admiration you have earned. You are a living legend, a force to be reckoned with, and your legacy will be etched in the annals of Eldoria's history.",
+      "rewards": {},
+      "effects": {
+        "text": "Archduke Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "archduke": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "imperial_preceptor_unlocked": {
+      "title": "Kingdom's Advisor",
+      "body": "Your incredible influence and foresight has earned you the role to be the teacher of the king, helping guide the overall direction of the kingdom's future. Your words are like law and the respect of the people for you is enormous. \n\nYou vowed to use your wisdom and influence for the good of the kingdom and better the life of all. ",
+      "rewards": {},
+      "effects": {
+        "text": "Imperial Preceptor Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "imperial_preceptor": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "scribe_unlocked": {
+      "title": "Stepping into the Arcane",
+      "body": "Your noble standing bestows upon you the rare privilege to venture into the realm of mystical arts. Initiating your enchanting odyssey, you submerge yourself in the wisdom of ancient tomes, every stroke of your quill unraveling the closely guarded secrets of the arcane. \n\nWith each stroke, you keenly sense the ebb and flow of mana permeating the surroundings, harmonizing with the unseen energies. The Sanctum of the Arcanist unveils its enigmatic wonders, laying the foundation for a deep and insightful comprehension of the intricate tapestry woven by the threads of magic.",
+      "rewards": {},
+      "effects": {
+        "text": "Sanctum of the Arcanist Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "arcanic": {
+              "scribe": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "acolyte_unlocked": {
+      "title": "Controlling Mana",
+      "body": "Through your commitment to the sacred scribal arts, you ascend to the position of Acolyte. Within the sanctified walls of the Arcanist's haven, you fan the dormant spark of passion for magic into a blazing flame, immersing yourself in the profound and mystical studies that unfurl before you. \n\nAs an Acolyte, the ancient teachings guide you in mastering the control of mana drawn from the surroundings. In this hallowed space, the very essence of arcane power stirs, resonating with the latent potential that lies within, awaiting your command.",
+      "rewards": {},
+      "effects": {
+        "text": "Acolyte Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "arcanic": {
+              "acolyte": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "neophyte_unlocked": {
+      "title": "Learning Spells",
+      "body": "As the flame of your magical journey illuminates your path, your unwavering commitment and mastery over the arcane arts bestow upon you the esteemed title of Neophyte. The veils concealing the fundamental mysteries of magic gracefully lift, unveiling a panoramic knowledge that illuminates the true depth and breadth of the mystical arts. \n\nWithin the Sanctum, your recognition as a Neophyte stands as a significant milestone in your arcane odyssey. This achievement opens the doors to a realm of basic spells and schools of magic, providing you with diverse avenues for further learning and exploration.",
+      "rewards": {},
+      "effects": {
+        "text": "Neophyte Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "arcanic": {
+              "neophyte": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "journeyman_unlocked": {
+      "title": "Slightly more experienced",
+      "body": "Your training intensifies as a Journeyman, marking a pivotal moment in your magical evolution. Here, within the Sanctum's sacred walls, you unlock elementary spells and abilities that pave the way for your traverse along the winding path toward true mastery. \n\nThe ethereal glow of magical potential surrounds you, guiding your steps as you navigate the intricate and challenging terrain of magical studies. The Sanctum acknowledges your dedication and grants you the right to delve into elementary spells, providing you with the keys to a broader array of magical knowledge.",
+      "rewards": {},
+      "effects": {
+        "text": "Journeyman Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "arcanic": {
+              "journeyman": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "magi_unlocked": {
+      "title": "Improving Spells",
+      "body": "Ascend to the prestigious rank of Magi within the Sanctum of the Arcanist, where your command over mystical energies becomes a testament to your magical expertise. Wielding intricate spells and harnessing potent arcane forces, you stand as a beacon of magical prowess. \n\nAs a Magi, your mastery unlocks the gates to intermediate spells and improving their strengths, offering you access to even greater depths of magical knowledge and power within the revered sanctum.",
+      "rewards": {},
+      "effects": {
+        "text": "Magi Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "arcanic": {
+              "magi": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "wizard_unlocked": {
+      "title": "Becoming a Great Mage",
+      "body": "Within the Sanctum of the Arcanist, you ascend to the esteemed rank of Wizard, marking your place among the elite wielders of arcane power. Inheriting a profound legacy, you delve into the secrets of the arcane with unparalleled dedication. Mastery over complex incantations becomes second nature as you unravel hidden arcane knowledge. The sanctum bestows upon you the right to delve into the realm of Advanced spells, unlocking a new chapter in your mystical journey.",
+      "rewards": {},
+      "effects": {
+        "text": "Wizard Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "arcanic": {
+              "wizard": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "sage_unlocked": {
+      "title": "Carrier of Wisdom",
+      "body": "After passing the Sage's test, you unlock the secrets of becoming one. \n\nAs a master of knowledge and wisdom, a Sage hones their abilities through rigorous study and profound understanding, enhancing learning, reasoning, and intellectual prowess. \n\nThis newfound wisdom will be a powerful asset on your journeys.",
+      "rewards": {},
+      "effects": {
+        "text": "Sage Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "heroic": {
+              "sage": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "guardian_unlocked": {
+      "title": "Realm Protector",
+      "body": "After passing the Guardian’s test, you unlock the secrets of becoming one.\n\nThe Guardian stands as a bulwark against threats, mastering defensive and healing skills. Their focus is on shielding allies, enduring attacks, and maintaining unyielding fortitude in the face of danger.\n\nWith your presence, no one will fall; you can heal the wounded and protect all from harm.",
+      "rewards": {},
+      "effects": {
+        "text": "Realm Guardian Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "heroic": {
+              "realm_guardian": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "deathbringer_unlocked": {
+      "title": "Bringer of Death",
+      "body": "After passing the Deathbringer’s test, you unlock the path to becoming one.\n\nA Deathbringer is a formidable warrior, unmatched in combat skills. Mastering battle tactics, weaponry, and physical prowess, they dominate the battlefield, overwhelming any adversary.\n\nWith this power, you bring death to those you choose. You will be peerless in battle.",
+      "rewards": {},
+      "effects": {
+        "text": "Deathbringer Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "heroic": {
+              "deathbringer": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "seeker_unlocked": {
+      "title": "Seeker of Treasures",
+      "body": "After passing the Seeker's test, you unlock the path to becoming one.\n\nA Seeker is a master treasure hunter and scavenger, skilled in uncovering hidden riches and valuable artifacts. Excelling in foraging, salvaging, and resource identification, they find treasures where others see nothing, ensuring nothing goes to waste. \n\nWith sharp instincts and unparalleled resourcefulness, they will never be poor.",
+      "rewards": {},
+      "effects": {
+        "text": "Seeker Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "heroic": {
+              "seeker": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "tidecaller_unlocked": {
+      "title": "Master of the Seas",
+      "body": "After passing the Tidecaller’s test, you unlock the path to becoming one.\n\nFrom celestial navigation to maritime combat, a Tidecaller’s knowledge spans the breadth of oceanic lore. They harness the elements, predict storms, and commandeer vessels of all sizes with ease. \n\nWith their mastery, the seas are your domain, and they are destined to explore uncharted waters and uncover hidden treasures beneath the waves. \n\n The sea will be yours.",
+      "rewards": {},
+      "effects": {
+        "text": "Tidecaller Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "heroic": {
+              "tidecaller": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "grand_creator_unlocked": {
+      "title": "The Crafter of All",
+      "body": "After passing the Grand Crafter’s test, you unlock the path to becoming one.\n\nTheir skill in crafting spans the spectrum of materials and techniques—from delicate textiles, cooking, and intricate jewelry to formidable weapons and imposing architecture. With hands as tools and imagination as their guide, they shape raw materials into works of art and utility that surpass mere functionality. \n\nAs the Grand Crafter, your legacy will be etched in every masterpiece you create, enriching cultures, inspiring generations, and leaving a mark on the world of artisans and craftsmen.",
+      "rewards": {},
+      "effects": {
+        "text": "Grand Crafter Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "heroic": {
+              "grand_creator": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "excavator_unlocked": {
+      "title": "Miner of the World",
+      "body": "After passing the Excavator’s test, you unlock the path to becoming one.\n\nAn Excavator is the  master of subterranean realms, excelling in extracting precious ores, gems, and minerals from deep within the earth.\n\nWith keen eye for valuable resources and ability to withstand the dangers of underground passages, they unearth riches that fuel civilizations and shape economies.\n\nAs an Excavator, your legacy lies in the depths you explore and the wealth you bring to light.",
+      "rewards": {},
+      "effects": {
+        "text": "World Excavator Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "heroic": {
+              "world_excavator": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "explorer_unlocked": {
+      "title": "Unfettered ",
+      "body": "After passing the Unfettered One’s test, you unlock the path to becoming one.\n\nFree from constraints and boundaries, you navigate the world with unparalleled liberty and independence. Whether traversing dense forests, scaling towering mountains, or crossing vast deserts, you move with grace and agility.\n\nWith boundless freedom at your fingertips, you shape your destiny and leave a mark on the world.",
+      "rewards": {},
+      "effects": {
+        "text": "Unfettered Explorer Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "heroic": {
+              "unfettered_explorer": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "leader_unlocked": {
+      "title": "Builder of Civilizations",
+      "body": "After passing the Leader’s test, you unlock the path to becoming one.\n\nThey possess the ability to envision and establish thriving civilizations from humble beginnings. Their expertise lies not only in strategic planning and resource management but also in inspiring others to forge a new destiny. \n\nUnder their guidance, kingdoms flourish, cultures thrive, and communities unite under a common vision. As a Starter of Civilizations, you will shape history.",
+      "rewards": {},
+      "effects": {
+        "text": "Starter of Civilization Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "heroic": {
+              "civilization_starter": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "invoker_unlocked": {
+      "title": "Forbidden Knowledge",
+      "body": "After passing the Forbidden One’s test, you unlock the path to becoming one. \n\nA master of dark and esoteric secrets, you possess insights into ancient rituals, forbidden spells, and eldritch phenomena. Your understanding of occult forces and otherworldly beings grants you unparalleled power, though at great peril.\n\nWith your knowledge comes great responsibility and danger. You navigate treacherous paths of forbidden wisdom, treading the fine line between mastery and madness.\n\nAs the bearer of Forbidden Knowledge, you wield arcane might that could reshape reality itself, for better or for worse.",
+      "rewards": {},
+      "effects": {
+        "text": "Forbidden Invoker Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "heroic": {
+              "forbidden_invoker": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "hero_unlocked": {
+      "title": "Hero of Time",
+      "body": "Having learned from yourself, you have earned the timeless title of Hero. \n\nA paragon of courage, virtue, and selflessness, you rise above adversity to protect the innocent and uphold justice. Your feats of bravery inspire hope and rally allies to your cause.\n\nAs a hero, you embody the ideals of heroism—noble deeds, unwavering resolve, and boundless compassion. You stand as a beacon of light in dark times, confronting evil and making sacrifices for the greater good.\n\nWith every quest undertaken and every challenge met, you forge a legacy that echoes through the annals of history, forever remembered as a true Hero.",
+      "rewards": {},
+      "effects": {
+        "text": "Timeless Hero Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "heroic": {
+              "timeless_hero": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "ruler_of_the_realm_unlocked": {
+      "title": "Ruler of the Realm",
+      "body": "Having freed the realm from the clutches of the Demon King and the terrifying Altaraxia, your unmatched strength and unyielding wisdom have earned the admiration and gratitude of its people. They look to you not just as a savior, but as a beacon of hope and stability. In recognition of your heroism and insight, the realm's citizens have united to appoint you as their ruler—a position of immense honor and responsibility.\n\nAs the ruler of the realm, it is your duty to safeguard its peace, nurture its growth, and guide its people toward a prosperous future. With the power to shape the destiny of the land, you are also granted the rewards befitting your station: vast treasures, unwavering loyalty, and a legacy that will echo through time. The realm flourishes under your leadership, yet the weight of its care rests solely on your shoulders. \n\nWill you lead with the same valor that once saved it?\n\nMaybe you'll see once you've ruled enough..",
+      "rewards": {},
+      "effects": {
+        "text": "Ruler of the Realm Job Unlocked"
+      },
+      "popup": true,
+      "uncounted": false,
+      "hidden": true,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "noble": {
+              "ruler_of_the_realm": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

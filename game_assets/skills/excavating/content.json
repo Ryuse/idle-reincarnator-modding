@@ -1,0 +1,72 @@
+{
+  "content": {
+    "mining_mastery": {
+      "name": "Mining Mastery",
+      "description": "Master the art of digging and mining",
+      "base_exp_req": 100,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "miner": {
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1,
+                    "scaling": 100
+                  }
+                }
+              }
+            } 
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "excavating": {
+              "mining_mastery": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "geology": {
+      "name": "Geology",
+      "description": "Knowledge of geological formations for efficient resource extraction.",
+      "base_exp_req": 100,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "miner": {
+                  "exp_multiplier": {
+                    "scaling_type": "logarithmic",
+                    "base": 1,
+                    "scaling": 100
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "requirements": {
+        "0": {
+          "skills": {
+            "excavating": {
+              "geology": {
+                "current_level": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

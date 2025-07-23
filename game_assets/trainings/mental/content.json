@@ -1,0 +1,161 @@
+{
+  "content": {
+    "meditate": {
+      "name": "Meditate",
+      "description": "Attain mental clarity through deep meditation",
+      "base_exp_req": 70,
+      "expense": 0,
+      "hidden": false,
+      "effects": {
+        "trainings": {
+          "content": {
+            "mental": {
+              "content": {
+                "meditate": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "fundamentals": {
+              "content": {
+                "concentration": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.20
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {}
+    },
+    "thought_reconstruction": {
+      "name": "Thought Reconstruction",
+      "description": "Change your way of thinking to be more efficient",
+      "base_exp_req": 70,
+      "expense": 0,
+      "hidden": false,
+      "effects": {
+        "trainings": {
+          "content": {
+            "mental": {
+              "content": {
+                "thought_reconstruction": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "fundamentals": {
+              "content": {
+                "critical_thought": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.20
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "trainings": {
+            "mental": {
+              "meditate": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "rune_creation": {
+      "name": "Rune Creation",
+      "description": "Construct runes in your mind to strengthen your magic potential",
+      "base_exp_req": 100,
+      "expense": 5,
+      "hidden": true,
+      "effects": {
+        "trainings": {
+          "content": {
+            "mental": {
+              "content": {
+                "rune_creation": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "arcane": {
+              "content": {
+                "mana_sense": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 5,
+                    "scaling": 0.5
+                  }
+                },
+                "mana_control": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 5,
+                    "scaling": 0.5
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "technologies": {
+            "0": {
+              "magic_academy": {
+                "unlocked": true
+              }
+            }
+          },
+          "jobs": {
+            "arcanic": {
+              "scribe": {
+                "current_level": 5
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

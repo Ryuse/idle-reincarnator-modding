@@ -1,0 +1,273 @@
+{
+  "content": {
+    "lift_things": {
+      "name": "Lift things",
+      "description": "Lift something up. Put it down. Repeat.",
+      "base_exp_req": 70,
+      "expense": 0,
+      "hidden": false,
+      "effects": {
+        "trainings": {
+          "content": {
+            "physical": {
+              "content": {
+                "lift_things": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.20
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "jobs": {
+            "common": {
+              "farmer": {
+                "current_level": 5
+              }
+            }
+          }
+        }
+      }
+    },
+    "obstacle_course": {
+      "name": "Obstacle Course",
+      "description": "Navigate a challenging obstacle course with finesse",
+      "base_exp_req": 70,
+      "expense": 0,
+      "hidden": false,
+      "effects": {
+        "trainings": {
+          "content": {
+            "physical": {
+              "content": {
+                "obstacle_course": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "defense": {
+              "content": {
+                "agility": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.20
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "trainings": {
+            "physical": {
+              "lift_things": {
+                "current_level": 10
+              }
+            }
+          }
+        }
+      }
+    },
+    "mock_battles": {
+      "name": "Mock Battles",
+      "description": "Engage in mock battles to hone your combat skills",
+      "base_exp_req": 100,
+      "expense": 0,
+      "hidden": false,
+      "effects": {
+        "trainings": {
+          "content": {
+            "physical": {
+              "content": {
+                "mock_battles": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "defense": {
+              "content": {
+                "endurance": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.20
+                  }
+                },
+                "evasion_techniques": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.20
+                  }
+                }
+              }
+            },
+            "combat": {
+              "content": {
+                "combat_knowledge": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.20
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "trainings": {
+            "physical": {
+              "lift_things": {
+                "current_level": 30
+              },
+              "obstacle_course": {
+                "current_level": 30
+              }
+            }
+          }
+        }
+      }
+    },
+    "limit_breaking": {
+      "name": "Limit Breaking",
+      "description": "Push your body to its utmost limits, at the cost of your life.",
+      "base_exp_req": 1000,
+      "expense": 0,
+      "hidden": true,
+      "effects": {
+        "overall": {
+          "lifespan_decrease_per_day": {
+            "scaling_type": "linear",
+            "base": 0.5,
+            "scaling": 0.00
+          }
+        },
+        "trainings": {
+          "content": {
+            "physical": {
+              "content": {
+                "limit_breaking": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "defense": {
+              "content": {
+                "agility": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 25,
+                    "scaling": 2.5
+                  }
+                },
+                "endurance": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 25,
+                    "scaling": 2.5
+                  }
+                }
+              }
+            },
+            "combat": {
+              "content": {
+                "strength": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 25,
+                    "scaling": 2.5
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {
+        "0": {
+          "trainings": {
+            "physical": {
+              "lift_things": {
+                "current_level": 100
+              },
+              "obstacle_course": {
+                "current_level": 100
+              },
+              "mock_battles": {
+                "current_level": 100
+              }
+            }
+          },
+          "age": {
+            "years": 52,
+            "days": 0
+          }
+        },
+        "1": {
+          "stories": {
+            "lore": {
+              "age_1000": {
+                "unlocked": true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
