@@ -57,7 +57,7 @@ To add a new job in your mod, create a content.json file inside the jobs/ folder
 <Your Mod Folder>/
 ├── jobs/
 │   ├── data.json
-│   └── jobs/
+│   └── <job_category>/
 │       ├── content.json    ← Add your custom job(s) here
 │       └── images/
 │           └── cleaner.png (optional image for your job)
