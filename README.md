@@ -48,6 +48,108 @@ Each mod should follow this structure:
 
 ---
 
+
+
+✍️ How to Add a Custom Job via JSON
+
+To add a new job in your mod, create a content.json file inside the jobs/ folder of your mod directory. Follow this structure:
+```
+<Your Mod Folder>/
+├── jobs/
+│   ├── data.json
+│   └── jobs/
+│       ├── content.json    ← Add your custom job(s) here
+│       └── images/
+│           └── cleaner.png (optional image for your job)
+```
+🧩 Example: Adding a “Cleaner” Job
+
+Here’s a working example of a modded job entry in the content.json:
+```json
+{
+  "content": {
+    "cleaner": {
+      "name": "Cleaner",
+      "description": "Clean the streets of Eldoria.",
+      "base_income": 1.9,
+      "is_passive_income": false,
+      "base_exp_req": 80,
+      "hidden": true,
+      "effects": {
+        "jobs": {
+          "content": {
+            "common": {
+              "content": {
+                "cleaner": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skills": {
+          "content": {
+            "fundamentals": {
+              "content": {
+                "cleanliness": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.2
+                  }
+                }
+              }
+            },
+            "scavenging": {
+              "content": {
+                "awareness": {
+                  "exp_gain": {
+                    "scaling_type": "linear",
+                    "base": 1,
+                    "scaling": 0.2
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lockable": false,
+      "requirements": {}
+    }
+  }
+}
+```
+📝 Field Breakdown
+| Field               | Description                                                      |
+| ------------------- | ---------------------------------------------------------------- |
+| `name`              | Display name of the job.                                         |
+| `description`       | Tooltip description.                                             |
+| `base_income`       | Amount of income earned per tick.                                |
+| `is_passive_income` | If true, job generates income while not active.                  |
+| `base_exp_req`      | XP required to level up.                                         |
+| `hidden`            | If true, job is not shown until unlocked by other means.         |
+| `effects`           | Defines XP gains for this job and related skills.                |
+| `lockable`          | If false, job is immediately accessible if requirements are met. |
+| `requirements`      | Object containing unlock conditions (leave empty for none).      |
+
+
+Make sure your file is named exactly content.json, and that you also define data.json in the parent jobs/ folder if you are adding a new job category aside from common, knight, noble, arcanic, or heroic. If you have no new category, you can keep the data.json as:
+```json
+{
+  "types": {
+  }
+}
+```
+
+**Also, make sure to add an effect for the job to give experience to itself if not the job won't level up**
+
+
+---
 ## ⚙️ Effects
 Aside from the usual action attributes like name, description, etc. There are more complicated attributes like effects. There are many kinds of effects and they are grouped into categories. Here are the categories:
 
