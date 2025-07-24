@@ -335,4 +335,6 @@ Check out the `game_assets/` folder in your game installation for real content e
 
 When you're ready, upload your mod to the Steam Workshop via the in-game mod menu. Just open your mod in the popup and press the Upload button.
 
+Once uploaded, your mod will show in Steam workshop but the visibility is set to private. If you are ready for your mod to be shown to the public, set the visibility to public in the Steam Workshop.
+
 Happy modding! 🚀
