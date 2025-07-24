@@ -6,25 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Idle Reincarnator Modding Guide</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <style>
-    .table-docs {
-      background-color: #f8f9fa;
-    }
-
-    .table-docs th {
-      background-color: #e9ecef;
-    }
-
-    pre {
-      background-color: #f8f9fa;
-      padding: 1rem;
-      border-radius: 0.25rem;
-    }
-
-    section {
-      margin-bottom: 3rem;
-    }
-  </style>
+  <link rel="stylesheet" href="dark_mode.css">
 </head>
 
 <body>
@@ -35,9 +17,7 @@
         <h5 class="mt-4">Modding Guide</h5>
         <ul class="nav nav-pills flex-column mb-auto">
           <li class="nav-item"><a href="#welcome" class="nav-link">Welcome</a></li>
-          <li class="nav-item"><a href="#create-mod" class="nav-link">Create a Mod</a></li>
-          <li class="nav-item"><a href="#content-types" class="nav-link">Content Types</a></li>
-          <li class="nav-item"><a href="#folder" class="nav-link">Folder Structure</a></li>
+          <li class="nav-item"><a href="#create-mod" class="nav-link">Getting Started</a></li>
           <li><a href="#add-content" class="nav-link">Adding Content</a></li>
           <li><a href="#effects" class="nav-link">Effects</a></li>
           <li><a href="#requirements" class="nav-link">Requirements</a></li>
@@ -54,9 +34,10 @@
           <p class="lead">Welcome to the official <strong>Modding Guide</strong> for <em>Idle Reincarnator</em>. This
             guide will walk you through the steps to create your own mod and add custom content to the game.</p>
         </section>
-
+        <hr>
         <section id="create-mod">
-          <h2>How to Create a Mod</h2>
+          <h2>Getting started</h2>
+          <p>To start creating a mod and have your mod folder, follow these steps:</p>
           <ol>
             <li>Launch the game and go to the <strong>Mods</strong> section.</li>
             <li>Click <strong>Create Mod</strong>.</li>
@@ -64,9 +45,11 @@
             <li>Start editing the files in this folder to add your content.</li>
           </ol>
         </section>
+        <hr>
+        <section id="add-content">
+          <h2>Adding content</h2>
 
-        <section id="content-types">
-          <h2>What game content can you add?</h2>
+          <h4>What game content can you add?</h4>
           <p>You can add the following action types:</p>
           <div class="row">
             <div class="col-md-6">
@@ -87,51 +70,16 @@
               </ul>
             </div>
           </div>
-        </section>
-
-        <section id="folder">
-          <h2>Folder Structure</h2>
-          <p>Each mod should follow this structure:</p>
-          <pre>
-            <code>
-[Your Mod Folder]/
-├── mod.json           # Mod metadata
-├── preview.png        # Optional preview image shown in the UI
-├── jobs/              # Or trainings/, spells/, etc.
-│   ├── data.json
-│   └── [action_type]/ # E.g., for jobs it's common, knight, etc.
-│       ├── content.json # Contains the action information
-│       └── images/
-│           └── &lt;content_id>.png
-├── trainings/
-│   └── ...
-            </code>
-          </pre>
-          <div class="alert alert-info mt-3">
-            <strong>Tip:</strong> See <a
-              href="https://github.com/Ryuse/idle-reincarnator-modding/tree/main/example_mod"><code>example_mod</code></a>
-            for a working example.
-          </div>
-        </section>
-
-        <section id="add-content">
-          <h2>Adding content - Starting from Jobs</h2>
 
           <p>Let's focus on how to to add a custom job first. To create a custom job, create a 'jobs' folder inside your
-            mod folder, and inside the 'jobs' folder, create a 'data.json' file. The 'data.json' file
-            should look like below if you are not adding a new category:</p>
-          <pre>
-            <code>
-{
+            mod folder, and inside the 'jobs' folder, create a 'data.json' file. The 'data.json' file should look like
+            below if you are not adding a new category:</p>
+          <pre><code>{
   "types": {
   }
-}
-            </code>
-          </pre>
+}</code></pre>
           <p>If you are adding a category, it your data.json should look like this:</p>
-          <pre>
-            <code>
-{
+          <pre><code>{
   "types": {
     "[job_category]": {
       "name": "[Your job category display name]",
@@ -149,23 +97,15 @@
     },
     ...
   }
-}
-            </code>
-          </pre>
-
+}</code></pre>
           <p>The current job categories can be found <a
               href="https://github.com/Ryuse/idle-reincarnator-modding/blob/main/game_assets/jobs/data.json">here</a>.
           </p>
-
           <p>Afterwards, create folders based on the job_category you defined in your data.json. For example, if you
             defined a job_category called "test", create a folder called "test" inside the jobs folder.</p>
-
           <p>Inside your job_category folder, create a file called 'content.json'. This file will contain the data for
             your jobs. Follow the structure below:</p>
-
-          <pre>
-            <code>
-{
+          <pre><code>{
   "content": {
     "[job_id]": {
       "name": "[Job Name]",
@@ -191,20 +131,16 @@
     },
     ...
   }
-}
-            </code>
-          </pre>
+}</code></pre>
 
-          <h5 class="mt-4">🧩 Example: Adding a "Cleaner" Job</h3>
-            <p>Here's a working example of a modded job entry in the content.json:</p>
-
-            <button class="btn btn-primary mb-3" type="button" data-bs-toggle="collapse"
-              data-bs-target="#cleanerJobExample" aria-expanded="false" aria-controls="cleanerJobExample">
-              Show/Hide Cleaner Job Example
-            </button>
-
-            <div class="collapse" id="cleanerJobExample">
-              <pre><code>{
+          <h5 class="mt-4">🧩 Example: Adding a "Cleaner" Job</h5>
+          <p>Here's a working example of a modded job entry in the content.json:</p>
+          <button class="btn btn-primary mb-3" type="button" data-bs-toggle="collapse"
+            data-bs-target="#cleanerJobExample" aria-expanded="false" aria-controls="cleanerJobExample">
+            Show/Hide Cleaner Job Example
+          </button>
+          <div class="collapse" id="cleanerJobExample">
+            <pre><code>{
   "content": {
     "cleaner": {
       "name": "Cleaner",
@@ -261,37 +197,30 @@
     }
   }
 }</code></pre>
-            </div>
-            <div class="alert alert-warning mt-3">
-              <strong>Important: Make sure to add an effect for the job to give experience to itself if not the job
-                won't
-                level
-                up</strong>
-            </div>
-            <p>For how jobs are made in the base game, you can see them <a
-                href="https://github.com/Ryuse/idle-reincarnator-modding/blob/main/game_assets/jobs/common/content.json">here</a>.
-            </p>
-
-            <p>To add an image for your job, create a folder named "images" inside your job category folder and place a
-              .png file in the images folder with the same name as your job ID.</p>
-            <p>Once you are done, your folder structure should look like this:</p>
-            <pre>
-              <code>
-[Your Mod Folder]/
+          </div>
+          <div class="alert alert-warning mt-3">
+            <strong>Important: Make sure to add an effect for the job to give experience to itself if not the job won't
+              level up</strong>
+          </div>
+          <p>For how jobs are made in the base game, you can see them <a
+              href="https://github.com/Ryuse/idle-reincarnator-modding/blob/main/game_assets/jobs/common/content.json">here</a>.
+          </p>
+          <p>To add an image for your job, create a folder named "images" inside your job category folder and place a
+            .png file in the images folder with the same name as your job ID. You can get image borders that you can use in your images <a href="https://github.com/Ryuse/idle-reincarnator-modding/tree/main/image_borders">here</a></p>
+          <p>Once you are done, your folder structure should look like this:</p>
+          <pre><code>[Your Mod Folder]/
 ├── jobs/
 │   ├── data.json
 │   └── [job_category]/
 │       ├── content.json    ← Add your custom job(s) here
 │       └── images/
-│           └── [job_id].png (image for your job)
-          </code>
-        </pre>
-        <h3>Adding more content types</h3>
-        <p>As to how to add other content like trainings, skills, etc. you can see how they are made in the base game <a
-                href="https://github.com/Ryuse/idle-reincarnator-modding/blob/main/game_assets/">here</a>.
-        </p>
+│           └── [job_id].png (image for your job)</code></pre>
+          <h3>Adding more content types</h3>
+          <p>As to how to add other content like trainings, skills, etc. you can see how they are made in the base game
+            <a href="https://github.com/Ryuse/idle-reincarnator-modding/blob/main/game_assets/">here</a>.
+          </p>
         </section>
-
+        <hr>
         <section id="effects">
           <h2>⚙️ Effects Reference</h2>
           <p>Effects modify gameplay in various ways and are grouped into categories. Each effect can have scaling
@@ -375,14 +304,11 @@
                   <td><code>spell_slots</code></td>
                   <td>Additional spell slots available</td>
                 </tr>
-
               </tbody>
             </table>
           </div>
           <h4>Example</h4>
-          <pre>
-            <code>
-"effects": {
+          <pre><code>"effects": {
   "overall": {
     "[effect_name]": {
       "scaling_type": "linear",
@@ -390,9 +316,7 @@
       "scaling": 0
     }
   }
-}
-            </code>
-          </pre>
+}</code></pre>
           <h3 class="mt-4">Action Type, Category, and Specific Effects</h3>
           <div class="table-responsive">
             <table class="table table-bordered table-docs">
@@ -438,9 +362,7 @@
             </table>
           </div>
           <h4 class="mt-3">Example</h4>
-          <pre>
-            <code>
-#Action-wide Effect
+          <pre><code>#Action-wide Effect
 "[action_type]": {
   "[effect_name]": {
     "scaling_type": "linear" // or "logarithmic"/"exponential",
@@ -477,11 +399,9 @@
       }
     }
   }
-}
-            </code>
-          </pre>
+}</code></pre>
         </section>
-
+        <hr>
         <section id="requirements">
           <h2>Requirements Structure</h2>
           <p>Requirements define the conditions for unlocking a content. These are grouped by numeric keys ("0", "1",
@@ -618,14 +538,11 @@
             </table>
           </div>
 
-
-
           <h3 class="mt-4">Requirements Example</h3>
           <button class="btn btn-primary mb-3" type="button" data-bs-toggle="collapse"
             data-bs-target="#requirementsExample" aria-expanded="false" aria-controls="requirementsExample">
             Show/Hide Requirements Example
           </button>
-
           <div class="collapse" id="requirementsExample">
             <pre><code>"requirements": {
   "0": {
@@ -664,24 +581,42 @@
                 </ul>
               </li>
             </ul>
-
           </div>
-
           <p>Only 1 requirement group must be fulfilled to unlock the item.</p>
           <div class="alert alert-info mt-3">
             <strong>💡 Note:</strong> Unlike the effects structure, the requirements structure is not nested in a
             'content' field.
           </div>
-
           <h3 class="mt-4">📚 Need More Examples?</h3>
-          <p>Check out the <a href="https://github.com/Ryuse/idle-reincarnator-modding/tree/main/game_assets"><code>game_assets</code></a> in the modding repo for real content examples used by
-            the base game.</p>
+          <p>Check out the <a
+              href="https://github.com/Ryuse/idle-reincarnator-modding/tree/main/game_assets"><code>game_assets</code></a>
+            in the modding repo for real content examples used by the base game.</p>
+          <div class="alert alert-info mt-3">
+            <strong>Tip:</strong> See <a
+              href="https://github.com/Ryuse/idle-reincarnator-modding/tree/main/example_mod"><code>example_mod</code></a>
+            for a working example.
+          </div>
         </section>
-
+        <hr>
         <section id="before-publishing" class="mt-5">
           <h2>Before Publishing</h2>
-          <p>Before publishing, you should add tags to your mod.json file. These tags will help users find your mod on
-            the Steam Workshop.</p>
+
+          <h4>Folder Structure</h4>
+          <p>Check your mod folder follows this structure:</p>
+          <pre><code>[Your Mod Folder]/
+├── mod.json           # Mod metadata
+├── preview.png        # Optional preview image shown in the UI
+├── jobs/              # Or trainings/, spells/, etc.
+│   ├── data.json
+│   └── [action_type]/ # E.g., for jobs it's common, knight, etc.
+│       ├── content.json # Contains the action information
+│       └── images/
+│           └── [action_id].png
+├── trainings/
+│   └── ...</code></pre>
+
+          <p>You should add tags to your mod.json file. These tags will help users find your mod on the Steam Workshop.
+          </p>
           <p>This file describes your mod and should be placed at the root of your mod folder. The name, description,
             and tags will be used in the Steam Workshop. The workshop_id is used to identify your mod on the Steam
             Workshop.</p>
@@ -693,7 +628,7 @@
   "workshop_id": [THIS IS THE ID OF YOUR MOD ON THE STEAM WORKSHOP. DO NOT TOUCH THIS UNLESS YOU KNOW WHAT YOU ARE DOING.]
 }</code></pre>
         </section>
-
+        <hr>
         <section id="publishing">
           <h2>🚀 Publishing Your Mod</h2>
           <p>When you're ready, upload your mod to the Steam Workshop via the in-game mod menu. Just open your mod in
@@ -704,11 +639,14 @@
             <h4 class="alert-heading">Happy modding! 🚀</h4>
           </div>
         </section>
-
+        <hr>
         <section id="tips" class="mt-5">
           <h2>💡 Tips</h2>
           <ul>
-            <li>Use <code>game_assets/</code> or <code>example_mod/</code> as references.</li>
+            <li>Use <a
+                href="https://github.com/Ryuse/idle-reincarnator-modding/tree/main/game_assets"><code>game_assets</code></a>
+              or <a href="https://github.com/Ryuse/idle-reincarnator-modding/tree/main/example_mod">
+                <code>example_mod</code></a> as references.</li>
             <li>Preview images are optional but help in the UI.</li>
             <li>All folder and file names should be lowercase and consistent.</li>
             <li>Test your mod thoroughly before publishing.</li>
@@ -719,7 +657,19 @@
     </div>
   </div>
 
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <div class="dark-mode-toggle">
+    <label class="switch">
+      <input type="checkbox" id="darkModeToggle">
+      <span class="slider round">
+        <span class="moon-icon">🌙</span>
+        <span class="sun-icon">☀️</span>
+      </span>
+    </label>
+  </div>
+
+  <script src="dark_mode.js"></script>
 </body>
 
 </html>

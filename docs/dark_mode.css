@@ -1,0 +1,248 @@
+/* Dark mode variables */
+:root {
+  --bg: #121212;
+  --text: #e0e0e0;
+  --card-bg: #1e1e1e;
+  --border: #333;
+  --primary: #bb86fc;
+  --secondary: #03dac6;
+  --accent: #3700b3;
+  --code-bg: #2d2d2d;
+  --table-bg: #252525;
+  --table-header: #333;
+  --alert-info-bg: #1a3a5a;
+  --alert-info-text: #b3d9ff;
+  --alert-warning-bg: #5a3a1a;
+  --alert-warning-text: #ffd9b3;
+  --alert-success-bg: #1a5a3a;
+  --alert-success-text: #b3ffd9;
+}
+
+/* Light mode variables */
+[data-theme="light"] {
+  --bg: #ffffff;
+  --text: #212529;
+  --card-bg: #f8f9fa;
+  --border: #dee2e6;
+  --primary: #0d6efd;
+  --secondary: #6c757d;
+  --accent: #0b5ed7;
+  --code-bg: #f8f9fa;
+  --table-bg: #f8f9fa;
+  --table-header: #e9ecef;
+  --alert-info-bg: #cfe2ff;
+  --alert-info-text: #084298;
+  --alert-warning-bg: #fff3cd;
+  --alert-warning-text: #664d03;
+  --alert-success-bg: #d1e7dd;
+  --alert-success-text: #0a3622;
+}
+
+/* Base styles */
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+/* Other Components (unchanged from previous) */
+.bg-light {
+  background-color: var(--card-bg) !important;
+}
+
+.border-end {
+  border-color: var(--border) !important;
+}
+
+.table-docs {
+  background-color: var(--table-bg);
+  color: var(--text);
+}
+
+.table-docs th {
+  background-color: var(--table-header);
+  color: var(--text);
+}
+
+pre {
+  background-color: var(--code-bg);
+  color: var(--text);
+  border-color: var(--border);
+}
+
+
+/* Table Styles */
+.table {
+  color: var(--text);
+  background-color: var(--table-bg);
+  border-color: var(--border);
+}
+
+.table th {
+  background-color: var(--table-header);
+  color: var(--text);
+  border-color: var(--border);
+}
+
+.table td {
+  background-color: var(--table-bg);
+  color: var(--text);
+  border-color: var(--border);
+}
+
+.table tbody tr {
+  background-color: var(--table-row);
+  border-color: var(--border);
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: var(--table-row-alt);
+}
+
+.table-hover tbody tr:hover {
+  background-color: var(--table-header);
+}
+
+.table-bordered {
+  border-color: var(--border);
+}
+
+.table-bordered th,
+.table-bordered td {
+  border-color: var(--border);
+}
+
+
+.border-end {
+  border-color: var(--border) !important;
+}
+
+code {
+  color: var(--secondary);
+}
+
+.alert-info {
+  background-color: var(--alert-info-bg);
+  color: var(--alert-info-text);
+  border-color: var(--accent);
+}
+
+.alert-warning {
+  background-color: var(--alert-warning-bg);
+  color: var(--alert-warning-text);
+  border-color: #ff9800;
+}
+
+.alert-success {
+  background-color: var(--alert-success-bg);
+  color: var(--alert-success-text);
+  border-color: #4caf50;
+}
+
+.nav-pills .nav-link.active {
+  background-color: var(--primary);
+}
+
+.nav-link {
+  color: var(--text);
+}
+
+.nav-link:hover {
+  color: var(--primary);
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: #000;
+}
+
+.btn-primary:hover {
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+
+/* Dark mode toggle with icons */
+.dark-mode-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.moon-icon, .sun-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  transition: opacity 0.3s;
+}
+
+.moon-icon {
+  left: 8px;
+  opacity: 0;
+}
+
+.sun-icon {
+  right: 8px;
+  opacity: 1;
+}
+
+[data-theme="dark"] .moon-icon {
+  opacity: 1;
+}
+
+[data-theme="dark"] .sun-icon {
+  opacity: 0;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+input:checked + .slider {
+  background-color: var(--primary);
+}
+
+input:checked + .slider:before {
+  transform: translateX(36px);
+}
