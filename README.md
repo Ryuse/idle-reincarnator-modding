@@ -1,340 +1,64 @@
 # 🛠️ Idle Reincarnator Modding Guide
 
-Welcome to the official **Modding Guide** for *Idle Reincarnator*. This guide will walk you through the steps to create your own mod and add custom content to the game.
+Welcome to the official **Modding Guide** for *Idle Reincarnator* - your complete resource for creating custom content for the game.
 
----
+## 🌐 Live Guide
+[View the live version of this guide](https://ryuse.github.io/idle-reincarnator-modding/)
 
-## 📦 How to Create a Mod
+## 📂 Repository Contents
 
-1. Launch the game and go to the **Mods** section.
-2. Click **Create Mod**.
-3. Navigate to your mod folder: %APPDATA%/Roaming/my_mods//[Your Mod Name]
-4. Start editing the files in this folder to add your content.
+### 📚 Guide Content
+- `index.html` - The complete modding guide with dark/light mode toggle
+- `dark-mode.css` - Stylesheet for the dark/light theme system
+- `dark-mode.js` - JavaScript for theme switching functionality
 
----
+### 🎮 Game Resources
+- `/game_assets` - Official game assets for reference
+  - `/jobs` - All job-related assets and configurations
+  - `/trainings` - Training system assets
+  - `/skills` - Skill definitions and assets
+  - ...and other game systems
 
-## ✨ What Can You Add?
+### 🛠️ Example Mods
+- `/example_mod` - Ready-to-use modding examples
+  - Basic job implementation
+  - Custom skill creation
+  - Complete mod structure examples
 
-You can add the following action types:
-- Jobs
-- Trainings
-- Skills
-- Explorations
-- Spells
-- Items
-- Temporal Skills
-- Technologies
-- Civilization Levels
+## 🚀 Getting Started with Modding
 
----
-
-## 📁 Folder Structure
-
-Each mod should follow this structure:
+1. **Create a Mod Folder**: %APPDATA%/Roaming/my_mods/[Your_Mod_Name]/
+2. **Basic Structure**:
 ```bash
-[Your Mod Folder]/
+your_mod/
 ├── mod.json           # Mod metadata
-├── preview.png        # Optional preview image shown in the UI
-├── jobs/              # Or trainings/, spells/, etc.
+├── preview.png        # Optional preview image
+├── jobs/              # Job content
 │   ├── data.json
-│   └── <action_type>/ # E.g., for jobs it's common/, knight/, etc.
-│       ├── content.json # Contains the action information
+│   └── [category]/
+│       ├── content.json
 │       └── images/
-│           └── <content_id>.png
-├── trainings/
-│   └── ...
+├── trainings/         # Training content
+└── ...                # Other content types
 ```
-> 📌 **Tip:** See `example_mod/` for working examples.
+3. Start Modding:
 
----
+    Copy examples from /example_mod
 
+    Reference game assets in /game_assets
 
+    Follow the comprehensive guide at live version
 
-✍️ How to Add a Custom Job via JSON
+🤝 Contributing
 
-To add a new job in your mod, create a content.json file inside the jobs/ folder of your mod directory. Follow this structure:
-```
-<Your Mod Folder>/
-├── jobs/
-│   ├── data.json
-│   └── <job_category>/
-│       ├── content.json    ← Add your custom job(s) here
-│       └── images/
-│           └── cleaner.png (optional image for your job)
-```
-🧩 Example: Adding a “Cleaner” Job
+Contributions to improve the modding guide are welcome! Please:
 
-Here’s a working example of a modded job entry in the content.json:
-```json
-{
-  "content": {
-    "cleaner": {
-      "name": "Cleaner",
-      "description": "Clean the streets of Eldoria.",
-      "base_income": 1.9,
-      "is_passive_income": false,
-      "base_exp_req": 80,
-      "hidden": true,
-      "effects": {
-        "jobs": {
-          "content": {
-            "common": {
-              "content": {
-                "cleaner": {
-                  "exp_gain": {
-                    "scaling_type": "linear",
-                    "base": 1,
-                    "scaling": 0
-                  }
-                }
-              }
-            }
-          }
-        },
-        "skills": {
-          "content": {
-            "fundamentals": {
-              "content": {
-                "cleanliness": {
-                  "exp_gain": {
-                    "scaling_type": "linear",
-                    "base": 1,
-                    "scaling": 0.2
-                  }
-                }
-              }
-            },
-            "scavenging": {
-              "content": {
-                "awareness": {
-                  "exp_gain": {
-                    "scaling_type": "linear",
-                    "base": 1,
-                    "scaling": 0.2
-                  }
-                }
-              }
-            }
-          }
-        }
-      },
-      "lockable": false,
-      "requirements": {}
-    }
-  }
-}
-```
-📝 Field Breakdown
-| Field               | Description                                                      |
-| ------------------- | ---------------------------------------------------------------- |
-| `name`              | Display name of the job.                                         |
-| `description`       | Tooltip description.                                             |
-| `base_income`       | Amount of income earned per tick.                                |
-| `is_passive_income` | If true, job generates income while not active.                  |
-| `base_exp_req`      | XP required to level up.                                         |
-| `hidden`            | If true, job is not shown until unlocked by other means.         |
-| `effects`           | Defines XP gains for this job and related skills.                |
-| `lockable`          | If false, job is immediately accessible if requirements are met. |
-| `requirements`      | Object containing unlock conditions (leave empty for none).      |
+    Fork the repository
 
+    Create your feature branch
 
-Make sure your file is named exactly content.json, and that you also define data.json in the parent jobs/ folder if you are adding a new job category aside from common, knight, noble, arcanic, or heroic. If you have no new category, you can keep the data.json as:
-```json
-{
-  "types": {
-  }
-}
-```
+    Commit your changes
 
-**Also, make sure to add an effect for the job to give experience to itself if not the job won't level up**
+    Push to the branch
 
-
----
-## ⚙️ Effects
-Aside from the usual action attributes like name, description, etc. There are more complicated attributes like effects. There are many kinds of effects and they are grouped into categories. Here are the categories:
-
-### 🧠 Overall Effects
-These apply broadly to gameplay:
-- `level_up_cap`
-- `before_max_level_exp_multiplier`
-- `exp_required_percentage_reduction`
-- `renown_multiplier`
-- `daily_gold_gain`
-- `lifespan_multiplier`
-- `lifespan_day_increase`
-- `lifespan_year_increase`
-- `gamespeed_multiplier`
-- `happiness_multiplier`
-- `boss_danger_reduction_per_defeat`
-- `temporal_essence_rebirth_needed_reduction`
-- `temporal_essence_rebirth_gain_multiplier`
-- `exploration_speed_multiplier`
-- `fundamentals_exploration_speed_multiplier`
-- `defense_exploration_speed_multiplier`
-- `combat_exploration_speed_multiplier`
-- `scavenging_exploration_speed_multiplier`
-- `fishing_exploration_speed_multiplier`
-- `constructing_exploration_speed_multiplier`
-- `excavating_exploration_speed_multiplier`
-- `exploring_exploration_speed_multiplier`
-- `social_exploration_speed_multiplier`
-- `arcane_exploration_speed_multiplier`
-- `danger_multiplier`
-- `job_action_increase`
-- `training_action_increase`
-- `lifespan_increase_per_day`
-- `lifespan_decrease_per_day`
-- `danger_decrease`
-- `spell_slots`
-
-Example
-```json
-"effects": {
-  "overall": {
-    "gamespeed_multiplier": {
-      "scaling_type": "linear",
-      "base": 1000,
-      "scaling": 0
-    }
-  }
-}
-```
-
-### 🎯 Specific Effects
-Apply to individual actions or action groups:
-- `exp_gain`
-- `exp_multiplier`
-- `level_increase`
-- `expenses_multiplier` 
-- `income_multiplier` (For Jobs only)
-- `passive_income_multiplier` (For Jobs only)
-
-Example
-
-```json
-"effects": {
-  "jobs": {
-    "content": {
-      "noble": {
-        "content": {
-          "baron": {
-            "exp_gain": {
-              "scaling_type": "linear",
-              "base": 1.2,
-              "scaling": 0.3
-            }
-          }
-        }
-      }
-    }
-  },
-  "skills": {
-    "content": {
-      "social": {
-        "content": {
-          "grace": {
-            "exp_gain": {
-              "scaling_type": "linear",
-              "base": 1,
-              "scaling": 0.2
-            }
-          }
-        }
-      }
-    }
-  }
-}
-```
-Inside the effects structure, you see that the 'social' skill type is wrapped in a 'content' first, then the 'grace' skill is wrapped in another 'content'. This is to allow to have exp_gain to multiple skills of the same type like below
-
-```json
-  "skills": {
-    "content": {
-      "social": {
-        "exp_gain": {
-          "scaling_type": "linear",
-          "base": 8,
-          "scaling": 4
-        }
-      }
-    }
-  }
-```
-Note: Example taken from the Civilization Starter job. You can check it out in game_assets/jobs/heroic/data.json
-
-What this does is that it will apply the exp_gain to all skills of the social type.
-
-
-📘 Notes:
-
-    scaling_type can be "linear", "logarithmic", or "exponential".
-
-    base is the base value applied.
-
-    scaling is a multiplier that increases with content level.
-
----
-
-## 🧱 Requirements Structure
-
-Requirements define the conditions for unlocking content. These are grouped by numeric keys ("0", "1", etc.), where each group represents an OR condition. Within each group, conditions are evaluated by an AND condition.
-
-🔍 Example
-```json
-"requirements": {
-  "0": {
-    "jobs": {
-      "noble": {
-        "baron": {
-          "current_level": 50
-        }
-      }
-    },
-    "renown": 5000,
-    "gold": 50000
-  },
-  "1": {
-    "explorations": {
-      "ancient_crypt": {
-        "boss": {
-          "max_level": 1
-        }
-      }
-    }
-  }
-}
-```
-
-This means:
-
-    Group 0 requires:
-
-        Baron job at level 50
-
-        5000 renown
-
-        50000 gold
-
-    Group 1 requires:
-
-        Defeated boss in ancient_crypt with max_level 1
-
-Only 1 group must be fulfilled to unlock the item. 
-
-💡 Note: Unlike the effects structure, the requirements structure is not nested in a 'content' field.
-
----
-
-
-### 📚 Need Examples?
-Check out the `game_assets/` folder in your game installation for real content examples used by the base game.
-
-
----
-# 🚀 Publishing Your Mod
-
-When you're ready, upload your mod to the Steam Workshop via the in-game mod menu. Just open your mod in the popup and press the Upload button.
-
-Once uploaded, your mod will show in Steam workshop but the visibility is set to private. If you are ready for your mod to be shown to the public, set the visibility to public in the Steam Workshop.
-
-Happy modding! 🚀
+    Open a pull request
