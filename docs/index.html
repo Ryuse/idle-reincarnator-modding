@@ -209,7 +209,9 @@
               href="https://github.com/Ryuse/idle-reincarnator-modding/blob/main/game_assets/jobs/common/content.json">here</a>.
           </p>
           <p>To add an image for your job, create a folder named "images" inside your job category folder and place a
-            .png file in the images folder with the same name as your job ID. You can get image borders that you can use in your images <a href="https://github.com/Ryuse/idle-reincarnator-modding/tree/main/image_borders">here</a></p>
+            .png file in the images folder with the same name as your job ID. You can get image borders that you can use
+            in your images <a href="https://github.com/Ryuse/idle-reincarnator-modding/tree/main/image_borders">here</a>
+          </p>
           <p>Once you are done, your folder structure should look like this:</p>
           <pre><code>[Your Mod Folder]/
 ├── jobs/
@@ -306,6 +308,57 @@
                 <tr>
                   <td><code>spell_slots</code></td>
                   <td>Additional spell slots available</td>
+                </tr>
+                <tr>
+                  <td><code>job_automation_level</code></td>
+                  <td>Automation level for jobs</td>
+                </tr>
+                <tr>
+                  <td><code>training_automation_level</code></td>
+                  <td>Automation level for training</td>
+                </tr>
+                <tr>
+                  <td><code>lifestyle_automation_level</code></td>
+                  <td>Automation level for lifestyle activities</td>
+                </tr>
+                <tr>
+                  <td><code>exploration_automation_level</code></td>
+                  <td>Automation level for exploration</td>
+                </tr>
+                <tr>
+                  <td><code>spells_automation_level</code></td>
+                  <td>Automation level for spells</td>
+                </tr>
+                <tr>
+                  <td><code>reset_automation_level</code></td>
+                  <td>Automation level for resets</td>
+                </tr>
+                <tr>
+                  <td><code>exploration_concurrency_level</code></td>
+                  <td>Allows multiple explorations to run concurrently. If level >= 1, exploration, jobs, and trainings
+                    can be done together.</td>
+                </tr>
+                <tr>
+                  <td><code>exploration_overflowability_level</code></td>
+                  <td>Enables overflow progress handling in exploration. If level >= 1, exploration can level up
+                    multiple times.</td>
+                </tr>
+                <tr>
+                  <td><code>technology_permanence_level</code></td>
+                  <td>Permanence level for retaining technology. If level >= 1, Technologies are permanent.</td>
+                </tr>
+                <tr>
+                  <td><code>enhancement_permanence_level</code></td>
+                  <td>Permanence level for retaining enhancements. If level >= 1, Enhancements are permanent.</td>
+                </tr>
+                <tr>
+                  <td><code>fairy_motivation_level</code></td>
+                  <td>Motivation level Luminara gives. If the level is >= 2, takes the finish count across all
+                    regression on fairy battle. If >= 1, takes finish count on current regression. 0 </td>
+                </tr>
+                <tr>
+                  <td><code>fairy_automation_level</code></td>
+                  <td>Automation level for Luminara. If level >= 1, auto taps the fairy tapper.</td>
                 </tr>
               </tbody>
             </table>
@@ -434,20 +487,48 @@
                   <td>Player's current age must be at least this value</td>
                 </tr>
                 <tr>
-                  <td><code>lifetime_age</code></td>
-                  <td>Player's highest lifetime age must be at least this value</td>
-                </tr>
-                <tr>
                   <td><code>not_age</code></td>
                   <td>Player's current age must be less than this value</td>
+                </tr>
+                <tr>
+                  <td><code>lifetime_age</code></td>
+                  <td>Player's lifetime age must be at least this value</td>
+                </tr>
+                <tr>
+                  <td><code>not_lifetime_age</code></td>
+                  <td>Player's lifetime age must be less than this value</td>
                 </tr>
                 <tr>
                   <td><code>rebirths</code></td>
                   <td>Player must have completed at least this many rebirths</td>
                 </tr>
                 <tr>
+                  <td><code>not_rebirths</code></td>
+                  <td>Player must have completed fewer than this many rebirths</td>
+                </tr>
+                <tr>
+                  <td><code>lifetime_rebirths</code></td>
+                  <td>Player's lifetime rebirth count must be at least this value</td>
+                </tr>
+                <tr>
+                  <td><code>not_lifetime_rebirths</code></td>
+                  <td>Player's lifetime rebirth count must be less than this value</td>
+                </tr>
+                <tr>
                   <td><code>regressions</code></td>
                   <td>Player must have completed at least this many regressions</td>
+                </tr>
+                <tr>
+                  <td><code>not_regressions</code></td>
+                  <td>Player must have completed fewer than this many regressions</td>
+                </tr>
+                <tr>
+                  <td><code>lifetime_regressions</code></td>
+                  <td>Player's lifetime regressions must be at least this value</td>
+                </tr>
+                <tr>
+                  <td><code>not_lifetime_regressions</code></td>
+                  <td>Player's lifetime regressions must be less than this value</td>
                 </tr>
                 <tr>
                   <td><code>total_temporals</code></td>
