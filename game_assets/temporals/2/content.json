@@ -22,7 +22,15 @@
       "name": "Living Grimoire",
       "description": "A grimoire that has existed for eons in the stream of time, gaining sentience. Feed it essence to tame it so it can automate spells for you.",
       "hidden": true,
-      "effects": {},
+      "effects": {
+        "overall": {
+          "spells_automation_level": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 1
+          }
+        }
+      },
       "lockable": false,
       "requirements": {},
       "temporal_cost": 10,
@@ -50,7 +58,15 @@
       "name": "Eternal Lifestyle",
       "description": "Use the power of time to contain the enhancement of your life. \n\nEnhancement shall persists through rebirths and regressions.",
       "hidden": true,
-      "effects": {},
+      "effects": {
+        "overall": {
+          "enhancement_permanence_level": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 1
+          }
+        }
+      },
       "lockable": false,
       "requirements": {},
       "temporal_cost": 50,
@@ -60,7 +76,15 @@
       "name": "Eternal Fairy Empress",
       "description": "The will of the fairies will follow Luminara which transcends through time. \n\nThe buffs of \"Making of a Fairy Queen\" is kept after regression.",
       "hidden": true,
-      "effects": {},
+      "effects": {
+        "overall": {
+          "fairy_motivation_level": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 1
+          }
+        }
+      },
       "lockable": false,
       "requirements": {},
       "temporal_cost": 100,
@@ -80,7 +104,15 @@
       "name": "Loop Stride",
       "description": "Allows the completion of exploration multiple times at one time given overflow of progress.\n\nThe number of times completed at once is capped by total Eternal Learnings levels.",
       "hidden": true,
-      "effects": {},
+      "effects": {
+        "overall": {
+          "exploration_overflowability_level": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 1
+          }
+        }
+      },
       "lockable": false,
       "requirements": {},
       "temporal_cost": 100,

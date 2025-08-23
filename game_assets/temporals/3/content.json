@@ -40,7 +40,15 @@
       "name": "Idle Reincarnator",
       "description": "Even after all the multiple lives, you're still you. \n\nRebirth and Regression can be automated.",
       "hidden": true,
-      "effects": {},
+      "effects": {
+        "overall": {
+          "reset_automation_level": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 1
+          }
+        }
+      },
       "lockable": false,
       "requirements": {},
       "temporal_cost": 1000,

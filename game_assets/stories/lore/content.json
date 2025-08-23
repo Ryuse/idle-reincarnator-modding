@@ -30,24 +30,7 @@
       "hidden": true,
       "requirements": {
         "0": {
-          "rebirths": 1,
-          "stories": {
-            "lore": {
-              "start": {
-                "unlocked": true
-              }
-            }
-          }
-        },
-        "1": {
-          "regressions": 1,
-          "stories": {
-            "lore": {
-              "start": {
-                "unlocked": true
-              }
-            }
-          }
+          "lifetime_rebirths": 1
         }
       }
     },
@@ -61,35 +44,11 @@
       "hidden": true,
       "requirements": {
         "0": {
-          "rebirths": 5,
+          "lifetime_rebirths": 5,
           "jobs": {
             "common": {
               "beggar": {
                 "current_level": 1
-              }
-            }
-          },
-          "stories": {
-            "lore": {
-              "rebirth_1": {
-                "unlocked": true
-              }
-            }
-          }
-        },
-        "1": {
-          "regressions": 1,
-          "jobs": {
-            "common": {
-              "farmer": {
-                "current_level": 1
-              }
-            }
-          },
-          "stories": {
-            "lore": {
-              "rebirth_1": {
-                "unlocked": true
               }
             }
           }
@@ -108,24 +67,7 @@
       "hidden": true,
       "requirements": {
         "0": {
-          "rebirths": 10,
-          "stories": {
-            "lore": {
-              "rebirth_5": {
-                "unlocked": true
-              }
-            }
-          }
-        },
-        "1": {
-          "regressions": 1,
-          "stories": {
-            "lore": {
-              "rebirth_5": {
-                "unlocked": true
-              }
-            }
-          }
+          "lifetime_rebirths": 10
         }
       }
     },
@@ -134,31 +76,26 @@
       "body": "Living many lives has developed the depths of your mind. You know what Jobs and Trainings do reflexively without thinking about it.",
       "rewards": {},
       "effects": {
-        "text": "Training and Job Automations Unlocked"
+        "text": "Training and Job Automations Unlocked",
+        "overall": {
+          "job_automation_level": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 1
+          },
+          "training_automation_level": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 1
+          }
+        }
       },
       "popup": true,
       "uncounted": false,
       "hidden": true,
       "requirements": {
         "0": {
-          "rebirths": 15,
-          "stories": {
-            "lore": {
-              "rebirth_10": {
-                "unlocked": true
-              }
-            }
-          }
-        },
-        "1": {
-          "regressions": 1,
-          "stories": {
-            "lore": {
-              "rebirth_10": {
-                "unlocked": true
-              }
-            }
-          }
+          "lifetime_rebirths": 15
         }
       }
     },
@@ -174,26 +111,9 @@
       "hidden": true,
       "requirements": {
         "0": {
-          "rebirths": 20,
-          "stories": {
-            "lore": {
-              "rebirth_15": {
-                "unlocked": true
-              }
-            }
-          }
+          "lifetime_rebirths": 20
         },
         "1": {
-          "regressions": 1,
-          "stories": {
-            "lore": {
-              "rebirth_15": {
-                "unlocked": true
-              }
-            }
-          }
-        },
-        "2": {
           "stories": {
             "lore": {
               "exploration_5_boss": {
@@ -1595,14 +1515,7 @@
       "hidden": true,
       "requirements": {
         "0": {
-          "rebirths": 10,
-          "age": {
-            "years": 51,
-            "days": 0
-          }
-        },
-        "1": {
-          "regressions": 1,
+          "lifetime_rebirths": 10,
           "age": {
             "years": 51,
             "days": 0
@@ -1610,16 +1523,16 @@
         },
         "2": {
           "regressions": 1,
+          "age": {
+            "years": 30,
+            "days": 0
+          },
           "temporals": {
             "2": {
               "time_skip": {
                 "current_level": 1
               }
             }
-          },
-          "age": {
-            "years": 30,
-            "days": 0
           }
         }
       }

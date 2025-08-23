@@ -4,7 +4,15 @@
       "name": "Timeless Wealth",
       "description": "Coins imbued with the power of time will follow you in your next lives. For each level of Timeless wealth, you start an additional with 1000 gold each.",
       "hidden": true,
-      "effects": {},
+      "effects": {
+        "overall": {
+          "starting_gold": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 1000
+          }
+        }
+      },
       "lockable": false,
       "requirements": {},
       "temporal_cost": 1,
@@ -14,7 +22,15 @@
       "name": "Historical Deeds",
       "description": "Your deeds are remembered by time. For each level of Historical Deeds, you start with an additional 100 renown each.",
       "hidden": true,
-      "effects": {},
+      "effects": {
+        "overall": {
+          "starting_renown": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 100
+          }
+        }
+      },
       "lockable": false,
       "requirements": {},
       "temporal_cost": 1,
@@ -111,7 +127,15 @@
       "name": "Fairy’s Motivation",
       "description": "Luminara’s Tapper automatically fills up",
       "hidden": true,
-      "effects": {},
+      "effects": {
+        "overall": {
+          "fairy_automation_level": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 1
+          }
+        }
+      },
       "lockable": false,
       "requirements": {},
       "temporal_cost": 1,
@@ -121,7 +145,15 @@
       "name": "Making of a Fairy Queen",
       "description": "Each time a fairy is defeated during battle, they will follow Luminara, increasing the max fairy buffs.",
       "hidden": true,
-      "effects": {},
+      "effects": {
+        "overall": {
+          "fairy_motivation_level": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 1
+          }
+        }
+      },
       "lockable": false,
       "requirements": {},
       "temporal_cost": 5,

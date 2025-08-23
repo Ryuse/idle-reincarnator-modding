@@ -207,11 +207,7 @@
   "requirements": {
     "0": {
       "explorations": {
-        "grasslands": {
-          "0": {
-            "unlocked": true
-          }
-        }
+        "any_unlocked": true
       }
     }
   }

@@ -135,9 +135,17 @@
     },
     "time_split": {
       "name": "Time Split",
-      "description": "Be at two places at once. Different from doppelganger. You can explore and do jobs at the same time.",
+      "description": "Be at two places at once. Different from doppelganger. You can explore and do jobs and trainings all at the same time.",
       "hidden": true,
-      "effects": {},
+      "effects": {
+        "overall": {
+          "exploration_concurrency_level": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 1
+          }
+        }
+      },
       "lockable": false,
       "requirements": {},
       "temporal_cost": 50,
@@ -147,7 +155,15 @@
       "name": "Destined Journey",
       "description": "Fulfill your destiny of becoming a hero and make your automations easier. Exploration can be automated.",
       "hidden": true,
-      "effects": {},
+      "effects": {
+        "overall": {
+          "exploration_automation_level": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 1
+          }
+        }
+      },
       "lockable": false,
       "requirements": {},
       "temporal_cost": 10,
@@ -157,7 +173,15 @@
       "name": "Timestream Butler",
       "description": "This butler will help you adjust your way of life based on the budget you give it. Lifestyle can be automated.",
       "hidden": true,
-      "effects": {},
+      "effects": {
+        "overall": {
+          "lifestyle_automation_level": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 1
+          }
+        }
+      },
       "lockable": false,
       "requirements": {},
       "temporal_cost": 10,
@@ -167,7 +191,15 @@
       "name": "Monolith of Ages",
       "description": "Obtain a monolith containing knowledge that will resist regression. Technologies will persists through regressions.",
       "hidden": true,
-      "effects": {},
+      "effects": {
+        "overall": {
+          "technology_permanence_level": {
+            "scaling_type": "linear",
+            "base": 0,
+            "scaling": 1
+          }
+        }
+      },
       "lockable": false,
       "requirements": {},
       "temporal_cost": 30,
